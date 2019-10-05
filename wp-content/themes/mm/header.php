@@ -20,7 +20,7 @@
   <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class(); ?>>
+  <body <?php body_class(); ?> id="body">
 
 <!-- Hero-->
     <div class="hero">
@@ -34,10 +34,10 @@
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
                       <a href="#" class="underline selected">  <li> Home </li> </a>
-                      <a href="#" class="underline" >  <li> About Us </li> </a>
                       <a href="#" class="underline" >  <li> Products </li> </a>
-                      <a href="#" class="underline" >  <li> Technology </li> </a>
                       <a href="#" class="underline" >  <li> Quality </li> </a>
+                      <a href="#" class="underline" >  <li> Technology </li> </a>
+                      <a href="#" class="underline" >  <li> About Us </li> </a>
                       <a href="#footer" class="underline" >  <li> Contact Us </li> </a>
                   </ul>
           </div>
@@ -52,10 +52,10 @@
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
                       <a href="#" class="underline2 selected2">  <li> Home </li> </a>
-                      <a href="#" class="underline2" >  <li> About Us </li> </a>
                       <a href="#" class="underline2" >  <li> Products </li> </a>
-                      <a href="#" class="underline2" >  <li> Technology </li> </a>
                       <a href="#" class="underline2" >  <li> Quality </li> </a>
+                      <a href="#" class="underline2" >  <li> Technology </li> </a>
+                      <a href="#" class="underline2" >  <li> About Us </li> </a>
                       <a href="#footer" class="underline2" >  <li> Contact Us </li> </a>
                   </ul>
           </div>
@@ -63,7 +63,7 @@
 
         <!-- Quote -->
         <div class="quote">
-          <h1 class="fadeInUp2"> Think Big. <span>We do.</span></h1>
+          <h1 class=""> Think Big. <span>We do.</span></h1>
           <h4 class=" fadeInDown2">Our modern life would be very different without plastics.</h4>
           <button class="btn-quote fadeInDown2" type="button" name="button">GET A QUOTE</button>
         </div>

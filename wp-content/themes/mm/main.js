@@ -1,4 +1,12 @@
 
+
+//Global
+var scrolltop;
+
+$(document).scroll(function () {
+  scrolltop = $(this).scrollTop();
+});
+
 //Mobile Scripts
 if (document.documentElement.clientWidth <= 768) {
 
@@ -27,7 +35,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 //navbar2
 $(document).scroll(function () {
-  var scrolltop = $(this).scrollTop();
   if(scrolltop >= 300){
     $('#navbar2').css('z-index','10');
     $('#navbar2').css('opacity','1');
@@ -40,3 +47,20 @@ $(document).scroll(function () {
     $('#navbar2').addClass('fadeOutUp animated');
   }
 });
+//Document Ready ************************************
+
+$(document).ready(function() {
+  $('.quote h1').addClass('fadeInUp2');
+});
+
+//Footer
+
+    // #gotop hide
+    $(document).scroll(function () {
+      var foot_off = $("footer").offset().top;
+      if(scrolltop >= foot_off-800) {
+        $('#gotop').fadeIn();
+      }else{
+        $('#gotop').fadeOut();
+      }
+    });

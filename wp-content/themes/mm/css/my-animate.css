@@ -32,6 +32,8 @@
   -webkit-animation-duration: 1.5s!important;
   animation-duration: 1.5s!important;
   animation-name: fadeInUp2;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 /* Fadeindown2 */
