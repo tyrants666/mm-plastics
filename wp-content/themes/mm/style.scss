@@ -27,7 +27,6 @@ body {
 }
 
 .hero {
-  height: 100vh;
   position: relative;
   background-image: url("images/bg.jpg");
   background-size: cover;
@@ -50,10 +49,12 @@ body {
   // display: none;
   background: $primary;
   width: 83.5vw;
-  position: relative;
+  position: absolute;
   top: 6.5vh;
   height: 95px;
   padding-left: 6.5vw;
+  z-index: 1;
+  left: 8.3vw;
 }
 
 .spinner {
@@ -237,8 +238,12 @@ a.underline2 {
     transition-timing-function: ease-out;
   }
 }
-// ************ Quote *************
-// ************ Quote *************
+// ********** Home Page *****************************************************
+
+#hero-home {
+  height: 100vh;
+}
+// ***** Quote ******
 
 .quote {
   text-align: center;
@@ -286,34 +291,93 @@ a.underline2 {
     outline: none;
   }
 }
-// ********** Home Page ***********
-.black{
+
+.black {
   background: #232323;
   color: white;
-  padding: 1.9vw 6.7vw;
-  h5{
-    font-size: 19.2*$vw;
-    padding-bottom: .15em;
+  padding: 6.2vh 6.7vw 5.2vh 6.7vw;
+  height: 21vh;
+  h5 {
+    font-size: 18*$vw;
+    margin-bottom: 0.7vh;
   }
-  p{
-    color: #9e9e9e;
-    font-size: 13.5*$vw;
-    font-weight: 500;
-    padding-right: 8vw;
+
+  i {
+    font-size: 57*$vw;
+    color: $primary;
+    padding-right: 0.8vw;
+    margin-top: -4px;
+    cursor: default;
+    transition: all 0.3s linear;
+
+    &:hover{
+      color: #d8d8d8;
+    }
   }
 }
-.white{
+
+.black-p {
+  color: #9e9e9e;
+  font-size: 13.5*$vw;
+  font-weight: 500;
+  padding-right: 3vw;
+  // padding-left: 2vw;
+}
+
+.white {
   background: #ffff;
   color: black;
   padding: 4.9vw 6.5vw;
 }
-.blue{
+
+.blue {
   background: $primary;
   padding: 4.9vw 6.5vw;
   color: white;
 }
-// ********** Footer ***********
+// ********** Product Page ****************************************************
 
+#hero-product {
+  height: 100vh;
+}
+// ********** QualityPage *******************************************************
+
+#hero-quality {
+  height: 100vh;
+}
+// ********** Technology Page *******************************************************
+
+#hero-technology {
+  height: 100vh;
+}
+// ********** About Us Page *******************************************************
+
+#hero-aboutus {
+  height: 100vh;
+}
+// ********** Contact Us Page *******************************************************
+
+#hero-contactus {
+  height: 79vh;
+}
+#form2{
+  padding-left: 5vw;
+}
+}
+.input1{
+  width: 82%;
+  background-color: #ffffff36;
+  border: 1px solid #ced4da00;
+  color: white;
+}
+.contact-bg{
+  background: url("images/contact-bg.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.2);
+}
+// ********** Footer *******************************************************
 footer {
   background: $footer;
   color: #B0B0B0;
@@ -329,7 +393,7 @@ footer {
   position: relative;
   padding-right: 60px !important;
 
-  p{
+  p {
     font-size: 16*$vw;
     line-height: 28px;
     color: #B0B0B0;
@@ -366,7 +430,15 @@ footer {
     color: #626d82;
   }
 }
-
+.part1{
+  position: relative;
+  top: 5px;
+}
+.partner{
+  img{
+      width: 5vw;
+  }
+}
 .logo3 {
   height: 40px;
   width: 40px;

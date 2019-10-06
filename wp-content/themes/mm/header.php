@@ -14,7 +14,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins|Montserrat:400,500,600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins|Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
     <script src=" <?php echo get_bloginfo('template_directory'); ?>/js/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
 
   <?php wp_head(); ?>
@@ -22,8 +22,6 @@
 
   <body <?php body_class(); ?> id="body">
 
-<!-- Hero-->
-    <div class="hero">
         <!-- navbar -->
         <nav class="navbar navbar-light mx-auto" id="navbar1">
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
@@ -33,12 +31,12 @@
 
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
-                      <a href="#" class="underline selected">  <li> Home </li> </a>
-                      <a href="#" class="underline" >  <li> Products </li> </a>
-                      <a href="#" class="underline" >  <li> Quality </li> </a>
-                      <a href="#" class="underline" >  <li> Technology </li> </a>
-                      <a href="#" class="underline" >  <li> About Us </li> </a>
-                      <a href="#footer" class="underline" >  <li> Contact Us </li> </a>
+                      <a href="<?php echo home_url(); ?>" class="underline selected">  <li> Home </li> </a>
+                      <a href="<?php echo home_url(); ?>/product" class="underline" >  <li> Products </li> </a>
+                      <a href="<?php echo home_url(); ?>/quality" class="underline" >  <li> Quality </li> </a>
+                      <a href="<?php echo home_url(); ?>/technology" class="underline" >  <li> Technology </li> </a>
+                      <a href="<?php echo home_url(); ?>/about-us" class="underline" >  <li> About Us </li> </a>
+                      <a href="<?php echo home_url(); ?>/contact-us" class="underline" >  <li> Contact Us </li> </a>
                   </ul>
           </div>
         </nav>
@@ -51,24 +49,15 @@
 
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
-                      <a href="#" class="underline2 selected2">  <li> Home </li> </a>
-                      <a href="#" class="underline2" >  <li> Products </li> </a>
-                      <a href="#" class="underline2" >  <li> Quality </li> </a>
-                      <a href="#" class="underline2" >  <li> Technology </li> </a>
-                      <a href="#" class="underline2" >  <li> About Us </li> </a>
-                      <a href="#footer" class="underline2" >  <li> Contact Us </li> </a>
+                    <a href="<?php echo home_url(); ?>" class="underline2 selected2">  <li> Home </li> </a>
+                    <a href="<?php echo home_url(); ?>/product" class="underline2" >  <li> Products </li> </a>
+                    <a href="<?php echo home_url(); ?>/quality" class="underline2" >  <li> Quality </li> </a>
+                    <a href="<?php echo home_url(); ?>/technology" class="underline2" >  <li> Technology </li> </a>
+                    <a href="<?php echo home_url(); ?>/about-us" class="underline2" >  <li> About Us </li> </a>
+                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2" >  <li> Contact Us </li> </a>
                   </ul>
           </div>
         </nav>
-
-        <!-- Quote -->
-        <div class="quote">
-          <h1 class=""> Think Big. <span>We do.</span></h1>
-          <h4 class=" fadeInDown2">Our modern life would be very different without plastics.</h4>
-          <button class="btn-quote fadeInDown2" type="button" name="button">GET A QUOTE</button>
-        </div>
-
-    </div>
 
 
     <div class="main">
