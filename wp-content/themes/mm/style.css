@@ -424,6 +424,16 @@ footer {
   position: relative;
   color: #fff;
 }
+.sec1 ul,
+.sec2 ul,
+.sec3 ul {
+  padding-left: 0;
+}
+.sec1 li,
+.sec2 li,
+.sec3 li {
+  list-style-type: none;
+}
 .sec1:after,
 .sec2:after,
 .sec3:after {

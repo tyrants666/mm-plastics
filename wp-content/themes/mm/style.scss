@@ -466,6 +466,14 @@ footer {
     color: #fff;
   }
 
+  ul{
+    padding-left: 0;
+  }
+
+  li{
+    list-style-type: none;
+  }
+
   &:after {
     content: "";
     height: 4px;

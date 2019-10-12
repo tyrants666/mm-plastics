@@ -5,11 +5,18 @@
 
     <div class="sec1 col-md-4 mx-auto p-0">
       <h4>About Us</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+      <p>Established in 1985, MM Plastic Udhyog Pvt. Ltd. is now one of the most renowned and oldest plastic industries in Nepal.</p>
     </div>
     <div class="sec2 col-md-4 mx-auto p-0">
       <h4>Usefull Links</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+      <ul>
+        <li>Home</li>
+        <li>Product</li>
+        <li>Quality</li>
+        <li>Technology</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
+      </ul>
     </div>
     <div class="sec3 col-md-4 mx-auto p-0">
       <h4>Usefull Links</h4>
