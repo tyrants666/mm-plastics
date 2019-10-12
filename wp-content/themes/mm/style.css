@@ -19,25 +19,6 @@ body {
   display: none;
 }
 
-.read-more {
-  color: #113f9c;
-  font-weight: 800;
-  cursor: pointer;
-  display: inline-block;
-  transition: all 0.3s linear;
-}
-.read-more:hover {
-  transform: scale(10px);
-}
-
-a.anch-read {
-  text-decoration: none;
-}
-
-.eco {
-  transition: all 0.3s linear;
-}
-
 .hero {
   position: relative;
   background-image: url("images/bg.jpg");
@@ -275,6 +256,54 @@ a.underline2:hover {
   color: white;
 }
 
+.read-more {
+  color: #113f9c;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+.read-more:hover {
+  transform: scale(10px);
+}
+
+a.anch-read {
+  text-decoration: none;
+}
+
+.eco {
+  transition: all 0.3s linear;
+}
+
+/* Underline3 */
+a.underline3 {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+a.underline3:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #113f9c;
+  height: 3px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline3:active:after,
+.underline3:focus:after,
+.underline3:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
 #hero-home {
   height: 100vh;
 }
@@ -321,13 +350,19 @@ a.underline2:hover {
   outline: none;
 }
 
-.about-sec, .client-sec, .product-sec {
+.about-sec,
+.client-sec,
+.product-sec {
   margin-bottom: 5vw;
 }
-.about-sec p, .client-sec p, .product-sec p {
+.about-sec p,
+.client-sec p,
+.product-sec p {
   font-size: 1.464128vw;
 }
-.about-sec h1, .client-sec h1, .product-sec h1 {
+.about-sec h1,
+.client-sec h1,
+.product-sec h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
   color: #113f9c;
@@ -404,7 +439,19 @@ footer {
 .sec2,
 .sec3 {
   position: relative;
-  padding-right: 60px !important;
+  padding-right: 59px !important;
+}
+.sec1 a,
+.sec2 a,
+.sec3 a {
+  color: #B0B0B0;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+.sec1 a:hover,
+.sec2 a:hover,
+.sec3 a:hover {
+  color: #ffff;
 }
 .sec1 p,
 .sec2 p,
@@ -420,7 +467,7 @@ footer {
   font-size: 1.7569536vw;
   font-weight: 500;
   padding-bottom: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   position: relative;
   color: #fff;
 }
@@ -432,7 +479,17 @@ footer {
 .sec1 li,
 .sec2 li,
 .sec3 li {
+  color: #B0B0B0;
+  font-size: 1.1713024vw;
+  line-height: 2.7086368vw;
+  cursor: pointer;
   list-style-type: none;
+}
+.sec1 li span,
+.sec2 li span,
+.sec3 li span {
+  color: #147390 !important;
+  color: #93969c;
 }
 .sec1:after,
 .sec2:after,
@@ -443,6 +500,34 @@ footer {
   position: absolute;
   top: 37px;
   width: 11%;
+}
+
+.input-foot {
+  width: 82%;
+  background-color: #ffffff21;
+  border: 1px solid #ced4da00;
+  margin-bottom: 0.3vw;
+  color: #636f7b;
+}
+
+.foot_msg {
+  padding: 6px 12px 6px 12px;
+}
+
+#send_foot {
+  background: transparent;
+  transition: all 0.4s ease;
+  color: #5d6065;
+  border: none;
+  font-weight: 800;
+  margin-left: 1vw;
+  outline: none;
+  margin-left: 0.5vw;
+  padding: 5px 6px 0px 6px;
+}
+#send_foot:hover {
+  transform: scale(1.4);
+  color: #113f9c;
 }
 
 .bot-bar {

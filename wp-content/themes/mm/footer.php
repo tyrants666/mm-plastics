@@ -6,21 +6,38 @@
     <div class="sec1 col-md-4 mx-auto p-0">
       <h4>About Us</h4>
       <p>Established in 1985, MM Plastic Udhyog Pvt. Ltd. is now one of the most renowned and oldest plastic industries in Nepal.</p>
+      <div class="read">
+        <a href="/index.php?page_id=23#check_white" class="anch-read">
+          <span class="read-more" style="color:#93969c;">  Read more <i class="material-icons eco" style="color:#113f9c;">eco</i></span>
+        </a>
+
+      </div>
     </div>
-    <div class="sec2 col-md-4 mx-auto p-0">
+    <div class="sec2 col-md-4 mx-auto ">
       <h4>Usefull Links</h4>
-      <ul>
-        <li>Home</li>
-        <li>Product</li>
-        <li>Quality</li>
-        <li>Technology</li>
-        <li>About Us</li>
-        <li>Contact Us</li>
-      </ul>
+      <div class="d-flex">
+        <ul class="">
+          <li><a class="underline3" href="<?php echo home_url(); ?>">Home</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/product">Product</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/quality">Quality</a></li>
+        </ul>
+        <ul class="mx-auto">
+          <li><a class="underline3" href="<?php echo home_url(); ?>/technology">Technology</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/about-us">About Us</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
+        </ul>
+
+      </div>
     </div>
     <div class="sec3 col-md-4 mx-auto p-0">
-      <h4>Usefull Links</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+      <h4>Write to Us</h4>
+      <form class="foot_form" action="index.html" method="post">
+        <textarea class="input-foot form-control foot_msg" type="text" name="message" value="" placeholder="Message"></textarea>
+        <div class="d-flex">
+          <input class="input-foot form-control" type="mail" name="email" value="" placeholder="Your Email Address" autocomplete="off">
+          <button id="send_foot" type="submit" name="button"><i class="material-icons">send</i></button>
+        </div>
+      </form>
     </div>
 
   </div>
