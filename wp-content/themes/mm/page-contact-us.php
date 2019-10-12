@@ -12,6 +12,8 @@ $detect = new Mobile_Detect();
     </div>
 
 </div>
+
+<!-- black -->
 <article class="black row mx-0">
 
   <div class="col-md-3 p-0 d-flex">
@@ -24,9 +26,9 @@ $detect = new Mobile_Detect();
 
   <div class="col-md-3 p-0 d-flex">
     <span> <i class="material-icons">mail_outline</i></span>
-    <div class="black-cont">
+    <div class="black-cont" >
       <h5> Email </h5>
-      <div class="black-p">bigadcompany@gmail.com</div>
+      <div class="black-p" onclick="location.href='mailto:bigadcompany@gmail.com';">bigadcompany@gmail.com</div>
     </div>
   </div>
 
@@ -48,6 +50,7 @@ $detect = new Mobile_Detect();
 
 </article>
 
+<!-- blue -->
 <article class="blue">
   <div class="row mx-0">
     <div class="col-md-6">

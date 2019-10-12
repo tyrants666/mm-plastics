@@ -11,41 +11,47 @@ $detect = new Mobile_Detect();
     <div class="quote">
       <h1 class=""> About <span>Us.</span></h1>
       <h4 class=" fadeInDown2">We go for the latest trends in technology.</h4>
-      <button class="btn-quote fadeInDown2" type="button" name="button">GET A QUOTE</button>
     </div>
 
 </div>
 
-<article class="black row mx-0">
 
-  <div class="col-3 mx-auto p-0">
-    <h5> Best Plastics</h5>
-    <p>Interactively coordinate proactive thinking.</p>
+<article class="white" id="check_white">
+  <!-- Paragraph 1 -->
+ <div class="row mx-0">
+   <div class="col-md-8 mx-auto text-center">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   <!-- owl-carousel -->
+   <div class="col-md-12 mx-auto text-center mb-5">
+     <div class="owl1 owl-carousel">
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpg " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+     </div>
+   </div>
   </div>
-
-  <div class="col-3 mx-auto p-0">
-    <h5> Eco-friendly </h5>
-    <p>Interactively coordinate proactive thinking.</p>
-  </div>
-
-  <div class="col-3 mx-auto p-0">
-    <h5> Latest Technology </h5>
-    <p>Interactively coordinate proactive thinking.</p>
-  </div>
-  <div class="col-3 mx-auto p-0">
-    <h5> Call Us</h5>
-    <p>Interactively coordinate proactive thinking.</p>
-  </div>
-
 </article>
 
 <article class="white">
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
+  <!-- Paragraph 2 -->
+ <div class="row mx-0">
+   <div class="col-md-8 mx-auto text-center">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   </div>
+   <!-- owl-carousel -->
+   <div class="col-md-12 mx-auto text-center mb-5">
+     <div class="owl1 owl-carousel">
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpg " alt="patner logo">  </div>
+       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+     </div>
+   </div>
+  </div>
 </article>
 
 <article class="blue">

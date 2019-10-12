@@ -19,6 +19,25 @@ body {
   display: none;
 }
 
+.read-more {
+  color: #113f9c;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+.read-more:hover {
+  transform: scale(10px);
+}
+
+a.anch-read {
+  text-decoration: none;
+}
+
+.eco {
+  transition: all 0.3s linear;
+}
+
 .hero {
   position: relative;
   background-image: url("images/bg.jpg");
@@ -215,6 +234,47 @@ a.underline2:hover {
   transition-timing-function: ease-out;
 }
 
+.black {
+  background: #232323;
+  color: white;
+  padding: 6.2vh 6.7vw 5.2vh;
+  height: 21vh;
+}
+.black h5 {
+  font-size: 1.3177152vw;
+  margin-bottom: 0.7vh;
+}
+.black i {
+  font-size: 4.1727648vw;
+  color: #113f9c;
+  padding-right: 0.8vw;
+  margin-top: -4px;
+  cursor: default;
+  transition: all 0.3s linear;
+}
+.black i:hover {
+  color: #d8d8d8;
+}
+
+.black-p {
+  color: #9e9e9e;
+  font-size: 0.9882864vw;
+  font-weight: 500;
+  padding-right: 3vw;
+}
+
+.white {
+  background: #ffff;
+  color: black;
+  padding: 4.9vw 6.5vw;
+}
+
+.blue {
+  background: #113f9c;
+  padding: 4.9vw 6.5vw;
+  color: white;
+}
+
 #hero-home {
   height: 100vh;
 }
@@ -261,49 +321,39 @@ a.underline2:hover {
   outline: none;
 }
 
-.black {
-  background: #232323;
-  color: white;
-  padding: 6.2vh 6.7vw 5.2vh 6.7vw;
-  height: 21vh;
+.about-sec, .client-sec, .product-sec {
+  margin-bottom: 5vw;
 }
-.black h5 {
-  font-size: 1.3177152vw;
-  margin-bottom: 0.7vh;
+.about-sec p, .client-sec p, .product-sec p {
+  font-size: 1.464128vw;
 }
-.black i {
-  font-size: 4.1727648vw;
+.about-sec h1, .client-sec h1, .product-sec h1 {
+  font-size: 3.8799392vw;
+  font-weight: 800;
   color: #113f9c;
-  padding-right: 0.8vw;
-  margin-top: -4px;
-  cursor: default;
-  transition: all 0.3s linear;
-}
-.black i:hover {
-  color: #d8d8d8;
-}
-
-.black-p {
-  color: #9e9e9e;
-  font-size: 0.9882864vw;
-  font-weight: 500;
-  padding-right: 3vw;
-}
-
-.white {
-  background: #ffff;
-  color: black;
-  padding: 4.9vw 6.5vw;
-}
-
-.blue {
-  background: #113f9c;
-  padding: 4.9vw 6.5vw;
-  color: white;
+  margin-bottom: 2vw;
 }
 
 #hero-product {
   height: 100vh;
+}
+
+.product-content {
+  padding: 6vh 0 !important;
+}
+.product-content h3 {
+  margin-bottom: 5vh;
+}
+
+.product-slides {
+  text-align: center;
+}
+.product-slides img {
+  width: auto !important;
+  height: 55vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero-quality {

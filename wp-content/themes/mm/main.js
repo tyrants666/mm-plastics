@@ -50,7 +50,55 @@ $(document).scroll(function () {
 //Document Ready ************************************
 
 $(document).ready(function() {
+
   $('.quote h1').addClass('fadeInUp2');
+
+  // owlCarousel
+  $('.owl1').owlCarousel({
+    center: true,
+    items:5,
+    loop:true,
+    margin:40,
+    autoplay:true,
+    slideTransition: 'linear',
+    autoplayHoverPause: false,
+    autoplaySpeed: 8000,
+  });
+
+  $('.owl2').owlCarousel({
+    center: true,
+    items:5,
+    loop:true,
+    margin:40,
+    autoplay:true,
+    slideTransition: 'linear',
+    autoplayHoverPause: false,
+    autoplaySpeed: 8000,
+  });
+
+  $('.owl3').owlCarousel({
+    center: true,
+    items:1,
+    loop:true,
+    margin:0,
+    dots: false,
+    autoplay:true,
+    // slideTransition: 'linear',
+    autoplayHoverPause: false,
+    // autoplaySpeed: 8000,
+  });
+
+  //Read more
+  $('.read-more').hover(function(){
+    $('.eco').css('transform', 'rotate(-35deg)');
+    $(this).css('transform', 'scale(0.97)');
+    $(this).css('opacity', '0.7');
+  },function() {
+    $('.eco').css('transform', 'rotate(0deg)');
+    $(this).css('transform', 'scale(1)');
+    $(this).css('opacity', '1');
+  });
+
 });
 
 //Footer
