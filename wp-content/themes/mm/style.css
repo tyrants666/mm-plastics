@@ -352,6 +352,8 @@ a.underline3:after {
 
 .owl1-item {
   height: 11vw;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
 }
 
 .owl2-item {

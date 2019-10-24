@@ -88,6 +88,14 @@ $(document).ready(function() {
     // autoplaySpeed: 8000,
   });
 
+  //Black & white images
+  $('.owl1-item').hover(function(){
+    alert("dsds");
+    $(this).css('filter','grayscale(0%)');
+  }, function(){
+    $(this).css('filter','grayscale(100%)');
+  });
+
   //Read more
   $('.read-more').hover(function(){
     $('.eco').css('transform', 'rotate(-35deg)');
