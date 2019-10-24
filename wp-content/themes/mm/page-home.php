@@ -72,34 +72,33 @@ $detect = new Mobile_Detect();
     <div class="col-md-4 mx-auto text-center">
       <h1 class="">Our Clients</h1>
     </div>
-    <!-- owl-carousel -->
     <div class="col-md-12 mx-auto text-center mb-5">
       <div class="owl1 owl-carousel">
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.jpeg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.jpg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpeg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner6.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner7.jpeg " alt="patner logo">  </div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner1.jpeg') center center no-repeat; background-size:contain;"> </div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner2.jpg') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner3.png') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner4.jpeg') center center no-repeat; background-size:contain;"> </div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner5.png') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner6.png') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner7.jpeg') center center no-repeat; background-size:contain;"> </div>
       </div>
     </div>
    </div>
 
    <!-- Our Products -->
   <div class="row mx-0 product-sec">
-    <div class="col-md-6 mx-auto text-center">
+    <div class="col-md-12 mx-auto text-center">
       <h1 class="">Owl Products</h1>
     </div>
     <div class="col-md-12 mx-auto text-center">
       <div class="owl2 owl-carousel">
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.jpeg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.jpg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpeg " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner6.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner7.jpeg " alt="patner logo">  </div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/caps1.jpg') center center no-repeat; background-size:contain;"> </div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/hdpe1.jpg') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/hdpe2.png') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/pvc1.jpg') center center no-repeat; background-size:contain;"> </div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>//images/pvc2.gif') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/pet1.jpg') center center no-repeat; background-size:contain;"></div>
+        <div class="item owl2-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/pet2.jpg') center center no-repeat; background-size:contain;"> </div>
       </div>
     </div>
    </div>

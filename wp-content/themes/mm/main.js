@@ -59,7 +59,6 @@ $(document).ready(function() {
     items:7,
     loop:true,
     margin:40,
-    // autoWidth:true,
     autoplay:true,
     slideTransition: 'linear',
     autoplayHoverPause: false,

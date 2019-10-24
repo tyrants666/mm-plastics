@@ -350,24 +350,54 @@ a.underline3:after {
   outline: none;
 }
 
-.about-sec,
-.client-sec,
-.product-sec {
+.owl1-item {
+  height: 11vw;
+}
+
+.owl2-item {
+  height: 12vw;
+}
+
+.about-sec {
   margin-bottom: 5vw;
 }
-.about-sec p,
-.client-sec p,
-.product-sec p {
+.about-sec p {
   font-size: 1.464128vw;
   margin-bottom: 2vw;
 }
-.about-sec h1,
-.client-sec h1,
-.product-sec h1 {
+.about-sec h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
   color: #113f9c;
   margin-bottom: 2vw;
+}
+
+.client-sec {
+  margin-bottom: 5vw;
+}
+.client-sec p {
+  font-size: 1.464128vw;
+  margin-bottom: 2vw;
+}
+.client-sec h1 {
+  font-size: 3.8799392vw;
+  font-weight: 800;
+  color: #113f9c;
+  margin-bottom: 4vw;
+}
+
+.product-sec {
+  margin-bottom: 5vw;
+}
+.product-sec p {
+  font-size: 1.464128vw;
+  margin-bottom: 2vw;
+}
+.product-sec h1 {
+  font-size: 3.8799392vw;
+  font-weight: 800;
+  color: #113f9c;
+  margin-bottom: 4vw;
 }
 
 #hero-product {
