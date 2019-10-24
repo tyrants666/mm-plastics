@@ -247,7 +247,7 @@ a.underline2:hover {
 .white {
   background: #ffff;
   color: black;
-  padding: 4.9vw 6.5vw;
+  padding: 5.9vw 6.5vw;
 }
 
 .blue {
@@ -359,6 +359,7 @@ a.underline3:after {
 .client-sec p,
 .product-sec p {
   font-size: 1.464128vw;
+  margin-bottom: 2vw;
 }
 .about-sec h1,
 .client-sec h1,
@@ -376,19 +377,76 @@ a.underline3:after {
 .product-content {
   padding: 6vh 0 !important;
 }
+.product-content p {
+  padding-right: 3vw;
+  text-align: justify;
+}
 .product-content h3 {
+  font-weight: 800;
   margin-bottom: 5vh;
+  color: #113f9c;
+}
+
+.owl-product {
+  position: relative;
 }
 
 .product-slides {
   text-align: center;
+  height: 320px;
 }
 .product-slides img {
-  width: auto !important;
-  height: 55vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: auto !important;
+  height: 100%;
+}
+
+.left, .left4, .left5, .left6 {
+  position: absolute;
+  color: #113f9c;
+  font-size: 4.5387968vw;
+  left: 0;
+  top: 10vw;
+  cursor: pointer;
+  z-index: 10;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome, Opera and Firefox */
+}
+
+.right, .right4, .right5, .right6 {
+  position: absolute;
+  color: #113f9c;
+  font-size: 4.5387968vw;
+  right: 0;
+  top: 10vw;
+  cursor: pointer;
+  z-index: 10;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome, Opera and Firefox */
 }
 
 #hero-quality {
@@ -511,7 +569,7 @@ footer {
 }
 
 .foot_msg {
-  padding: 6px 12px 6px 12px;
+  padding: 6px 12px;
 }
 
 #send_foot {
@@ -523,7 +581,7 @@ footer {
   margin-left: 1vw;
   outline: none;
   margin-left: 0.5vw;
-  padding: 5px 6px 0px 6px;
+  padding: 5px 6px 0;
 }
 #send_foot:hover {
   transform: scale(1.4);

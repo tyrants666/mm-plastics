@@ -75,11 +75,13 @@ $detect = new Mobile_Detect();
     <!-- owl-carousel -->
     <div class="col-md-12 mx-auto text-center mb-5">
       <div class="owl1 owl-carousel">
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.jpeg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.jpg " alt="patner logo">  </div>
         <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpeg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner6.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner7.jpeg " alt="patner logo">  </div>
       </div>
     </div>
    </div>
@@ -91,24 +93,26 @@ $detect = new Mobile_Detect();
     </div>
     <div class="col-md-12 mx-auto text-center">
       <div class="owl2 owl-carousel">
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.jpeg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.jpg " alt="patner logo">  </div>
         <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpeg " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner6.png " alt="patner logo">  </div>
+        <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner7.jpeg " alt="patner logo">  </div>
       </div>
     </div>
    </div>
 
 </article>
 
-<article class="blue">
+<!-- <article class="blue">
    <h1 class="">MM plastics</h1>
    <h1 class="">MM plastics</h1>
    <h1 class="">MM plastics</h1>
    <h1 class="">MM plastics</h1>
    <h1 class="">MM plastics</h1>
    <h1 class="">MM plastics</h1>
-</article>
+</article> -->
 
 <?php get_footer(); ?>
