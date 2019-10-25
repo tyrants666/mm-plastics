@@ -27,7 +27,7 @@
 
 
 					//Ajax Form submit
-					// add_action( 'wp_ajax_send_email', 'callback_send_email' );
+					add_action( 'wp_ajax_send_email', 'callback_send_email' );
 					// add_action( 'wp_ajax_nopriv_send_email', 'callback_send_email' );
 
 

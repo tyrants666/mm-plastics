@@ -31,13 +31,43 @@
     </div>
     <div class="sec3 col-md-4 mx-auto p-0">
       <h4>Write to Us</h4>
-      <form class="foot_form" action="index.html" method="post">
-        <textarea class="input-foot form-control foot_msg" type="text" name="message" value="" placeholder="Message"></textarea>
+      <form class="foot_form" action="/action_page.php">
+        <textarea class="input-foot form-control foot_msg" type="text" id="msgg" value="" placeholder="Message" required></textarea>
         <div class="d-flex">
-          <input class="input-foot form-control" type="mail" name="email" value="" placeholder="Your Email Address" autocomplete="off">
+          <input class="input-foot form-control" type="email" id="emaill" value="" placeholder="Your Email Address" autocomplete="off" required>
           <button id="send_foot" type="submit" name="button"><i class="material-icons">send</i></button>
         </div>
+        <p class="alert-success d-none" style="color: deepskyblue;">Message sent successfully.</p>
       </form>
+
+                  <!-- Ajax form submit -->
+                  <script type="text/javascript">
+
+                    $('.foot_form').submit(function(e) {
+                      e.preventDefault();
+
+                      var msg = $("#msgg").val();
+                      var email = $("#emaill").val();
+
+                      $.ajax({
+                        url: '/wp-admin/admin-ajax.php',
+                        type: "POST",
+                        cache: false,
+                        data:{
+                          action: 'send_email',
+                          msg: msg,
+                          email: email,
+                        },
+                        success:function(res){
+                          alert("dsd");
+              			          $('.alert-success').toggle();
+              			      }
+                      });
+
+                    });
+
+                  </script>
+
     </div>
 
   </div>

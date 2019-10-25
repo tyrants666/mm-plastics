@@ -1,15 +1,4 @@
 
-<img src="<?php echo get_bloginfo('template_directory') ?>/images/logo_partner.png" alt="">
-
-background: -moz-linear-gradient(70deg, rgba(17,63,156,1) 9%, rgba(22,54,119,1) 25%, rgba(26,47,91,1) 37%, rgba(27,45,84,1) 40%, rgba(31,39,57,1) 52%, rgba(33,36,41,1) 59%, rgba(35,35,35,1) 62%, rgba(35,35,35,1) 82%, rgba(35,35,35,1) 93%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(7%, rgba(35,35,35,1)), color-stop(18%, rgba(35,35,35,1)), color-stop(38%, rgba(35,35,35,1)), color-stop(41%, rgba(33,36,41,1)), color-stop(48%, rgba(31,39,57,1)), color-stop(60%, rgba(27,45,84,1)), color-stop(63%, rgba(26,47,91,1)), color-stop(75%, rgba(22,54,119,1)), color-stop(91%, rgba(17,63,156,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(70deg, rgba(17,63,156,1) 9%, rgba(22,54,119,1) 25%, rgba(26,47,91,1) 37%, rgba(27,45,84,1) 40%, rgba(31,39,57,1) 52%, rgba(33,36,41,1) 59%, rgba(35,35,35,1) 62%, rgba(35,35,35,1) 82%, rgba(35,35,35,1) 93%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(70deg, rgba(17,63,156,1) 9%, rgba(22,54,119,1) 25%, rgba(26,47,91,1) 37%, rgba(27,45,84,1) 40%, rgba(31,39,57,1) 52%, rgba(33,36,41,1) 59%, rgba(35,35,35,1) 62%, rgba(35,35,35,1) 82%, rgba(35,35,35,1) 93%); /* opera 11.10+ */
-background: -ms-linear-gradient(70deg, rgba(17,63,156,1) 9%, rgba(22,54,119,1) 25%, rgba(26,47,91,1) 37%, rgba(27,45,84,1) 40%, rgba(31,39,57,1) 52%, rgba(33,36,41,1) 59%, rgba(35,35,35,1) 62%, rgba(35,35,35,1) 82%, rgba(35,35,35,1) 93%); /* ie10+ */
-background: linear-gradient(20deg, rgba(17,63,156,1) 9%, rgba(22,54,119,1) 25%, rgba(26,47,91,1) 37%, rgba(27,45,84,1) 40%, rgba(31,39,57,1) 52%, rgba(33,36,41,1) 59%, rgba(35,35,35,1) 62%, rgba(35,35,35,1) 82%, rgba(35,35,35,1) 93%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#113f9c',GradientType=0 ); /* ie6-9 */
-
-
 
 ❤ 🌸 ⚫ 💔 ➔ ♫ ♪ ♞ ♜ ＞ ✿ ★ 🌹 ☘ ❄️ ☁
 
@@ -19,10 +8,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232323', end
 ★ Wordpress security plugins
 ★ compress images
 ★ OWL caraousel 3,4,5,6 left right javascript minify with (this)
+★ Site Health Check (Wordpress)
+★ Change wp-admin user with official company email also in form-sumbit.php
+
 
 
 ★ Change sass color var to root var
-★ Designed by bigadcompany in footer
+★ footer form submit success alert
 
 
 

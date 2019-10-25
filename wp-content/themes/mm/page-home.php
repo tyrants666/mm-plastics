@@ -10,7 +10,8 @@ $detect = new Mobile_Detect();
 <div class="hero" id="hero-home">
     <!-- Quote -->
     <div class="quote">
-      <h1 class=""> Think Big. <span>We do.</span></h1>
+      <h1 class=""> <?php the_field('big_title'); ?> </h1>
+      <!-- <h1 class=""> Think Big. <span>We do.</span></h1> -->
       <h4 class=" fadeInDown2">Our modern life would be very different without plastics.</h4>
       <button class="btn-quote fadeInDown2" type="button" name="button">GET A QUOTE</button>
     </div>

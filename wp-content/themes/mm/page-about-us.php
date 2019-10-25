@@ -25,11 +25,13 @@ $detect = new Mobile_Detect();
    <!-- owl-carousel -->
    <div class="col-md-12 mx-auto text-center mb-5">
      <div class="owl1 owl-carousel">
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpg " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner1.jpeg') center center no-repeat; background-size:contain;"> </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner2.jpg') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner3.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner4.jpeg') center center no-repeat; background-size:contain;"> </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner5.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner6.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner7.jpeg') center center no-repeat; background-size:contain;"> </div>
      </div>
    </div>
   </div>
@@ -44,11 +46,13 @@ $detect = new Mobile_Detect();
    <!-- owl-carousel -->
    <div class="col-md-12 mx-auto text-center mb-5">
      <div class="owl1 owl-carousel">
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner1.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner2.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner3.png " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner4.jpg " alt="patner logo">  </div>
-       <div class="item"> <img src=" <?php echo get_bloginfo('template_directory') ?>/images/logo_partner5.jpg " alt="patner logo">  </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner1.jpeg') center center no-repeat; background-size:contain;"> </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner2.jpg') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner3.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner4.jpeg') center center no-repeat; background-size:contain;"> </div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner5.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner6.png') center center no-repeat; background-size:contain;"></div>
+       <div class="item owl1-item" style=" background: url('<?php echo get_bloginfo('template_directory'); ?>/images/logo_partner7.jpeg') center center no-repeat; background-size:contain;"> </div>
      </div>
    </div>
   </div>
