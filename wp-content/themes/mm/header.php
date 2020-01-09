@@ -24,14 +24,14 @@
 
         <!-- navbar -->
         <nav class="navbar navbar-light mx-auto" id="navbar1">
-          <a class="navbar-brand" href="<?php echo home_url(); ?>">
+          <a class="navbar-brand" href="<?php echo home_url(); ?>/mmplastic">
             <div class="spinner"></div>
             <img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
           </a>
 
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
-                      <a href="<?php echo home_url(); ?>" class="underline <?php if( is_front_page() ) { echo "selected"; }?>">  <li> Home </li> </a>
+                      <a href="<?php echo home_url(); ?>/mmplastic" class="underline <?php if( is_page('mmplastic') ) { echo "selected"; }?>">  <li> Home </li> </a>
                       <a href="<?php echo home_url(); ?>/product" class="underline <?php if( is_page('product') ) { echo "selected"; }?>" >  <li> Products </li> </a>
                       <a href="<?php echo home_url(); ?>/quality" class="underline <?php if( is_page('quality') ) { echo "selected"; }?>" >  <li> Quality </li> </a>
                       <a href="<?php echo home_url(); ?>/technology" class="underline <?php if( is_page('technology') ) { echo "selected"; }?>" >  <li> Technology </li> </a>
@@ -42,14 +42,14 @@
         </nav>
         <!-- navbar 2 -->
         <nav class="navbar navbar-light mx-auto" id="navbar2">
-          <a class="navbar-brand" href="<?php echo home_url(); ?>">
+          <a class="navbar-brand" href="<?php echo home_url(); ?>/mmplastic">
             <!-- <div class="spinner"></div> -->
             <img class="logo2" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
           </a>
 
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
-                    <a href="<?php echo home_url(); ?>" class="underline2 <?php if( is_front_page() ) { echo "selected2"; }?>">  <li> Home </li> </a>
+                    <a href="<?php echo home_url(); ?>/mmplastic" class="underline2 <?php if( is_page('mmplastic') ) { echo "selected2"; }?>">  <li> Home </li> </a>
                     <a href="<?php echo home_url(); ?>/product" class="underline2 <?php if( is_page('product') ) { echo "selected2"; }?>" >  <li> Products </li> </a>
                     <a href="<?php echo home_url(); ?>/quality" class="underline2 <?php if( is_page('quality') ) { echo "selected2"; }?>" >  <li> Quality </li> </a>
                     <a href="<?php echo home_url(); ?>/technology" class="underline2 <?php if( is_page('technology') ) { echo "selected2"; }?>" >  <li> Technology </li> </a>

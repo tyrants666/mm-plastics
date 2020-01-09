@@ -6,7 +6,7 @@
 include 'Mobile_Detect.php';
 $detect = new Mobile_Detect();
 ?>
-
+ 
 <div class="hero" id="hero-home">
     <!-- Quote -->
     <div class="quote">

@@ -31,20 +31,16 @@ $detect = new Mobile_Detect();
       <i class="material-icons right">keyboard_arrow_right</i>
       <div class="owl3 owl-carousel ">
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/caps1.jpg" alt="">
+        <div class="item product-slides"  style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps1.jpg');" >
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/caps2.png" alt="">
+        <div class="item product-slides"  style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps2.png');" >
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/caps3.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps3.jpg');" >
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/caps4.png" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps4.png');" >
         </div>
 
       </div>
@@ -65,44 +61,34 @@ $detect = new Mobile_Detect();
       <i class="material-icons right4">keyboard_arrow_right</i>
       <div class="owl4 owl-carousel ">
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe1.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe1.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe2.png" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe2.png');">
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe3.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe3.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe4.png" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe4.png');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe5.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe5.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe6.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe6.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe7.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe7.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe8.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe8.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe9.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe9.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img class="img-responsive" src="<?php echo get_bloginfo('template_directory') ?>/images/hdpe10.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe10.jpg');">
         </div>
 
       </div>
@@ -123,12 +109,10 @@ $detect = new Mobile_Detect();
       <i class="material-icons right5">keyboard_arrow_right</i>
       <div class="owl5 owl-carousel">
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pvc1.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pvc1.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pvc2.gif" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pvc2.gif');">
         </div>
 
       </div>
@@ -149,28 +133,22 @@ $detect = new Mobile_Detect();
       <i class="material-icons right6">keyboard_arrow_right</i>
       <div class="owl6 owl-carousel">
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet1.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet1.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet2.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet2.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet3.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet3.jpg');">
         </div>
 
-        <div class="item product-slides">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet4.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet4.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet5.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet5.jpg');">
         </div>
 
-        <div class="item product-slides ">
-          <img src="<?php echo get_bloginfo('template_directory') ?>/images/pet6.jpg" alt="">
+        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet6.jpg');">
         </div>
 
       </div>

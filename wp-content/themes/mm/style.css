@@ -21,7 +21,7 @@ body {
 
 .hero {
   position: relative;
-  background-image: url("images/bg.jpg");
+  background-image: url("images/bg3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -426,6 +426,9 @@ a.underline3:after {
 .product-slides {
   text-align: center;
   height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .product-slides img {
   display: block;
