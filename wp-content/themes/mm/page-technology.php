@@ -16,21 +16,14 @@ $detect = new Mobile_Detect();
 </div>
 
 <article class="white">
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
+  <!-- Paragraph 1 -->
+  <div class="row mx-0">
+   <div class="col-md-8 mx-auto text-center">
+     <p class="quality-p"><?php the_field('paragraph_1'); ?></p>
+   </div>
+  </div>
+
 </article>
 
-<article class="blue">
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-</article>
 
 <?php get_footer(); ?>

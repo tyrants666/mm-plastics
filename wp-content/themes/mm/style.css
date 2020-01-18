@@ -351,13 +351,12 @@ a.underline3:after {
 }
 
 .owl1-item {
-  height: 11vw;
-  filter: grayscale(100%);
+  height: 12vw;
   transition: all 0.3s ease-in-out;
 }
 
 .owl2-item {
-  height: 12vw;
+  height: 15vw;
 }
 
 .about-sec {
@@ -399,7 +398,7 @@ a.underline3:after {
   font-size: 3.8799392vw;
   font-weight: 800;
   color: #113f9c;
-  margin-bottom: 4vw;
+  margin-bottom: 5vw;
 }
 
 #hero-product {

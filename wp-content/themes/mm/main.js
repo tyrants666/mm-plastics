@@ -47,22 +47,40 @@ $(document).scroll(function () {
     $('#navbar2').addClass('fadeOutUp animated');
   }
 });
+
+//Hide page untill successful load
+
 //Document Ready ************************************
 
 $(document).ready(function() {
 
   $('.quote h1').addClass('fadeInUp2');
 
+  //Contact Info ( MM plastic page )
+  // $('.mail').on('click',function(){
+  //     location.href = "https://goo.gl/maps/JejaC1zMfxCvut6b6";
+  // });
+  $('.direction').on('click',function(){
+      location.href = "https://goo.gl/maps/JejaC1zMfxCvut6b6";
+  });
+  $('.information').hover(function(){
+      $(this).css('cursor','pointer');
+      $(this).find('i').css('color','#d8d8d8');
+  },function(){
+    $(this).find('i').css('color','');
+  });
+
   // owlCarousel
   $('.owl1').owlCarousel({
     center: true,
-    items:7,
+    items:6,
     loop:true,
     margin:40,
     autoplay:true,
     slideTransition: 'linear',
     autoplayHoverPause: false,
     autoplaySpeed: 8000,
+    smartSpeed: 8000,
   });
 
   $('.owl2').owlCarousel({
@@ -89,12 +107,12 @@ $(document).ready(function() {
   });
 
   //Black & white images
-  $('.owl1-item').hover(function(){
-    alert("dsds");
-    $(this).css('filter','grayscale(0%)');
-  }, function(){
-    $(this).css('filter','grayscale(100%)');
-  });
+  // $('.owl1-item').hover(function(){
+  //   $(this).css('filter','grayscale(0%)');
+  //   $(this).css('cursor','pointer');
+  // }, function(){
+  //   $(this).css('filter','grayscale(100%)');
+  // });
 
   //Read more
   $('.read-more').hover(function(){

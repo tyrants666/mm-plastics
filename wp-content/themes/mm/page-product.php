@@ -15,14 +15,14 @@ $detect = new Mobile_Detect();
 
 </div>
 
-<div class="white">
+<div class="white" id="white">
 
   <!-- product 1 -->
   <article class=" row mx-0 mb-5">
 
-    <div class="col-6 p-0 product-content">
+    <div class="col-6 p-0 product-content" >
         <h3>Caps and Closures</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><?php the_field('caps_info'); ?></p>
     </div>
 
     <!-- Owl Carousel -->
@@ -31,17 +31,10 @@ $detect = new Mobile_Detect();
       <i class="material-icons right">keyboard_arrow_right</i>
       <div class="owl3 owl-carousel ">
 
-        <div class="item product-slides"  style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps1.jpg');" >
-        </div>
-
-        <div class="item product-slides"  style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps2.png');" >
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps3.jpg');" >
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/caps4.png');" >
-        </div>
+        <?php while( have_rows('caps_images') ): the_row(); ?>
+            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
+            </div>
+        <?php endwhile; ?>
 
       </div>
     </div>
@@ -52,7 +45,7 @@ $detect = new Mobile_Detect();
 
     <div class="col-6 p-0 product-content">
         <h3>HDPE jars and jerrycanes</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><?php the_field('jars_info'); ?></p>
     </div>
 
     <!-- Owl Carousel -->
@@ -61,35 +54,10 @@ $detect = new Mobile_Detect();
       <i class="material-icons right4">keyboard_arrow_right</i>
       <div class="owl4 owl-carousel ">
 
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe1.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe2.png');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe3.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe4.png');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe5.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe6.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe7.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe8.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe9.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/hdpe10.jpg');">
-        </div>
+        <?php while( have_rows('jar_images') ): the_row(); ?>
+            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
+            </div>
+        <?php endwhile; ?>
 
       </div>
     </div>
@@ -100,7 +68,7 @@ $detect = new Mobile_Detect();
 
     <div class="col-6 p-0 product-content">
         <h3>HDPE pipes and PVC Profiles</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><?php the_field('pipes_info'); ?></p>
     </div>
 
     <!-- Owl Carousel -->
@@ -109,11 +77,10 @@ $detect = new Mobile_Detect();
       <i class="material-icons right5">keyboard_arrow_right</i>
       <div class="owl5 owl-carousel">
 
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pvc1.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pvc2.gif');">
-        </div>
+        <?php while( have_rows('pipe_images') ): the_row(); ?>
+            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
+            </div>
+        <?php endwhile; ?>
 
       </div>
     </div>
@@ -124,7 +91,7 @@ $detect = new Mobile_Detect();
 
     <div class="col-6 p-0 product-content">
         <h3>Pet Bottles & Jars</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><?php the_field('bottles_info'); ?></p>
     </div>
 
     <!-- Owl Carousel -->
@@ -133,23 +100,10 @@ $detect = new Mobile_Detect();
       <i class="material-icons right6">keyboard_arrow_right</i>
       <div class="owl6 owl-carousel">
 
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet1.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet2.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet3.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet4.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet5.jpg');">
-        </div>
-
-        <div class="item product-slides" style="background-image: url('<?php echo get_bloginfo('template_directory') ?>/images/pet6.jpg');">
-        </div>
+        <?php while( have_rows('pet_images') ): the_row(); ?>
+            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
+            </div>
+        <?php endwhile; ?>
 
       </div>
     </div>

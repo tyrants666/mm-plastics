@@ -21,23 +21,25 @@
   </head>
 
 <article class="landing">
+  <nav class="navbar">
+      <img class="logo-mmgroup fadeInLeft " src="<?php echo get_bloginfo('template_directory') ?>/images/mm_group1.png"alt="">
+      <img class="logo-mmgroup mr-auto fadeInLeft " src="<?php echo get_bloginfo('template_directory') ?>/images/logo-text.png"alt="">
+  </nav>
 
-  <img class="logo-mmgroup" src="<?php echo get_bloginfo('template_directory') ?>/images/mm_group.jpg"alt="">
-
-  <div class="row mx-0">
-    <div class="col-4">
+  <div class="row mx-0 row1">
+    <div class="col-lg-3 logo-wrap mx-auto text-center fadeInUp">
       <a href=" <?php echo home_url(); ?>/mmplastic ">
-        <img class="logo-mmgroup" src="<?php echo get_bloginfo('template_directory') ?>/images/mm_polymers.jpg" alt="">
+        <img class="logos" src="<?php echo get_bloginfo('template_directory') ?>/images/mm_polymers.jpg" alt="">
       </a>
     </div>
-    <div class="col-4">
+    <div class="col-lg-3 logo-wrap mx-auto text-center fadeInUp">
       <a href=" <?php echo home_url(); ?>/mmplastic ">
-        <img class="" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
+        <img class="logos" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
       </a>
     </div>
-    <div class="col-4">
+    <div class="col-lg-3 logo-wrap mx-auto text-center fadeInUp">
       <a href=" <?php echo home_url(); ?>/mmplastic ">
-        <img class="logo-mmgroup" src="<?php echo get_bloginfo('template_directory') ?>/images/mm_naturals.jpg" alt="">
+        <img class="logos" src="<?php echo get_bloginfo('template_directory') ?>/images/mm_naturals.jpg" alt="">
       </a>
     </div>
   </div>
@@ -45,8 +47,69 @@
 </article>
 
 <style media="screen">
+  .landing{
+    height:100vh;
+    background: url('<?php echo get_bloginfo('template_directory'); ?>/images/background_3.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+  .navbar{
+    /* background: #113f9c; */
+    padding-left: 12vw;
+    padding-right: 12vw;
+  }
   .logo-mmgroup{
     width: auto;
-    height: 130px;
+    height: 149px;
   }
+  .row1{
+    padding-top: 20vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+  .logo-wrap {
+      border: 1px solid #f6f6f600;
+      border-radius: 10px;
+      padding: 1.8vw 0 1.8vw 0;
+      box-shadow: 0px 1px 20px 17px #00000061;
+      transition: all 0.7s;
+  }
+
+  .logos{
+    width: auto;
+    height: 154px;
+  }
+
+  /*********  Mobile Version ******** */
+  @media (max-width: 768px) {
+    .navbar {
+      padding-left: 8vw;
+      padding-right: 8vw;
+    }
+    .logo-mmgroup {
+      width: auto;
+      height: 20.5vw;
+    }
+    .row1 {
+      padding-top: 5vh;
+    }
+    .logo-wrap{
+      margin-bottom: 3.2vh;
+    }
+    .logos {
+      height: 18vh;
+    }
+  }
+
+
 </style>
+
+<script type="text/javascript">
+
+  $(".logo-wrap").hover(function(){
+    $(this).css('transform','scale(1.2)');
+  },function(){
+    $(this).css('transform','scale(1)');
+  });
+
+</script>

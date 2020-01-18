@@ -1,6 +1,12 @@
+
+
 DONE *****
 1. background image darkend .
 2. No product info given on original site .
+3. Provide phone,email,address,map location
+4. Backed Finished
+5. Product Kusum oil Image Folder is empty
+6. ACF Small Titles in other pages or not ? 
 
 
 
@@ -20,6 +26,7 @@ DONE *****
 
 ★ Change sass color var to root var
 ★ footer form submit success alert
+★ mobile view
 
 
 
