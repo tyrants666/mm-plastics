@@ -132,6 +132,14 @@ a.underline:hover {
   transition-timing-function: ease-out;
 }
 
+.sidepanel {
+  display: none;
+}
+
+.owl-carousel {
+  z-index: 0 !important;
+}
+
 #navbar2 {
   opacity: 0;
   background: #113f9c;
@@ -487,12 +495,24 @@ a.underline3:after {
   height: 100vh;
 }
 
+p.font-1-4vw {
+  font-size: 1.3vw;
+}
+
 #hero-technology {
   height: 100vh;
 }
 
 #hero-aboutus {
   height: 100vh;
+}
+
+.about-para1 {
+  margin-bottom: 4vw;
+}
+
+.about-para2 {
+  margin-bottom: 4vw;
 }
 
 #hero-contactus {
@@ -664,6 +684,198 @@ footer {
 #gotop i {
   color: white;
   font-size: 27px;
+}
+
+@media (max-width: 768px) {
+  img.logo {
+    height: 100px;
+    width: 100px;
+    top: -4px;
+    left: 6px;
+  }
+
+  .spinner {
+    width: 120px;
+    height: 120px;
+    top: -15px;
+    left: 6px;
+  }
+
+  .top-menu, .top-menu2 {
+    display: none;
+  }
+
+  /* Hamburger Animation */
+  .navbar-toggler {
+    background: rgba(0, 123, 255, 0.01);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbar-toggler svg {
+    width: 94px;
+    height: 57px;
+    margin-right: -19px;
+    margin-left: -24px;
+    margin-top: -8px;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  .navbar-toggler svg path {
+    fill: none;
+    -webkit-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -moz-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -o-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -ms-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    stroke-width: 30px;
+    stroke-linecap: round;
+    stroke: white;
+    stroke-dashoffset: 0px;
+  }
+
+  path#top,
+path#bottom {
+    stroke-dasharray: 240px 950px;
+  }
+
+  path#middle {
+    stroke-dasharray: 240px 240px;
+  }
+
+  .cross path#top,
+.cross path#bottom {
+    stroke-dashoffset: -650px;
+    stroke-dashoffset: -650px;
+  }
+
+  .cross path#middle {
+    stroke-dashoffset: -115px;
+    stroke-dasharray: 1px 220px;
+  }
+
+  .w-250 {
+    width: 200px;
+  }
+
+  .w-0 {
+    width: 0;
+  }
+
+  .sidepanel {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #042567;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 105px;
+  }
+  .sidepanel ul {
+    list-style: none;
+  }
+
+  .sidepanel a {
+    padding: 8px 8px 8px 5px;
+    text-decoration: none;
+    font-size: 17px;
+    /* color: #818181; */
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  .quote {
+    top: 43vh;
+  }
+
+  .quote h1 {
+    font-size: 8.3vw !important;
+    margin-bottom: 4vh !important;
+  }
+
+  .quote h4 {
+    font-size: 4.647144vw !important;
+    padding: 0 5vw 0 5vw !important;
+  }
+
+  .btn-quote {
+    font-size: 4.207906vw !important;
+    padding: 2vw 5vw !important;
+  }
+
+  .sec2 {
+    padding-left: 0;
+  }
+
+  .sec1, .sec2, .sec3 {
+    padding-right: 0px !important;
+  }
+  .sec1 h4, .sec2 h4, .sec3 h4 {
+    font-size: 4.756954vw;
+    padding-bottom: 19px;
+    margin-bottom: 4px;
+    position: relative;
+    color: #fff;
+  }
+  .sec1 li, .sec2 li, .sec3 li {
+    font-size: 3.7vw;
+    line-height: 7vw;
+  }
+
+  .sec1:after, .sec2:after, .sec3:after {
+    content: "";
+    height: 4px;
+    background: #113f9c;
+    position: absolute;
+    top: 20px;
+    width: 15%;
+  }
+
+  .bot-bar p {
+    font-size: 3.24vw;
+    padding-top: 1.8vw;
+  }
+
+  #gotop {
+    bottom: 1vw;
+    right: 1vw;
+    padding: 5px 6px 0px 8px;
+  }
+
+  .part1 {
+    top: 0px;
+  }
+
+  .partner {
+    padding-right: 13vw;
+  }
+  .partner p {
+    padding-top: 0;
+  }
+  .partner img {
+    width: 19vw;
+    margin-bottom: 2.55vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

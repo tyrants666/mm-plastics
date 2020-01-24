@@ -72,15 +72,14 @@ $(document).ready(function() {
 
   // owlCarousel
   $('.owl1').owlCarousel({
-    center: true,
     items:6,
     loop:true,
     margin:40,
     autoplay:true,
     slideTransition: 'linear',
-    autoplayHoverPause: false,
     autoplaySpeed: 8000,
-    smartSpeed: 8000,
+    autoplayHoverPause: false,
+    center: true,
   });
 
   $('.owl2').owlCarousel({
@@ -162,7 +161,27 @@ $(document).ready(function() {
       owl6.trigger('prev.owl.carousel', [300]);
   })
 
-});
+  //Toggle Sidebar
+					$('.navbar-toggler').on('click', function(){
+							$(".sidepanel").toggleClass("w-250 w-0");
+					});
+}); //Ready function Ends
+
+//Hamburger Menu
+(function () {
+  var i, resize;
+
+  $(".navbar-toggler").click(function () {
+    clearInterval(i);
+    return $(".navbar-toggler").toggleClass("cross");
+  });
+
+  resize = function () {
+    return $("body").css({
+      "margin-top": ~~((window.innerHeight - 150) / 2) + "px" });
+  };
+
+}).call(this);
 
 // ****************  Footer *******************************
 

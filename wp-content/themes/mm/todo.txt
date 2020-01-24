@@ -6,7 +6,7 @@ DONE *****
 3. Provide phone,email,address,map location
 4. Backed Finished
 5. Product Kusum oil Image Folder is empty
-6. ACF Small Titles in other pages or not ? 
+6. ACF Small Titles in other pages or not ?
 
 
 
@@ -15,7 +15,7 @@ DONE *****
 
 ★ Discourage search engine
 ★ Debug Enabled
-★ Use css prefixer
+★ Use css prefixer & minify
 ★ Wordpress security plugins
 ★ compress images
 ★ OWL caraousel 3,4,5,6 left right javascript minify with (this)

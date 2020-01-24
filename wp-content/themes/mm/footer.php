@@ -78,10 +78,10 @@
 <div class="pr-4">
   <img class="logo3" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
 </div>
-<div class="col-4 p-0">
+<div class="col-lg-4 col-9 p-0">
   <p>© MM Plastic Udhyog Pvt. Ltd. | all rights are reserved.</p>
 </div>
-<div class="col-5 ml-auto text-right partner">
+<div class="col-lg-5 ml-auto text-right partner">
   <p> <span class="part1"> Powered by : &nbsp </span> <span> <a href="https://bigadcompany.com" target="_blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/images/big.svg" alt="big-logo"> </a></span> </p>
 </div>
 

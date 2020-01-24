@@ -19,7 +19,7 @@ $detect = new Mobile_Detect();
   <!-- Paragraph 1 -->
   <div class="row mx-0">
    <div class="col-md-8 mx-auto text-center">
-     <p class="quality-p"><?php the_field('paragraph_1'); ?></p>
+     <p class="font-1-4vw"><?php the_field('paragraph_1'); ?></p>
    </div>
   </div>
 

@@ -19,17 +19,15 @@ $detect = new Mobile_Detect();
 <article class="white" id="check_white">
   <!-- Paragraph 1 -->
  <div class="row mx-0">
-   <div class="col-md-8 mx-auto text-center">
-     <p><?php the_field('paragraph_1'); ?></p>
+   <div class="col-md-8 mx-auto text-center about-para1">
+     <p class="font-1-4vw"><?php the_field('paragraph_1'); ?></p>
    </div>
   </div>
-</article>
 
-<article class="white">
   <!-- Paragraph 2 -->
  <div class="row mx-0">
-   <div class="col-md-8 mx-auto text-center">
-     <p><?php the_field('paragraph_2'); ?></p>
+   <div class="col-md-8 mx-auto text-center about-para2">
+     <p class="font-1-4vw"><?php the_field('paragraph_2'); ?></p>
    </div>
    <!-- owl-carousel -->
    <div class="col-md-12 mx-auto text-center mb-5">
