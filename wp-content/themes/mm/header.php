@@ -10,12 +10,12 @@
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title> MM Plastic Udhyog Pvt Ltd </title>
-    <link rel="shortcut icon" type="image/png" href="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo.png ">
+    <link rel="shortcut icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png ">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins|Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
-    <script src=" <?php echo get_bloginfo('template_directory'); ?>/js/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src=" <?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
 
   <?php wp_head(); ?>
   </head>
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-light mx-auto" id="navbar1">
           <a class="navbar-brand" href="<?php echo home_url(); ?>/mmplastic">
             <div class="spinner"></div>
-            <img class="logo" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
+            <img class="logo" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
           </a>
 
 
@@ -68,7 +68,7 @@
         <nav class="navbar navbar-light mx-auto" id="navbar2">
           <a class="navbar-brand" href="<?php echo home_url(); ?>/mmplastic">
             <!-- <div class="spinner"></div> -->
-            <img class="logo2" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
+            <img class="logo2" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
           </a>
 
           <div class="top-menu2" id="navbarNavDropdown">

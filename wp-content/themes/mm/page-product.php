@@ -1,10 +1,6 @@
 
 <?php get_header(); ?>
-<?php
-//******* Including PHP CUSTOM Library to detect mobile view  **********
-include 'Mobile_Detect.php';
-$detect = new Mobile_Detect();
-?>
+
 
 <div class="hero" id="hero-product">
     <!-- Quote -->
@@ -16,98 +12,51 @@ $detect = new Mobile_Detect();
 </div>
 
 <div class="white" id="white">
+  <!-- //here -->
 
-  <!-- product 1 -->
-  <article class=" row mx-0 mb-5">
+  <div class="row mx-0">
 
-    <div class="col-6 p-0 product-content" >
-        <h3>Caps and Closures</h3>
-        <p><?php the_field('caps_info'); ?></p>
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/coke.png')" >
     </div>
 
-    <!-- Owl Carousel -->
-    <div class="col-6 p-0 owl-product">
-      <i class="material-icons left">keyboard_arrow_left</i>
-      <i class="material-icons right">keyboard_arrow_right</i>
-      <div class="owl3 owl-carousel ">
-
-        <?php while( have_rows('caps_images') ): the_row(); ?>
-            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
-            </div>
-        <?php endwhile; ?>
-
-      </div>
-    </div>
-  </article>
-
-  <!-- product 2 -->
-  <article class=" row mx-0 mb-5">
-
-    <div class="col-6 p-0 product-content">
-        <h3>HDPE jars and jerrycanes</h3>
-        <p><?php the_field('jars_info'); ?></p>
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/dabur.png')" >
     </div>
 
-    <!-- Owl Carousel -->
-    <div class="col-6 p-0 owl-product">
-      <i class="material-icons left4">keyboard_arrow_left</i>
-      <i class="material-icons right4">keyboard_arrow_right</i>
-      <div class="owl4 owl-carousel ">
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/unilever.jpg')" >
 
-        <?php while( have_rows('jar_images') ): the_row(); ?>
-            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
-            </div>
-        <?php endwhile; ?>
-
-      </div>
-    </div>
-  </article>
-
-  <!-- product 3 -->
-  <article class=" row mx-0 mb-5">
-
-    <div class="col-6 p-0 product-content">
-        <h3>HDPE pipes and PVC Profiles</h3>
-        <p><?php the_field('pipes_info'); ?></p>
     </div>
 
-    <!-- Owl Carousel -->
-    <div class="col-6 p-0 owl-product">
-      <i class="material-icons left5">keyboard_arrow_left</i>
-      <i class="material-icons right5">keyboard_arrow_right</i>
-      <div class="owl5 owl-carousel">
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/fujima.png')" >
 
-        <?php while( have_rows('pipe_images') ): the_row(); ?>
-            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
-            </div>
-        <?php endwhile; ?>
-
-      </div>
     </div>
-  </article>
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/nimbus.png')" >
 
-  <!-- product 4 -->
-  <article class=" row mx-0 mb-5">
+    </div>
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/plo.jpg')" >
 
-    <div class="col-6 p-0 product-content">
-        <h3>Pet Bottles & Jars</h3>
-        <p><?php the_field('bottles_info'); ?></p>
     </div>
 
-    <!-- Owl Carousel -->
-    <div class="col-6 p-0 owl-product">
-      <i class="material-icons left6">keyboard_arrow_left</i>
-      <i class="material-icons right6">keyboard_arrow_right</i>
-      <div class="owl6 owl-carousel">
 
-        <?php while( have_rows('pet_images') ): the_row(); ?>
-            <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
-            </div>
-        <?php endwhile; ?>
-
-      </div>
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/druk.jpg')" >
     </div>
-  </article>
+
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/sunrise.jpeg')" >
+    </div>
+
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/muraka.jpeg')" >
+    </div>
+
+
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/yeti.jpg')" >
+    </div>
+
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/kl.png')" >
+    </div>
+
+    <div class="col-4 product-row1 mb-5 " style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/images/varun.jpg')" >
+    </div>
+  </div>
+
 </div>
 
 <!-- <article class="blue">

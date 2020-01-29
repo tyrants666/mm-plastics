@@ -9,10 +9,104 @@ $(document).scroll(function () {
 
 //Mobile Scripts
 if (document.documentElement.clientWidth <= 768) {
+  $(document).ready(function(){
+      // owlCarousel
+      $('.owl1').owlCarousel({
+        items:3,
+        loop:true,
+        margin:15,
+        autoplay:true,
+        slideTransition: 'linear',
+        autoplaySpeed: 8000,
+        autoplayHoverPause: false,
+        center: true,
+      });
 
+      $('.owl2').owlCarousel({
+        center: true,
+        items:3,
+        loop:true,
+        margin:15,
+        autoplay:true,
+        slideTransition: 'linear',
+        autoplayHoverPause: false,
+        autoplaySpeed: 8000,
+      });
+
+      $('.owl3, .owl4, .owl5, .owl6,.owl7, .owl8').owlCarousel({
+        center: true,
+        items:1,
+        loop:true,
+        margin:0,
+        dots: false,
+        autoplay:true,
+        // slideTransition: 'linear',
+        autoplayHoverPause: false,
+        // autoplaySpeed: 8000,
+      });
+
+      $('.sent_foot').css('font-size','3.83vw')
+  });
+
+  // #gotop hide
+  $(document).scroll(function () {
+    var foot_off = $("footer").offset().top;
+    if(scrolltop >= foot_off-400) {
+      $('#gotop').fadeIn();
+    }else{
+      $('#gotop').fadeOut();
+    }
+  });
 }
+
 //Desktop Scripts
 if (document.documentElement.clientWidth > 768) {
+  $(document).ready(function(){
+    // owlCarousel
+      $('.owl1').owlCarousel({
+        items:6,
+        loop:true,
+        margin:40,
+        autoplay:true,
+        slideTransition: 'linear',
+        autoplaySpeed: 8000,
+        autoplayHoverPause: false,
+        center: true,
+      });
+
+      $('.owl2').owlCarousel({
+        center: true,
+        items:5,
+        loop:true,
+        margin:40,
+        autoplay:true,
+        slideTransition: 'linear',
+        autoplayHoverPause: false,
+        autoplaySpeed: 8000,
+      });
+
+      $('.owl3, .owl4, .owl5, .owl6,.owl7, .owl8').owlCarousel({
+        center: true,
+        items:1,
+        loop:true,
+        margin:0,
+        dots: false,
+        autoplay:true,
+        // slideTransition: 'linear',
+        autoplayHoverPause: false,
+        // autoplaySpeed: 8000,
+      });
+  });
+
+  // #gotop hide
+  $(document).scroll(function () {
+    var foot_off = $("footer").offset().top;
+    if(scrolltop >= foot_off-800) {
+      $('#gotop').fadeIn();
+    }else{
+      $('#gotop').fadeOut();
+    }
+  });
 }
 
 
@@ -61,7 +155,7 @@ $(document).ready(function() {
   //     location.href = "https://goo.gl/maps/JejaC1zMfxCvut6b6";
   // });
   $('.direction').on('click',function(){
-      location.href = "https://goo.gl/maps/JejaC1zMfxCvut6b6";
+      location.href = "https://goo.gl/maps/f1VXVBVnVpJhZGmE9";
   });
   $('.information').hover(function(){
       $(this).css('cursor','pointer');
@@ -70,40 +164,6 @@ $(document).ready(function() {
     $(this).find('i').css('color','');
   });
 
-  // owlCarousel
-  $('.owl1').owlCarousel({
-    items:6,
-    loop:true,
-    margin:40,
-    autoplay:true,
-    slideTransition: 'linear',
-    autoplaySpeed: 8000,
-    autoplayHoverPause: false,
-    center: true,
-  });
-
-  $('.owl2').owlCarousel({
-    center: true,
-    items:5,
-    loop:true,
-    margin:40,
-    autoplay:true,
-    slideTransition: 'linear',
-    autoplayHoverPause: false,
-    autoplaySpeed: 8000,
-  });
-
-  $('.owl3, .owl4, .owl5, .owl6').owlCarousel({
-    center: true,
-    items:1,
-    loop:true,
-    margin:0,
-    dots: false,
-    autoplay:true,
-    // slideTransition: 'linear',
-    autoplayHoverPause: false,
-    // autoplaySpeed: 8000,
-  });
 
   //Black & white images
   // $('.owl1-item').hover(function(){
@@ -160,6 +220,24 @@ $(document).ready(function() {
   $('.right6').click(function() {
       owl6.trigger('prev.owl.carousel', [300]);
   })
+  //Owl Technology 1
+  var owl7 = $('.owl7');
+  owl7.owlCarousel();
+  $('.left7').click(function() {
+      owl7.trigger('next.owl.carousel');
+  })
+  $('.right7').click(function() {
+      owl7.trigger('prev.owl.carousel', [300]);
+  })
+  //Owl Technology 1
+  var owl8 = $('.owl8');
+  owl8.owlCarousel();
+  $('.left8').click(function() {
+      owl8.trigger('next.owl.carousel');
+  })
+  $('.right8').click(function() {
+      owl8.trigger('prev.owl.carousel', [300]);
+  })
 
   //Toggle Sidebar
 					$('.navbar-toggler').on('click', function(){
@@ -183,14 +261,11 @@ $(document).ready(function() {
 
 }).call(this);
 
-// ****************  Footer *******************************
-
-// #gotop hide
-$(document).scroll(function () {
-  var foot_off = $("footer").offset().top;
-  if(scrolltop >= foot_off-800) {
-    $('#gotop').fadeIn();
-  }else{
-    $('#gotop').fadeOut();
-  }
+//product hover
+$(".product-row1").hover(function(){
+  $(this).css('transform','scale(1.4)');
+},function(){
+  $(this).css('transform','scale(1)');
 });
+
+// ****************  Footer *******************************

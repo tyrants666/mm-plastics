@@ -1,36 +1,36 @@
 
 
 DONE *****
-1. background image darkend .
 2. No product info given on original site .
 3. Provide phone,email,address,map location
-4. Backed Finished
 5. Product Kusum oil Image Folder is empty
-6. ACF Small Titles in other pages or not ?
+6. ACF Small Titles in other pages or not ??
+6. Get a Quote BUTTON no link ??
+6. Provide SSL / control panel Access
+7. Dynamic Add Product or just the details ??
+8. Landing Page Dynamic
 
 
 
 
 ❤ 🌸 ⚫ 💔 ➔ ♫ ♪ ♞ ♜ ＞ ✿ ★ 🌹 ☘ ❄️ ☁
 
-★ Discourage search engine
-★ Debug Enabled
+★ Robots.php search engine
 ★ Use css prefixer & minify
-★ Wordpress security plugins
 ★ compress images
-★ OWL caraousel 3,4,5,6 left right javascript minify with (this)
 ★ Site Health Check (Wordpress)
 ★ Change wp-admin user with official company email also in form-sumbit.php
-
-
-
-★ Change sass color var to root var
+★ contact Us page form Submit Not Done
 ★ footer form submit success alert
-★ mobile view
+★ Change wp Admin to Owner
+★ Check Site speed on google speed test .
+★ On includes/form-submit.php correct official Email
+★ Landing Page correct anchor links
+★ Remove other land.svg image from images folder
 
 
 
-❤ WP LOCAL
+❤ WP LOCAL ( mm.dev/mmlogin )
              id || mm-plastics
              pass || tR3k5S4f8n0TsPu(aA
 

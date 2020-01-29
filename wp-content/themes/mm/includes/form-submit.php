@@ -6,11 +6,35 @@ function callback_send_email(){
    $msg = $_POST['msg'] . "\r\n";
    $email = $_POST['email'] . "\r\n";
 
-   $subject = "Contact Form";
+   $subject = "Write to us - Message";
    $email_body = "The following prospectus has contacted you.". "\n\n" .
                  "Email: " . $email.
                  "Message: $msg";
-                 
+
+   $to = "akashyadav.iiita@gmail.com";
+   $headers .= "From: $email \r\n";
+   $headers .= "Reply-To: $email \r\n";
+   $mail = mail($to,$subject,$email_body,$headers);
+ if($mail){
+       echo "Email Sent Successfully";
+         }
+}
+
+//Form contact
+function callback_contact_email(){
+
+   $name = $_POST['name'] . "\r\n";
+   $email = $_POST['email'] . "\r\n";
+   $phone = $_POST['phone'] . "\r\n";
+   $message = $_POST['message'] . "\r\n";
+
+   $subject = "Contact Us - Message";
+   $email_body = "The following prospectus has contacted you.". "\n\n" .
+                 "Name: " . $name.
+                 "Email: " . $email.
+                 "Phone: " . $phone.
+                 "Message: $message";
+
    $to = "akashyadav.iiita@gmail.com";
    $headers .= "From: $email \r\n";
    $headers .= "Reply-To: $email \r\n";

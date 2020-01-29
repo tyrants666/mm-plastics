@@ -1,11 +1,7 @@
 
 <?php get_header(); ?>
 
-<?php
-//******* Including PHP CUSTOM Library to detect mobile view  **********
-include 'Mobile_Detect.php';
-$detect = new Mobile_Detect();
-?>
+
 
 <div class="hero" id="hero-home">
     <!-- Quote -->
@@ -13,14 +9,16 @@ $detect = new Mobile_Detect();
       <h1 class=""> <?php the_field('big_title'); ?> </h1>
       <!-- <h1 class=""> Think Big. <span>We do.</span></h1> -->
       <h4 class=" fadeInDown2"><?php the_field('small_title'); ?></h4>
-      <button class="btn-quote fadeInDown2 " type="button" name="button">GET A QUOTE</button>
+      <a href="<?php echo home_url(); ?>/contact-us#direction ">
+      <button class="btn-quote fadeInDown2 " type="button" name="button">CONTACT US</button>
+      </a>
     </div>
 
 </div>
 
 <article class="black row mx-0">
 
-  <div class="col-md-3 p-0 d-flex information">
+  <div class="col-lg-3 col-6 p-0 d-flex information">
     <span> <i class="material-icons">call</i></span>
     <div class="black-cont">
       <h5> Call Us</h5>
@@ -28,7 +26,7 @@ $detect = new Mobile_Detect();
     </div>
   </div>
 
-  <div class="col-md-3 p-0 d-flex information mail">
+  <div class="col-lg-3 col-6 p-0 d-flex information mail">
     <span> <i class="material-icons">mail_outline</i></span>
     <div class="black-cont">
       <h5> Email </h5>
@@ -36,7 +34,7 @@ $detect = new Mobile_Detect();
     </div>
   </div>
 
-  <div class="col-md-3 p-0 d-flex information">
+  <div class="col-lg-3 col-6 p-0 d-flex information">
     <span> <i class="material-icons">location_city</i></span>
     <div class="black-cont">
       <h5> Address </h5>
@@ -44,7 +42,7 @@ $detect = new Mobile_Detect();
     </div>
   </div>
 
-  <div class="col-md-3 p-0 d-flex information direction">
+  <div class="col-lg-3 col-6 p-0 d-flex information direction">
       <span> <i class="material-icons">my_location</i></span>
       <div class="black-cont">
         <h5> Directions</h5>
@@ -63,7 +61,7 @@ $detect = new Mobile_Detect();
     <div class="col-md-9 mx-auto text-center">
       <p><?php the_field('about_us_info'); ?></p>
        <a href="/index.php?page_id=23#check_white" class="anch-read">
-         <span class="read-more">  Read more <i class="material-icons eco">eco</i></span>
+         <span class="read-more vw-4">  Read more <i class="material-icons eco">eco</i></span>
        </a>
     </div>
    </div>
@@ -89,7 +87,7 @@ $detect = new Mobile_Detect();
    <!-- Our Products -->
   <div class="row mx-0 product-sec">
     <div class="col-md-12 mx-auto text-center">
-      <h1 class="">Owl Products</h1>
+      <h1 class="">Our Products</h1>
     </div>
     <div class="col-md-12 mx-auto text-center">
       <a href="<?php echo home_url(); ?>/product#white">

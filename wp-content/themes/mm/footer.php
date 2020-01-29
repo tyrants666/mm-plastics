@@ -8,7 +8,7 @@
       <p>Established in 1985, MM Plastic Udhyog Pvt. Ltd. is now one of the most renowned and oldest plastic industries in Nepal.</p>
       <div class="read">
         <a href="/index.php?page_id=23#check_white" class="anch-read">
-          <span class="read-more" style="color:#93969c;">  Read more <i class="material-icons eco" style="color:#113f9c;">eco</i></span>
+          <span class="read-more vw-4" style="color:#93969c;">  Read more <i class="material-icons eco" style="color:#113f9c;">eco</i></span>
         </a>
 
       </div>
@@ -37,7 +37,7 @@
           <input class="input-foot form-control" type="email" id="emaill" value="" placeholder="Your Email Address" autocomplete="off" required>
           <button id="send_foot" type="submit" name="button"><i class="material-icons">send</i></button>
         </div>
-        <p class="alert-success d-none" style="color: deepskyblue;">Message sent successfully.</p>
+        <p class=" sent_foot mt-lg-0 mt-1 " style="color: #f9ca45; display:none;  ">Message sent successfully.</p>
       </form>
 
                   <!-- Ajax form submit -->
@@ -59,8 +59,11 @@
                           email: email,
                         },
                         success:function(res){
-                          alert("dsd");
-              			          $('.alert-success').toggle();
+                          $('.sent_foot').fadeIn();
+                          function myfunc() {
+                              $('.sent_foot').fadeOut();
+                          }
+                          setTimeout( myfunc, 3000 );
               			      }
                       });
 
@@ -76,13 +79,13 @@
 <div class="bot-bar row mx-0">
 
 <div class="pr-4">
-  <img class="logo3" src="<?php echo get_bloginfo('template_directory') ?>/images/logo.png"alt="">
+  <img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
 </div>
 <div class="col-lg-4 col-9 p-0">
   <p>© MM Plastic Udhyog Pvt. Ltd. | all rights are reserved.</p>
 </div>
 <div class="col-lg-5 ml-auto text-right partner">
-  <p> <span class="part1"> Powered by : &nbsp </span> <span> <a href="https://bigadcompany.com" target="_blank"> <img src="<?php echo get_bloginfo('template_directory') ?>/images/big.svg" alt="big-logo"> </a></span> </p>
+  <p> <span class="part1"> Powered by : &nbsp </span> <span> <a href="https://bigadcompany.com" target="_blank"> <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/big.svg" alt="big-logo"> </a></span> </p>
 </div>
 
   <div class="">

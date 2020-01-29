@@ -2,6 +2,7 @@
 Theme Name: MM Plastics
 Author: Akash Yadav
 Author URI:
+Theme URI: https://mm.dev/themes/mm/
 Description: A Web Project for Plastic Industry
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -493,14 +494,14 @@ a.underline3:after {
   }
 }
 
-.left, .left4, .left5, .left6 {
+.left, .left4, .left5, .left6, .left7, .left8 {
   position: absolute;
   color: $primary;
   font-size: 62*$vw;
   left: 0;
   top: 10vw;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -510,14 +511,14 @@ a.underline3:after {
                                 supported by Chrome, Opera and Firefox */
 }
 
-.right, .right4, .right5, .right6 {
+.right, .right4, .right5, .right6,.right7,.right8 {
   position: absolute;
   color: $primary;
   font-size: 62*$vw;
   right: 0;
   top: 10vw;
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -527,9 +528,15 @@ a.underline3:after {
                                 supported by Chrome, Opera and Firefox */
 }
 
-// // .owl3{
-//   height: 100%;
-// }
+//New CSS
+  .product-row1{
+    height: 6.1508vw;
+    transition: all 0.7s;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 // ********** QualityPage *******************************************************
 
 #hero-quality {
@@ -542,6 +549,13 @@ p.font-1-4vw{
 
 #hero-technology {
   height: 100vh;
+}
+.tech-row{
+  padding: 5.9vw 6.5vw 4.5vw 6.5vw;
+    p{
+      font-size: 18*$vw;
+      padding-top: 48px;
+    }
 }
 // ********** About Us Page *******************************************************
 
@@ -854,12 +868,121 @@ footer {
       padding: 2vw 5vw !important;
       }
 
-  //footer MOBILE
-  .sec2{
-    padding-left: 0;
+  //Home Page MOBILE
+  .black {
+      padding: 7.2vh 14.7vw 0vh 6.7vw;
+      height: 53vw;
   }
-  .sec1, .sec2, .sec3 {
+  .black i {
+    font-size: 9.172765vw;
+    color: #113f9c;
+    padding-right: 0.8vw;
+    margin-top: -4px;
+    cursor: default;
+    transition: all 0.3s linear;
+  }
+  .black h5{
+    font-size: 3.317715vw;
+    margin-bottom: 0.7vh;
+  }
+  .black-p {
+    font-size: 2.6vw;
+    padding-right: 0vw;
+  }
+  .about-sec {
+    margin-bottom: 9vw;
+  }
+  .about-sec h1 {
+    font-size: 6.879939vw;
+    margin-bottom: 5vw;
+  }
+  .about-sec p {
+    font-size: 3.464128vw;
+    margin-bottom: 1vw;
+  }
+  .client-sec {
+    margin-bottom: -10vw;
+  }
+    .client-sec h1 {
+      font-size: 5.879939vw;
+      margin-bottom: 4vw;
+  }
+  .owl1-item{
+    height: 25vw;
+    // filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+  }
+  .owl2-item{
+    height: 25vw;
+  }
+  .product-sec h1 {
+      font-size: 5.879939vw;
+      margin-bottom: 7vw;
+  }
+
+  //Product Page MOBILE
+  .product-content h3 {
+    font-size: 6.1vw;
+  }
+  .product-content p {
+      font-size: 4.2vw;
+  }
+  .product-content {
+      padding: 2vh 0 !important;
+  }
+  .product-slides {
+    height: 48vw;
+  }
+  .left, .left4, .left5, .left6, .left7, .left8 {
+    font-size: 16.538797vw;
+    left: -6.2vw;
+    top: 15vw;
+  }
+  .right, .right4, .right5, .right6,.right7,.right8 {
+    font-size: 16.5387968vw;
+    right: -6.2vw;
+    top: 15vw;
+  }
+  //Technology Page MOBILE
+  .tech-row {
+    padding: 5.9vw 6.5vw 3.5vw 6.5vw;
+  }
+  .tech-row p {
+    font-size:4vw;
+    padding-top: 14px;
+    padding-bottom: 15px;
+  }
+  //Contact Us Page MOBILE
+  #form2 {
+    padding-left: 0vw;
+  }
+  .input1 {
+      width: 91%;
+      height: 10vw;
+      margin-bottom: -8px;
+  }
+  .btn-light {
+    margin-top: 6px;
+  }
+  .blue {
+    padding: 9.9vw 6.5vw;
+}
+    //footer MOBILE
+    .vw-4{
+      font-size: 4vw;
+    }
+    .foot-row {
+      padding: 6.9vw 6.5vw 4.9vw 6.5vw;
+    }
+    .sec1{
+      margin-bottom: 22px;
+    }
+    .sec2{
+      padding-left: 0;
       padding-right: 0px !important;
+      margin-bottom: 10px;
+    }
+  .sec1, .sec2, .sec3 {
 
       h4{
         font-size: 4.756954vw;
@@ -872,6 +995,12 @@ footer {
         font-size: 3.7vw;
         line-height: 7vw;
       }
+      p{
+        font-size: 3.42vw;
+        line-height: 19px;
+        color: #B0B0B0;
+        margin-bottom: 0;
+      }
   }
   .sec1:after, .sec2:after, .sec3:after {
     content: "";
@@ -881,14 +1010,10 @@ footer {
     top: 20px;
     width: 15%;
   }
+
   .bot-bar p {
     font-size: 3.24vw;
     padding-top: 1.8vw;
-  }
-  #gotop {
-    bottom: 1vw;
-    right: 1vw;
-    padding: 5px 6px 0px 8px;
   }
   .part1 {
     top: 0px;
@@ -903,5 +1028,127 @@ footer {
           margin-bottom: 2.55vw;
     }
   }
+  #gotop {
+    bottom: 3vw;
+    right: 3vw;
+    padding: 5px 6px 0px 8px;
+  }
 
 } //Mobile End
+
+
+
+
+
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
