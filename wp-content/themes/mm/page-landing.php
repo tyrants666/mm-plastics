@@ -34,12 +34,12 @@
     </div>
     <div class="col-lg-3 logo-wrap mx-auto text-center fadeInUp">
       <a href=" <?php echo home_url(); ?>/mmplastic ">
-        <img class="logos" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.jpg" alt="">
+        <img class="logos" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.svg" alt="">
       </a>
     </div>
     <div class="col-lg-3 logo-wrap mx-auto text-center fadeInUp">
       <a href=" <?php echo home_url(); ?>/mmplastic ">
-        <img class="logos" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_naturals.jpg" alt="">
+        <img class="logos" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_naturals.png" alt="">
       </a>
     </div>
   </div>
