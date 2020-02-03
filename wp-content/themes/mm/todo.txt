@@ -1,4 +1,4 @@
-
+﻿
 
 DONE *****
 2. No product info given on original site .
@@ -37,3 +37,12 @@ DONE *****
 ❤ WP LOCAL
              id || mm-plastics
              pass || tR3k5S4f8n0TsPu(aA
+
+❤ CPANEL
+             id || mmgrp
+             pass || frEuQo75#
+
+❤ DB Live
+	     database || mmgrp_dev
+	     username || mmgrp_dev
+	     Password || monalisa_777
