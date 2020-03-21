@@ -19,51 +19,6 @@
   </style>
 
 
-<div class="hero" id="hero-contactus">
-    <!-- Quote -->
-    <div class="quote">
-      <h1 class=""> Contact <span>Us.</span></h1>
-    </div>
-
-</div>
-
-<!-- black -->
-<article class="black row mx-0">
-
-  <div class="col-lg-3 col-6 p-0 d-flex information">
-    <span> <i class="material-icons">call</i></span>
-    <div class="black-cont">
-      <h5> Call Us</h5>
-      <div class="black-p"><?php the_field('phone', 6); ?></div>
-    </div>
-  </div>
-
-  <div class="col-lg-3 col-6 p-0 d-flex information mail">
-    <span> <i class="material-icons">mail_outline</i></span>
-    <div class="black-cont">
-      <h5> Email </h5>
-      <div class="black-p"><?php the_field('email', 6); ?></div>
-    </div>
-  </div>
-
-  <div class="col-lg-3 col-6 p-0 d-flex information">
-    <span> <i class="material-icons">location_city</i></span>
-    <div class="black-cont">
-      <h5> Address </h5>
-      <div class="black-p"><?php the_field('address', 6); ?></div>
-    </div>
-  </div>
-
-  <div class="col-lg-3 col-6 p-0 d-flex information direction" id="direction" >
-      <span> <i class="material-icons">my_location</i></span>
-      <div class="black-cont">
-        <h5> Directions</h5>
-        <div class="black-p">Click me to get the google map directions.</div>
-      </div>
-  </div>
-
-</article>
-
 <!-- blue -->
 <article class="blue">
   <div class="row mx-0">

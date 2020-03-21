@@ -1,5 +1,5 @@
 /*
-Theme Name: MM Plastics
+Theme Name: MM Groups
 Author: Akash Yadav
 Author URI:
 Theme URI: https://mm.dev/themes/mm/
@@ -30,10 +30,10 @@ body {
 .hero {
   position: relative;
   background-image: url("images/bg3.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position: bottom;
+  // background-attachment: fixed;
 }
 
 .overlay {
@@ -48,37 +48,26 @@ body {
 
 #navbar1 {
   // display: none;
-  background: $primary;
-  width: 83.5vw;
-  position: absolute;
-  top: 6.5vh;
-  height: 95px;
-  padding-left: 6.5vw;
-  z-index: 1;
-  left: 8.3vw;
+background: #113f9c;
+width: 65.5vw;
+position: absolute;
+top: 6.5vh;
+height: 82px;
+padding-left: 2.7vw;
+z-index: 1;
+/* left: 8.3vw; */
+right: 8.3vw;
+ border-radius: 53px;
 }
 
-.spinner {
-  position: absolute;
-  border-radius: 50%;
-  width: 145px;
-  height: 145px;
-  border-top: 4px solid #fffbfb00;
-  border-right: 4px solid #f9f9f9;
-  border-bottom: 4px solid #ffffff00;
-  border-left: 4px solid #f3f3f3;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
-  top: -25px;
-}
+
 
 img.logo {
-  height: 125px;
+  height: 70px;
   width: 125px;
   position: absolute;
-  top: -14px;
-  margin-left: 10px;
+  top: 7px;
+  left: -198px;
 }
 
 .top-menu {
@@ -95,6 +84,19 @@ img.logo {
   }
 }
 
+a.underline22 {
+  padding: 34px 0;
+  display: inline;
+  position: relative;
+  // font-size: 15px;
+  color: #ffff;
+  text-decoration: none;
+  overflow: hidden;
+
+  &:hover {
+    color: #87aad0;
+  }
+}
 a.underline {
   padding: 34px 0;
   display: inline;
@@ -173,10 +175,10 @@ a.underline {
 }
 
 img.logo2 {
-  height: 65px;
-  width: 65px;
+  height: 42px;
+  width: 74px;
   position: absolute;
-  top: 2px;
+  top: 9px;
   left: 9.6vw;
 }
 
@@ -249,7 +251,8 @@ a.underline2 {
 }
 
 .black {
-  background: #232323;
+  // background: #232323;
+  background: #2a2c2d;
   color: white;
   padding: 6.2vh 6.7vw 5.2vh;
   height: 21vh;
@@ -289,7 +292,9 @@ a.underline2 {
 
 .blue {
   background: $primary;
-  padding: 4.9vw 6.5vw;
+  // padding: 4.9vw 6.5vw;
+    padding: 14.9vw 6.5vw 4.9vw 6.5vw;
+      // margin-top: 170px;
   color: white;
 }
 // Read more
@@ -395,15 +400,6 @@ a.underline3:after {
   }
 }
 
-.owl1-item{
-  height: 12vw;
-  // filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
-}
-.owl2-item{
-  height: 15vw;
-}
-
 .about-sec{
   margin-bottom: 5vw;
 
@@ -421,23 +417,52 @@ a.underline3:after {
     // border-bottom: 4px solid #113f9c !important;
   }
 }
-.client-sec{
-  margin-bottom: 5vw;
+.logos-com {
+    width: auto;
+    height: 116px;
+}
 
+
+.who-we-are{
+    background-image: url(images/preform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 31%;
+    padding: 5.9vw 6.5vw;
+    color: #c78282;
+    box-shadow: 0px 1px 20px 2px #00000061;
+    // background-attachment: fixed;
   p {
-    font-size: 20*$vw;
+    font-size: 25*$vw;
     margin-bottom: 2vw;
+    color: #17a2b8;
   }
 
   h1 {
     font-size: 53*$vw;
     font-weight: 800;
-    color: $primary;
-    margin-bottom: 4vw;
+    color: #17a2b8;
   }
 }
-.product-sec {
-  margin-bottom: 5vw;
+.col-3_5 {
+  -ms-flex: 0 0 30.5%;
+  flex: 0 0 30.5%;
+  max-width: 30.5%;
+}
+.dark-product{
+      // box-shadow: 0px 1px 20px 2px #706f6f61;
+      // background: #2bb2887a;
+      font-size: 1.3vw;
+      font-weight: 500;
+      border-radius: 11px;
+      padding: 1.8vw;
+      transition: all 0.7s;
+      text-align: center;
+      height: 193px;
+      color: #c8c8c8;
+      border: 1px dashed white;
+}
+.what-we-do {
 
   p {
     font-size: 20*$vw;
@@ -539,9 +564,6 @@ a.underline3:after {
 
 // ********** QualityPage *******************************************************
 
-#hero-quality {
-  height: 100vh;
-}
 p.font-1-4vw{
     font-size: 1.3vw;
 }
@@ -570,9 +592,9 @@ p.font-1-4vw{
 }
 // ********** Contact Us Page *******************************************************
 
-#hero-contactus {
-  height: 79vh;
-}
+// #hero-contactus {
+//   height: 79vh;
+// }
 
 #form2 {
   padding-left: 5vw;
@@ -745,18 +767,16 @@ footer {
 @media (max-width: 768px) {
 
   //Global
+      #navbar1 {
+        background: #ffffff;
+      }
       img.logo {
-      height: 100px;
-      width: 100px;
-      top: -4px;
-      left: 6px;
+        height: 57px;
+        width: 100px;
+        top: 11px;
+        left: -52px;
       }
-      .spinner {
-      width: 120px;
-      height: 120px;
-      top: -15px;
-      left: 6px;
-      }
+
       .top-menu,.top-menu2{
       display: none;
       }
@@ -789,7 +809,7 @@ footer {
       transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
       stroke-width: 30px;
       stroke-linecap: round;
-      stroke: white;
+      stroke: #3e62ab;
       stroke-dashoffset: 0px;
       }
       path#top,
@@ -869,8 +889,11 @@ footer {
       }
 
   //Home Page MOBILE
+  #hero-home {
+    height: 41vh;
+  }
   .black {
-      padding: 7.2vh 14.7vw 0vh 6.7vw;
+      padding: 7.2vh 7.7vw 0vh 6.7vw;
       height: 53vw;
   }
   .black i {
@@ -878,7 +901,8 @@ footer {
     color: #113f9c;
     padding-right: 0.8vw;
     margin-top: -4px;
-    cursor: default;
+    cursor: pointer;
+    // cursor: default;
     transition: all 0.3s linear;
   }
   .black h5{
@@ -966,6 +990,7 @@ footer {
   }
   .blue {
     padding: 9.9vw 6.5vw;
+
 }
     //footer MOBILE
     .vw-4{

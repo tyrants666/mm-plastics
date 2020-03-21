@@ -1,11 +1,47 @@
 
 <footer class="footer mb-0" id="footer">
 
+<article class="black row mx-0">
+
+  <div class="col-lg-3 col-6 p-0 d-flex information">
+    <span> <i class="material-icons">call</i></span>
+    <div class="black-cont">
+      <h5> Call Us</h5>
+      <div class="black-p"><?php the_field('phone',188); ?></div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-6 p-0 d-flex information mail">
+    <span> <i class="material-icons">mail_outline</i></span>
+    <div class="black-cont">
+      <h5> Email </h5>
+      <div class="black-p"><?php the_field('email',188); ?></div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-6 p-0 d-flex information">
+    <span> <i class="material-icons">location_city</i></span>
+    <div class="black-cont">
+      <h5> Address </h5>
+      <div class="black-p"><?php the_field('address',188); ?></div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-6 p-0 d-flex information direction">
+      <span> <i class="material-icons">my_location</i></span>
+      <div class="black-cont">
+        <h5> Directions</h5>
+        <div class="black-p">Click me to get the google map directions.</div>
+      </div>
+  </div>
+
+</article>
+
   <div class="foot-row row mx-0">
 
     <div class="sec1 col-md-4 mx-auto p-0">
       <h4>About Us</h4>
-      <p>Established in 1985, MM Plastic Udhyog Pvt. Ltd. is now one of the most renowned and oldest plastic industries in Nepal.</p>
+      <p>Established in 1985, MM Group  Pvt. Ltd. is now one of the most renowned and oldest plastic industries in Nepal.</p>
       <div class="read">
         <a href="/index.php?page_id=23#check_white" class="anch-read">
           <span class="read-more vw-4" style="color:#93969c;">  Read more <i class="material-icons eco" style="color:#113f9c;">eco</i></span>
@@ -82,7 +118,7 @@
   <img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
 </div>
 <div class="col-lg-4 col-9 p-0">
-  <p>© MM Plastic Udhyog Pvt. Ltd. | all rights are reserved.</p>
+  <p>© MM Group  Pvt. Ltd. | all rights are reserved.</p>
 </div>
 <div class="col-lg-5 ml-auto text-right partner">
   <p> <span class="part1"> Powered by : &nbsp </span> <span> <a href="https://bigadcompany.com" target="_blank"> <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/big.svg" alt="big-logo"> </a></span> </p>

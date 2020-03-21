@@ -1,5 +1,4 @@
 
-
 //Global
 var scrolltop;
 
@@ -7,44 +6,12 @@ $(document).scroll(function () {
   scrolltop = $(this).scrollTop();
 });
 
-//Mobile Scripts
+
+
+//Mobile Scripts #######################################################################
 if (document.documentElement.clientWidth <= 768) {
-  $(document).ready(function(){
-      // owlCarousel
-      $('.owl1').owlCarousel({
-        items:3,
-        loop:true,
-        margin:15,
-        autoplay:true,
-        slideTransition: 'linear',
-        autoplaySpeed: 8000,
-        autoplayHoverPause: false,
-        center: true,
-      });
 
-      $('.owl2').owlCarousel({
-        center: true,
-        items:3,
-        loop:true,
-        margin:15,
-        autoplay:true,
-        slideTransition: 'linear',
-        autoplayHoverPause: false,
-        autoplaySpeed: 8000,
-      });
-
-      $('.owl3, .owl4, .owl5, .owl6,.owl7, .owl8').owlCarousel({
-        center: true,
-        items:1,
-        loop:true,
-        margin:0,
-        dots: false,
-        autoplay:true,
-        // slideTransition: 'linear',
-        autoplayHoverPause: false,
-        // autoplaySpeed: 8000,
-      });
-
+  $(document).ready(function(){   
       $('.sent_foot').css('font-size','3.83vw')
   });
 
@@ -59,43 +26,11 @@ if (document.documentElement.clientWidth <= 768) {
   });
 }
 
-//Desktop Scripts
+//Desktop Scripts ########################################################################
 if (document.documentElement.clientWidth > 768) {
+
   $(document).ready(function(){
-    // owlCarousel
-      $('.owl1').owlCarousel({
-        items:6,
-        loop:true,
-        margin:40,
-        autoplay:true,
-        slideTransition: 'linear',
-        autoplaySpeed: 8000,
-        autoplayHoverPause: false,
-        center: true,
-      });
-
-      $('.owl2').owlCarousel({
-        center: true,
-        items:5,
-        loop:true,
-        margin:40,
-        autoplay:true,
-        slideTransition: 'linear',
-        autoplayHoverPause: false,
-        autoplaySpeed: 8000,
-      });
-
-      $('.owl3, .owl4, .owl5, .owl6,.owl7, .owl8').owlCarousel({
-        center: true,
-        items:1,
-        loop:true,
-        margin:0,
-        dots: false,
-        autoplay:true,
-        // slideTransition: 'linear',
-        autoplayHoverPause: false,
-        // autoplaySpeed: 8000,
-      });
+    
   });
 
   // #gotop hide
@@ -150,10 +85,6 @@ $(document).ready(function() {
 
   $('.quote h1').addClass('fadeInUp2');
 
-  //Contact Info ( MM plastic page )
-  // $('.mail').on('click',function(){
-  //     location.href = "https://goo.gl/maps/JejaC1zMfxCvut6b6";
-  // });
   $('.direction').on('click',function(){
       location.href = "https://goo.gl/maps/f1VXVBVnVpJhZGmE9";
   });
@@ -165,14 +96,6 @@ $(document).ready(function() {
   });
 
 
-  //Black & white images
-  // $('.owl1-item').hover(function(){
-  //   $(this).css('filter','grayscale(0%)');
-  //   $(this).css('cursor','pointer');
-  // }, function(){
-  //   $(this).css('filter','grayscale(100%)');
-  // });
-
   //Read more
   $('.read-more').hover(function(){
     $('.eco').css('transform', 'rotate(-35deg)');
@@ -183,61 +106,6 @@ $(document).ready(function() {
     $(this).css('transform', 'scale(1)');
     $(this).css('opacity', '1');
   });
-
- //Product 1
-  var owl = $('.owl3');
-  owl.owlCarousel();
-  $('.left').click(function() {
-      owl.trigger('next.owl.carousel');
-  })
-  $('.right').click(function() {
-      owl.trigger('prev.owl.carousel', [300]);
-  })
-  //Product 2
-  var owl4 = $('.owl4');
-  owl4.owlCarousel();
-  $('.left4').click(function() {
-      owl4.trigger('next.owl.carousel');
-  })
-  $('.right4').click(function() {
-      owl4.trigger('prev.owl.carousel', [300]);
-  })
-  //Product 3
-  var owl5 = $('.owl5');
-  owl5.owlCarousel();
-  $('.left5').click(function() {
-      owl5.trigger('next.owl.carousel');
-  })
-  $('.right5').click(function() {
-      owl5.trigger('prev.owl.carousel', [300]);
-  })
-  //Product 4
-  var owl6 = $('.owl6');
-  owl6.owlCarousel();
-  $('.left6').click(function() {
-      owl6.trigger('next.owl.carousel');
-  })
-  $('.right6').click(function() {
-      owl6.trigger('prev.owl.carousel', [300]);
-  })
-  //Owl Technology 1
-  var owl7 = $('.owl7');
-  owl7.owlCarousel();
-  $('.left7').click(function() {
-      owl7.trigger('next.owl.carousel');
-  })
-  $('.right7').click(function() {
-      owl7.trigger('prev.owl.carousel', [300]);
-  })
-  //Owl Technology 1
-  var owl8 = $('.owl8');
-  owl8.owlCarousel();
-  $('.left8').click(function() {
-      owl8.trigger('next.owl.carousel');
-  })
-  $('.right8').click(function() {
-      owl8.trigger('prev.owl.carousel', [300]);
-  })
 
   //Toggle Sidebar
 					$('.navbar-toggler').on('click', function(){
@@ -260,12 +128,5 @@ $(document).ready(function() {
   };
 
 }).call(this);
-
-//product hover
-$(".product-row1").hover(function(){
-  $(this).css('transform','scale(1.4)');
-},function(){
-  $(this).css('transform','scale(1)');
-});
 
 // ****************  Footer *******************************

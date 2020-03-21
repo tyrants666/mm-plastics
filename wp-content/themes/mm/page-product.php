@@ -111,12 +111,12 @@
 </div>
 
 <!-- <article class="blue">
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
-   <h1 class="">MM plastics</h1>
+   <h1 class="">MM Groups</h1>
+   <h1 class="">MM Groups</h1>
+   <h1 class="">MM Groups</h1>
+   <h1 class="">MM Groups</h1>
+   <h1 class="">MM Groups</h1>
+   <h1 class="">MM Groups</h1>
 </article> -->
 
 <?php get_footer(); ?>

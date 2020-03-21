@@ -1,19 +1,18 @@
 ﻿
+#060608c2
 
-DONE *****
-2. No product info given on original site .
-3. Provide phone,email,address,map location
-5. Product Kusum oil Image Folder is empty
-6. ACF Small Titles in other pages or not ??
-6. Get a Quote BUTTON no link ??
-6. Provide SSL / control panel Access
-7. Dynamic Add Product or just the details ??
-8. Landing Page Dynamic
+TO BE DONE *****
+
+✅ ACF backend changes to be done
+✅ Homepage > Big Title + Small Title + Contact US button ( Remove or keep ? )   Also remove Custom Fields ???????????
+✅
+✅
 
 
 
 
-❤ 🌸 ⚫ 💔 ➔ ♫ ♪ ♞ ♜ ＞ ✿ ★ 🌹 ☘ ❄️ ☁
+
+❤ 🌸 ⚫ 💔 ➔ ♫ ♪ ♞ ♜ ＞ ✿ ★ 🌹 ☘ ❄️ ☁ ᚖ ᛘ † ⏰ ⌗ ⌘ ⏩ ◾ ☯ ⛄ ➕ ✅ ✔ ✱ ✞ ✝ ॐ
 
 ★ Robots.php search engine
 ★ Use css prefixer & minify
@@ -30,6 +29,11 @@ DONE *****
 
 
 
+
+❤ CPANEL ( http://www.mmgrp.org/cpanel/ )
+             id || mmgrp
+             pass || frEuQo75#
+
 ❤ WP LOCAL ( mm.dev/mmlogin )
              id || mm-plastics
              pass || tR3k5S4f8n0TsPu(aA
@@ -38,9 +42,6 @@ DONE *****
              id || mm-plastics
              pass || tR3k5S4f8n0TsPu(aA
 
-❤ CPANEL
-             id || mmgrp
-             pass || frEuQo75#
 
 ❤ DB Live
 	     database || mmgrp_dev

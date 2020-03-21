@@ -1,5 +1,5 @@
 /*
-Theme Name: MM Plastics
+Theme Name: MM Groups
 Author: Akash Yadav
 Author URI:
 Theme URI: https://mm.dev/themes/mm/
@@ -23,10 +23,9 @@ body {
 .hero {
   position: relative;
   background-image: url("images/bg3.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .overlay {
@@ -38,36 +37,23 @@ body {
 
 #navbar1 {
   background: #113f9c;
-  width: 83.5vw;
+  width: 65.5vw;
   position: absolute;
   top: 6.5vh;
-  height: 95px;
-  padding-left: 6.5vw;
+  height: 82px;
+  padding-left: 2.7vw;
   z-index: 1;
-  left: 8.3vw;
-}
-
-.spinner {
-  position: absolute;
-  border-radius: 50%;
-  width: 145px;
-  height: 145px;
-  border-top: 4px solid #fffbfb00;
-  border-right: 4px solid #f9f9f9;
-  border-bottom: 4px solid #ffffff00;
-  border-left: 4px solid #f3f3f3;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
-  top: -25px;
+  /* left: 8.3vw; */
+  right: 8.3vw;
+  border-radius: 53px;
 }
 
 img.logo {
-  height: 125px;
+  height: 70px;
   width: 125px;
   position: absolute;
-  top: -14px;
-  margin-left: 10px;
+  top: 7px;
+  left: -198px;
 }
 
 .top-menu ul {
@@ -79,6 +65,18 @@ img.logo {
   display: inline;
   padding: 0 1.3177152vw;
   transition: all 0.5s ease-out;
+}
+
+a.underline22 {
+  padding: 34px 0;
+  display: inline;
+  position: relative;
+  color: #ffff;
+  text-decoration: none;
+  overflow: hidden;
+}
+a.underline22:hover {
+  color: #87aad0;
 }
 
 a.underline {
@@ -154,10 +152,10 @@ a.underline:hover {
 }
 
 img.logo2 {
-  height: 65px;
-  width: 65px;
+  height: 42px;
+  width: 74px;
   position: absolute;
-  top: 2px;
+  top: 9px;
   left: 9.6vw;
 }
 
@@ -225,7 +223,7 @@ a.underline2:hover {
 }
 
 .black {
-  background: #232323;
+  background: #2a2c2d;
   color: white;
   padding: 6.2vh 6.7vw 5.2vh;
   height: 21vh;
@@ -261,7 +259,7 @@ a.underline2:hover {
 
 .blue {
   background: #113f9c;
-  padding: 4.9vw 6.5vw;
+  padding: 14.9vw 6.5vw 4.9vw 6.5vw;
   color: white;
 }
 
@@ -359,15 +357,6 @@ a.underline3:after {
   outline: none;
 }
 
-.owl1-item {
-  height: 12vw;
-  transition: all 0.3s ease-in-out;
-}
-
-.owl2-item {
-  height: 15vw;
-}
-
 .about-sec {
   margin-bottom: 5vw;
 }
@@ -382,28 +371,54 @@ a.underline3:after {
   margin-bottom: 2vw;
 }
 
-.client-sec {
-  margin-bottom: 5vw;
-}
-.client-sec p {
-  font-size: 1.464128vw;
-  margin-bottom: 2vw;
-}
-.client-sec h1 {
-  font-size: 3.8799392vw;
-  font-weight: 800;
-  color: #113f9c;
-  margin-bottom: 4vw;
+.logos-com {
+  width: auto;
+  height: 116px;
 }
 
-.product-sec {
-  margin-bottom: 5vw;
+.who-we-are {
+  background-image: url(images/preform.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 31%;
+  padding: 5.9vw 6.5vw;
+  color: #c78282;
+  box-shadow: 0px 1px 20px 2px #00000061;
 }
-.product-sec p {
+.who-we-are p {
+  font-size: 1.83016vw;
+  margin-bottom: 2vw;
+  color: #17a2b8;
+}
+.who-we-are h1 {
+  font-size: 3.8799392vw;
+  font-weight: 800;
+  color: #17a2b8;
+}
+
+.col-3_5 {
+  -ms-flex: 0 0 30.5%;
+  flex: 0 0 30.5%;
+  max-width: 30.5%;
+}
+
+.dark-product {
+  font-size: 1.3vw;
+  font-weight: 500;
+  border-radius: 11px;
+  padding: 1.8vw;
+  transition: all 0.7s;
+  text-align: center;
+  height: 193px;
+  color: #c8c8c8;
+  border: 1px dashed white;
+}
+
+.what-we-do p {
   font-size: 1.464128vw;
   margin-bottom: 2vw;
 }
-.product-sec h1 {
+.what-we-do h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
   color: #113f9c;
@@ -500,10 +515,6 @@ a.underline3:after {
   background-repeat: no-repeat;
 }
 
-#hero-quality {
-  height: 100vh;
-}
-
 p.font-1-4vw {
   font-size: 1.3vw;
 }
@@ -530,10 +541,6 @@ p.font-1-4vw {
 
 .about-para2 {
   margin-bottom: 4vw;
-}
-
-#hero-contactus {
-  height: 79vh;
 }
 
 #form2 {
@@ -704,18 +711,15 @@ footer {
 }
 
 @media (max-width: 768px) {
-  img.logo {
-    height: 100px;
-    width: 100px;
-    top: -4px;
-    left: 6px;
+  #navbar1 {
+    background: #ffffff;
   }
 
-  .spinner {
-    width: 120px;
-    height: 120px;
-    top: -15px;
-    left: 6px;
+  img.logo {
+    height: 57px;
+    width: 100px;
+    top: 11px;
+    left: -52px;
   }
 
   .top-menu, .top-menu2 {
@@ -753,7 +757,7 @@ footer {
     transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
     stroke-width: 30px;
     stroke-linecap: round;
-    stroke: white;
+    stroke: #3e62ab;
     stroke-dashoffset: 0px;
   }
 
@@ -840,8 +844,12 @@ path#bottom {
     padding: 2vw 5vw !important;
   }
 
+  #hero-home {
+    height: 41vh;
+  }
+
   .black {
-    padding: 7.2vh 14.7vw 0vh 6.7vw;
+    padding: 7.2vh 7.7vw 0vh 6.7vw;
     height: 53vw;
   }
 
@@ -850,7 +858,7 @@ path#bottom {
     color: #113f9c;
     padding-right: 0.8vw;
     margin-top: -4px;
-    cursor: default;
+    cursor: pointer;
     transition: all 0.3s linear;
   }
 

@@ -38,5 +38,4 @@
 					// }
 					// add_action( 'send_headers', 'tgm_io_strict_transport_security' );
 
-
 ?>
