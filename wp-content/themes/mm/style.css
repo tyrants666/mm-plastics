@@ -445,6 +445,11 @@ img.partner-logo {
   filter: grayscale(1);
 }
 
+.owl1-item {
+  height: 25vw;
+  transition: all 0.3s ease-in-out;
+}
+
 #hero-product {
   height: 100vh;
 }
@@ -913,15 +918,6 @@ path#bottom {
   .client-sec h1 {
     font-size: 5.879939vw;
     margin-bottom: 4vw;
-  }
-
-  .owl1-item {
-    height: 25vw;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .owl2-item {
-    height: 25vw;
   }
 
   .product-sec h1 {

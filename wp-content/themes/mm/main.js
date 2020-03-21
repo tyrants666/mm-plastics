@@ -83,6 +83,18 @@ $(document).scroll(function () {
 
 $(document).ready(function() {
 
+        $('.owl1').owlCarousel({
+          items: 4,
+          loop: true,
+          margin: 40,
+          autoplay: true,
+          slideTransition: 'linear',
+          autoplaySpeed: 8000,
+          autoplayHoverPause: false,
+          center: true,
+        });
+
+
   $('.quote h1').addClass('fadeInUp2');
 
   $('.direction').on('click',function(){

@@ -249,8 +249,26 @@
 <article class="white">
   <!-- Our Products -->
   <div class="row mx-0 what-we-do">
+
     <div class="col-md-12 mx-auto text-center">
       <h1 class="">CLIENT <span class="half">TESTIMONIALS</span></h1>
+    </div>
+
+    <div class="col-md-12 mx-auto text-center">
+        <div class="owl1 owl-carousel">
+
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+
+        </div>
     </div>
   </div> 
 
