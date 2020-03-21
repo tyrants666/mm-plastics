@@ -123,3 +123,6 @@ exit(0);
 1584788530_6316:"Notice: mm-plastics, 127.0.0.1; Revision status has been changed; details: ID: 199,Old status: new,New status: inherit,Title: mmgroup"
 1584807374_1874:"Notice: mm-plastics, 127.0.0.1; Acf-field status has been changed; details: ID: 200,Old status: new,New status: publish,Title: partner"
 1584807374_5784:"Notice: mm-plastics, 127.0.0.1; Acf-field status has been changed; details: ID: 201,Old status: new,New status: publish,Title: Partner Logo"
+1584807722_5223:"Notice: mm-plastics, 127.0.0.1; Page was updated; ID: 6; name: mmgroup"
+1584807723_4223:"Notice: mm-plastics, 127.0.0.1; Page was updated; ID: 6; name: mmgroup"
+1584807723_6243:"Notice: mm-plastics, 127.0.0.1; Revision status has been changed; details: ID: 202,Old status: new,New status: inherit,Title: mmgroup"

@@ -286,7 +286,7 @@ a.underline2 {
 
 .white {
   background: #ffff;
-  color: black;
+  color: #5d5d5d;
   padding: 5.9vw 6.5vw;
 }
 
@@ -300,7 +300,7 @@ a.underline2 {
 // Read more
 
 .read-more {
-  color: $primary;
+  color: #5d5d5d;
   font-weight: 800;
   cursor: pointer;
   display: inline-block;
@@ -345,6 +345,10 @@ a.underline3:after {
   left: 0;
   right: auto;
   width: 100%;
+}
+.half{
+  // color: #e04a4a;
+  color: #0aacff;
 }
 // ********** Home Page *****************************************************
 
@@ -411,7 +415,7 @@ a.underline3:after {
   h1 {
     font-size: 53*$vw;
     font-weight: 800;
-    color: $primary;
+    color: #5d5d5d;
     margin-bottom: 2vw;
     // display: inline-block;
     // border-bottom: 4px solid #113f9c !important;
@@ -435,13 +439,13 @@ a.underline3:after {
   p {
     font-size: 25*$vw;
     margin-bottom: 2vw;
-    color: #17a2b8;
+    color: #0aacff;
   }
 
   h1 {
     font-size: 53*$vw;
     font-weight: 800;
-    color: #17a2b8;
+    color: #0aacff;
   }
 }
 .col-3_5 {
@@ -472,9 +476,25 @@ a.underline3:after {
   h1 {
     font-size: 53*$vw;
     font-weight: 800;
-    color: $primary;
+    color: #5d5d5d;
     margin-bottom: 5vw;
   }
+}
+.partner-wrap{
+  height: 150px;
+  width: auto;
+    position: relative;
+        // box-shadow: 0 10px 40px -6px rgba(0, 0, 0, .3);
+        // border: 1px solid;
+}
+img.partner-logo{
+    height: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 26%;
+    filter: grayscale(1);
 }
 // ********** Product Page ****************************************************
 

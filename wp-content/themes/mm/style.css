@@ -253,7 +253,7 @@ a.underline2:hover {
 
 .white {
   background: #ffff;
-  color: black;
+  color: #5d5d5d;
   padding: 5.9vw 6.5vw;
 }
 
@@ -264,7 +264,7 @@ a.underline2:hover {
 }
 
 .read-more {
-  color: #113f9c;
+  color: #5d5d5d;
   font-weight: 800;
   cursor: pointer;
   display: inline-block;
@@ -309,6 +309,10 @@ a.underline3:after {
   left: 0;
   right: auto;
   width: 100%;
+}
+
+.half {
+  color: #0aacff;
 }
 
 #hero-home {
@@ -367,7 +371,7 @@ a.underline3:after {
 .about-sec h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
-  color: #113f9c;
+  color: #5d5d5d;
   margin-bottom: 2vw;
 }
 
@@ -388,12 +392,12 @@ a.underline3:after {
 .who-we-are p {
   font-size: 1.83016vw;
   margin-bottom: 2vw;
-  color: #17a2b8;
+  color: #0aacff;
 }
 .who-we-are h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
-  color: #17a2b8;
+  color: #0aacff;
 }
 
 .col-3_5 {
@@ -421,8 +425,24 @@ a.underline3:after {
 .what-we-do h1 {
   font-size: 3.8799392vw;
   font-weight: 800;
-  color: #113f9c;
+  color: #5d5d5d;
   margin-bottom: 5vw;
+}
+
+.partner-wrap {
+  height: 150px;
+  width: auto;
+  position: relative;
+}
+
+img.partner-logo {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 26%;
+  filter: grayscale(1);
 }
 
 #hero-product {

@@ -22,7 +22,7 @@
   <div class="row mx-0 about-sec">
     
     <div class="col-md-4 mx-auto text-center">
-      <h1 class="">About Us</h1>
+      <h1 class="">ABOUT <span class="half"> US</span></h1>
     </div>
     
     <div class="col-md-9 mx-auto text-center">
@@ -34,13 +34,13 @@
   
   <div class="col-12 mt-5">
     <div class="row mx-0">
-          <div class="col-lg-3 logo-wrap mx-auto text-center">
+          <div class="col-lg-3 logo-wrap ml-auto text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/logo.png"alt="">
           </div>
-          <div class="col-lg-3 logo-wrap mx-auto text-center">
+          <div class="col-lg-3 logo-wrap text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_polymers.svg" alt="">
           </div>
-          <div class="col-lg-3 logo-wrap mx-auto text-center">
+          <div class="col-lg-3 logo-wrap mr-auto text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_naturals.png" alt="">
           </div>
         </div>
@@ -53,7 +53,7 @@
   <div class="row mx-0 who-we-are">
 
     <div class="col-12 mx-auto">
-      <h1 class="">Who we are</h1>
+      <h1 class="">WHO WE ARE</h1>
       <p><?php the_field('whoweare'); ?></p>
     </div>
 
@@ -71,11 +71,11 @@
 
   </div>
   
-<article class="white">
+<article class="white pb-0">
   <!-- Our Products -->
   <div class="row mx-0 what-we-do">
     <div class="col-md-12 mx-auto text-center">
-      <h1 class="">What we do</h1>
+      <h1 class="">WHAT WE <span class="half">DO</span></h1>
     </div>
     <div class="col-md-12 mx-auto text-center">
                       <div class="Grid">
@@ -153,27 +153,16 @@
                           </div>
                         </div>
                         
-          <div class="col-md-12 mx-auto text-center">
+          <div class="col-md-12 mt-5 mx-auto text-center">
+
                 <div class="row mx-0">
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
+                  <?php while( have_rows('partner') ): the_row(); ?>
+                    <div class="col-3 py-2 partner-wrap">
+                        <img class="partner-logo" src="<?php the_sub_field('partner_logo'); ?>"alt="">
                     </div>
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
-                    </div>
-                    <div class="col-3">
-                        <img class="hexa-img" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex9.png"alt="">
-                    </div>
+                  <?php endwhile; ?>
                 </div>
+
           </div>
     </div>
   </div>
@@ -203,7 +192,8 @@
                         -webkit-clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
                         clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
                         padding-bottom: 115.602%;
-                        background-color: #383d41;
+                        background-color: #e9ecef;
+                        /* background-color: #383d41; */
                         border-radius: 100%;
                     }
                     
@@ -235,7 +225,7 @@
                         white-space: nowrap;
                         position: relative;
                         font-weight: 500;
-                        color: #fff;
+                        color: #000;
                         top: 10px;
                         text-decoration:none;
                       }
@@ -256,5 +246,14 @@
 
 </article>
 
+<article class="white">
+  <!-- Our Products -->
+  <div class="row mx-0 what-we-do">
+    <div class="col-md-12 mx-auto text-center">
+      <h1 class="">CLIENT <span class="half">TESTIMONIALS</span></h1>
+    </div>
+  </div> 
+
+</article> 
 
 <?php get_footer(); ?>
