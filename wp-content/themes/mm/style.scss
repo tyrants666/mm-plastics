@@ -49,6 +49,7 @@ body {
 #navbar1 {
   // display: none;
 background: #113f9c;
+background-image: linear-gradient(45deg, #3D41DA 0%, #0088F7 100%);
 width: 65.5vw;
 position: absolute;
 top: 6.5vh;
@@ -92,6 +93,7 @@ a.underline22 {
   color: #ffff;
   text-decoration: none;
   overflow: hidden;
+  font-weight: 500;
 
   &:hover {
     color: #87aad0;
@@ -164,7 +166,7 @@ a.underline {
 #navbar2 {
   // display: none;
   opacity: 0;
-  background: $primary;
+  background: #ffffffe3;
   height: 60px;
   position: fixed;
   top: 0;
@@ -201,12 +203,13 @@ a.underline2 {
   display: inline;
   position: relative;
   font-size: 15px;
-  color: #ffff;
+  color: #080808;
   text-decoration: none;
   overflow: hidden;
+  font-weight: 600;
 
   &:hover {
-    color: #87aad0;
+    color: #113f9c;
   }
 }
 
@@ -217,7 +220,7 @@ a.underline2 {
   right: 0;
   width: 0;
   top: 86px;
-  background: #ffff;
+  background: #113f9c;
   height: 3px;
   transition-property: width;
   transition-duration: 0.5s;
@@ -233,7 +236,7 @@ a.underline2 {
 }
 
 .selected2 {
-  color: #87aad0 !important;
+  color: #113f9c !important;
 
   &:after {
     content: "";
@@ -287,7 +290,8 @@ a.underline2 {
 .white {
   background: #ffff;
   color: #5d5d5d;
-  padding: 5.9vw 6.5vw;
+  // padding: 5.9vw 6.5vw;
+  padding: 5.9vw 6.5vw 3.9vw 6.5vw;
 }
 
 .blue {
@@ -408,12 +412,12 @@ a.underline3:after {
   margin-bottom: 5vw;
 
   p {
-    font-size: 20*$vw;
+    font-size: 1.3vw;
     margin-bottom: 2vw;
   }
 
   h1 {
-    font-size: 53*$vw;
+    font-size: 3vw;
     font-weight: 800;
     color: #5d5d5d;
     margin-bottom: 2vw;
@@ -426,26 +430,49 @@ a.underline3:after {
     height: 116px;
 }
 
-
+.bottomRightRounded {
+  position: absolute;
+  z-index: 9;
+  transform: rotate(180deg);
+  margin-top: -1px;
+}
+.bottomRightRounded path {
+  fill: #fff;
+  stroke: #fff;
+}
+.topLeftRounded {
+  position: absolute;
+  margin-top: -100px;
+  z-index: 9;
+  left: 0;
+}
+.topLeftRounded path {
+  fill: #fff;
+  stroke: #fff;
+}
 .who-we-are{
     background-image: url(images/preform.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 31%;
-    padding: 5.9vw 6.5vw;
+    padding: 12vw 6.5vw;
     color: #c78282;
-    box-shadow: 0px 1px 20px 2px #00000061;
-    // background-attachment: fixed;
+    text-align: center;
+    
+    // box-shadow: 0px 1px 20px 2px #00000061;
+    // background: #113f9c;
+    background-image: linear-gradient(-135deg, #3D41DA 0%, #1E1F44 100%);
   p {
-    font-size: 25*$vw;
+    font-size: 18*$vw;
     margin-bottom: 2vw;
-    color: #0aacff;
+    color: #fff;
+    padding: 25px 24vw;
   }
 
   h1 {
-    font-size: 53*$vw;
+    font-size: 48*$vw;
     font-weight: 800;
-    color: #0aacff;
+    color: #fff;
   }
 }
 .col-3_5 {
@@ -456,15 +483,16 @@ a.underline3:after {
 .dark-product{
       // box-shadow: 0px 1px 20px 2px #706f6f61;
       // background: #2bb2887a;
-      font-size: 1.3vw;
-      font-weight: 500;
-      border-radius: 11px;
-      padding: 1.8vw;
-      transition: all 0.7s;
-      text-align: center;
-      height: 193px;
-      color: #c8c8c8;
-      border: 1px dashed white;
+      /* border: 1px dashed white; */
+    font-size: 1.3vw;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 1.8vw;
+    transition: all 0.7s;
+    text-align: center;
+    height: 193px;
+    color: #d4d4d4;
+    background: #ffffff3d;
 }
 .what-we-do {
 
@@ -474,7 +502,7 @@ a.underline3:after {
   }
 
   h1 {
-    font-size: 53*$vw;
+    font-size: 3vw;
     font-weight: 800;
     color: #5d5d5d;
     margin-bottom: 5vw;
@@ -497,8 +525,12 @@ img.partner-logo{
     filter: grayscale(1);
 }
 .owl1-item {
-  height: 25vw;
+  height: 29vw;
+  width: 271*$vw;
   transition: all 0.3s ease-in-out;
+  // border: 1px solid;
+  box-shadow: -1px 18px 20px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
 }
 // ********** Product Page ****************************************************
 
@@ -792,7 +824,8 @@ footer {
 
   //Global
       #navbar1 {
-        background: #ffffff;
+        // background: #ffffff;
+        
       }
       img.logo {
         height: 57px;
@@ -941,23 +974,27 @@ footer {
     margin-bottom: 9vw;
   }
   .about-sec h1 {
-    font-size: 6.879939vw;
+    font-size: 5.879939vw;
     margin-bottom: 5vw;
   }
   .about-sec p {
     font-size: 3.464128vw;
     margin-bottom: 1vw;
   }
-  .client-sec {
+  .who-we-are {
     margin-bottom: -10vw;
   }
-    .client-sec h1 {
+    .who-we-are h1 {
       font-size: 5.879939vw;
       margin-bottom: 4vw;
   }
-  .product-sec h1 {
+  .what-we-do h1 {
       font-size: 5.879939vw;
       margin-bottom: 7vw;
+  }
+  .logos-com {
+    width: auto;
+    height: 40px;
   }
 
   //Product Page MOBILE

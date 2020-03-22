@@ -34,13 +34,13 @@
   
   <div class="col-12 mt-5">
     <div class="row mx-0">
-          <div class="col-lg-3 logo-wrap ml-auto text-center">
+          <div class="col-3 logo-wrap ml-auto text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/logo.png"alt="">
           </div>
-          <div class="col-lg-3 logo-wrap text-center">
+          <div class="col-3 logo-wrap text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_polymers.svg" alt="">
           </div>
-          <div class="col-lg-3 logo-wrap mr-auto text-center">
+          <div class="col-3 logo-wrap mr-auto text-center">
             <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_naturals.png" alt="">
           </div>
         </div>
@@ -49,11 +49,14 @@
     </div>
 </article>
 
-  <!-- Our Clients -->
+  <!-- Who we are -->
+  <svg class="bottomRightRounded" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 20 50 80" preserveAspectRatio="none">
+    <path d="M0,101 C15,100 35,50 50,50 L50,50 C65,50 85,100 100,100 Z"></path>
+  </svg>
   <div class="row mx-0 who-we-are">
 
     <div class="col-12 mx-auto">
-      <h1 class="">WHO WE ARE</h1>
+      <h1 class="">Who we are</h1>
       <p><?php the_field('whoweare'); ?></p>
     </div>
 
@@ -63,13 +66,17 @@
           <div class="col-3_5 dark-product mx-auto">HDPE jars and jerrycanes</div>
           <div class="col-3_5 dark-product ml-auto">HDPE pipes and PVC Profiles</div>
         </div>    
-        <div class="row mx-0 mt-4">
-          <div class="col-3_5 dark-product ml-auto mr-5">Pet Bottles & Jars</div>
-          <div class="col-3_5 dark-product mr-auto ml-5">Pet Bottles & Jars</div>
+        <div class="row mx-0 mt-5">
+          <div class="col-3_5 dark-product ml-auto mr-4">Pet Bottles & Jars</div>
+          <div class="col-3_5 dark-product mr-auto ml-4">Pet Bottles & Jars</div>
         </div>    
     </div>
 
   </div>
+  <svg class="topLeftRounded" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="50 20 50 80" preserveAspectRatio="none">
+    <path d="M0,103 C15,100 35,50 50,50 L50,50 C65,50 85,100 100,100 Z"></path>
+  </svg>
+
   
 <article class="white pb-0">
   <!-- Our Products -->
@@ -257,16 +264,16 @@
     <div class="col-md-12 mx-auto text-center">
         <div class="owl1 owl-carousel">
 
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/hex7.png') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
 
         </div>
     </div>

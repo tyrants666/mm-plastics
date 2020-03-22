@@ -52,7 +52,7 @@
           <!-- Sidebar -->
     			<div id="mySidepanel" class="sidepanel w-0">
             <ul>
-                <a href="<?php echo home_url(); ?>" class="underline <?php if( is_page('mmplastic') ) { echo "selected"; }?>">  <li> Home </li> </a>
+                <a href="<?php echo home_url(); ?>" class="underline <?php if( is_page('mmgroup') ) { echo "selected"; }?>">  <li> Home </li> </a>
                 <a href="<?php echo home_url(); ?>/product" class="underline <?php if( is_page('product') ) { echo "selected"; }?>" >  <li> Products </li> </a>
                 <!-- <a href="<?php echo home_url(); ?>/quality" class="underline <?php if( is_page('quality') ) { echo "selected"; }?>" >  <li> Quality </li> </a> -->
                 <a href="<?php echo home_url(); ?>/technology" class="underline <?php if( is_page('technology') ) { echo "selected"; }?>" >  <li> Technology </li> </a>
@@ -73,7 +73,7 @@
 
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
-                    <a href="<?php echo home_url(); ?>" class="underline2 <?php if( is_page('mmplastic') ) { echo "selected2"; }?>">  <li> Home </li> </a>
+                    <a href="<?php echo home_url(); ?>" class="underline2 <?php if( is_page('mmgroup') ) { echo "selected2"; }?>">  <li> Home </li> </a>
                     <a href="<?php echo home_url(); ?>/product" class="underline2 <?php if( is_page('product') ) { echo "selected2"; }?>" >  <li> Products </li> </a>
                     <!-- <a href="<?php echo home_url(); ?>/quality" class="underline2 <?php if( is_page('quality') ) { echo "selected2"; }?>" >  <li> Quality </li> </a> -->
                     <a href="<?php echo home_url(); ?>/technology" class="underline2 <?php if( is_page('technology') ) { echo "selected2"; }?>" >  <li> Technology </li> </a>

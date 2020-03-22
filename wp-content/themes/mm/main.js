@@ -84,7 +84,7 @@ $(document).scroll(function () {
 $(document).ready(function() {
 
         $('.owl1').owlCarousel({
-          items: 4,
+          items: 3,
           loop: true,
           margin: 40,
           autoplay: true,
