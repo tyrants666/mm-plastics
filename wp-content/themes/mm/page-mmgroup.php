@@ -60,7 +60,7 @@
       <p><?php the_field('whoweare'); ?></p>
     </div>
 
-    <div class="col-12 mx-auto">
+    <div class="col-12 mx-auto wrap-product">
         <div class="row mx-0">
           <div class="col-3_5 dark-product mr-auto">Caps and Closures</div>
           <div class="col-3_5 dark-product mx-auto">HDPE jars and jerrycanes</div>
@@ -160,7 +160,7 @@
                           </div>
                         </div>
                         
-          <div class="col-md-12 mt-5 mx-auto text-center">
+          <div class="col-md-12 mx-auto text-center mt-6vw">
 
                 <div class="row mx-0">
                   <?php while( have_rows('partner') ): the_row(); ?>

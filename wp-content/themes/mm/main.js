@@ -6,7 +6,14 @@ $(document).scroll(function () {
   scrolltop = $(this).scrollTop();
 });
 
+$(document).mousemove(function (e) {
+  $('.cursor, .cursor2')
+    .css({
+      left: e.clientX,
+      top: e.clientY
+    });
 
+})
 
 //Mobile Scripts #######################################################################
 if (document.documentElement.clientWidth <= 768) {
@@ -83,6 +90,7 @@ $(document).scroll(function () {
 
 $(document).ready(function() {
 
+
         $('.owl1').owlCarousel({
           items: 3,
           loop: true,
@@ -94,6 +102,13 @@ $(document).ready(function() {
           center: true,
         });
 
+  $('.who-we-are, .bottomRightRounded, .topLeftRounded').hover(function(){
+      $('.cursor').css('background','#fff');
+      $('.cursor2').css('background','#fff');
+    },function(){
+      $('.cursor').css('background','');
+      $('.cursor2').css('background','');
+  })
 
   $('.quote h1').addClass('fadeInUp2');
 
@@ -101,7 +116,7 @@ $(document).ready(function() {
       location.href = "https://goo.gl/maps/f1VXVBVnVpJhZGmE9";
   });
   $('.information').hover(function(){
-      $(this).css('cursor','pointer');
+      // $(this).css('cursor','pointer');
       $(this).find('i').css('color','#d8d8d8');
   },function(){
     $(this).find('i').css('color','');

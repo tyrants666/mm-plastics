@@ -12,6 +12,10 @@ Tags:
 */
 /*/
 /////////////////////   Global /////////////////*/
+html {
+  cursor: none;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -28,13 +32,96 @@ body {
   background-position: bottom;
 }
 
-.overlay {
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-width: 0;
-  height: inherit;
+a:-webkit-any-link {
+  cursor: none !important;
 }
 
+a:hover,
+a:focus,
+a:active {
+  cursor: none !important;
+}
+
+.cursor {
+  position: fixed;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 20000;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  pointer-events: none;
+  -webkit-animation: cursor 0.6s linear infinite alternate;
+  animation: cursor 0.6s linear infinite alternate;
+  background-color: #121eb2;
+  opacity: 1;
+}
+
+.cursor2 {
+  position: fixed;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 20000;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  pointer-events: none;
+  animation: name 0.8s linear infinite alternate-reverse;
+  background-color: #121eb2;
+}
+
+@-webkit-keyframes cursor {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.6);
+    transform: translateX(-50%) translateY(-50%) scale(-0.6);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    transform: translateX(-50%) translateY(-50%) scale(-0.8);
+  }
+}
+@keyframes cursor {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.6);
+    transform: translateX(-50%) translateY(-50%) scale(-0.6);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    transform: translateX(-50%) translateY(-50%) scale(-0.8);
+  }
+}
+@-webkit-keyframes name {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-1.2);
+    transform: translateX(-50%) translateY(-50%) scale(-1.2);
+    opacity: 0.4;
+  }
+}
+@keyframes name {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    transform: translateX(-50%) translateY(-50%) scale(-0.8);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(-1.2);
+    transform: translateX(-50%) translateY(-50%) scale(-1.2);
+    opacity: 0.4;
+  }
+}
 #navbar1 {
   background: #113f9c;
   background-image: linear-gradient(45deg, #3D41DA 0%, #0088F7 100%);
@@ -114,6 +201,7 @@ a.underline:hover {
   left: 0;
   right: auto;
   width: 100%;
+  cursor: none;
 }
 
 .selected {
@@ -206,6 +294,7 @@ a.underline2:hover {
   left: 0;
   right: auto;
   width: 100%;
+  cursor: none;
 }
 
 .selected2 {
@@ -240,7 +329,6 @@ a.underline2:hover {
   color: #113f9c;
   padding-right: 0.8vw;
   margin-top: -4px;
-  cursor: default;
   transition: all 0.3s linear;
 }
 .black i:hover {
@@ -269,7 +357,6 @@ a.underline2:hover {
 .read-more {
   color: #5d5d5d;
   font-weight: 800;
-  cursor: pointer;
   display: inline-block;
   transition: all 0.3s linear;
 }
@@ -312,6 +399,7 @@ a.underline3:after {
   left: 0;
   right: auto;
   width: 100%;
+  cursor: none;
 }
 
 .half {
@@ -429,6 +517,10 @@ a.underline3:after {
   color: #fff;
 }
 
+.wrap-product {
+  padding: 0 8.5vw;
+}
+
 .col-3_5 {
   -ms-flex: 0 0 30.5%;
   flex: 0 0 30.5%;
@@ -459,6 +551,10 @@ a.underline3:after {
   margin-bottom: 5vw;
 }
 
+.mt-6vw {
+  margin-top: 6vw !important;
+}
+
 .partner-wrap {
   height: 150px;
   width: auto;
@@ -472,7 +568,6 @@ img.partner-logo {
   top: 50%;
   transform: translateY(-50%);
   left: 26%;
-  filter: grayscale(1);
 }
 
 .owl1-item {
@@ -498,71 +593,6 @@ img.partner-logo {
   font-weight: 800;
   margin-bottom: 5vh;
   color: #113f9c;
-}
-
-.owl-product {
-  position: relative;
-}
-
-.product-slides {
-  text-align: center;
-  height: 320px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.product-slides img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto !important;
-  height: 100%;
-}
-
-.left, .left4, .left5, .left6, .left7, .left8 {
-  position: absolute;
-  color: #113f9c;
-  font-size: 4.5387968vw;
-  left: 0;
-  top: 10vw;
-  cursor: pointer;
-  z-index: 1;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-     supported by Chrome, Opera and Firefox */
-}
-
-.right, .right4, .right5, .right6, .right7, .right8 {
-  position: absolute;
-  color: #113f9c;
-  font-size: 4.5387968vw;
-  right: 0;
-  top: 10vw;
-  cursor: pointer;
-  z-index: 1;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
-     supported by Chrome, Opera and Firefox */
 }
 
 .product-row1 {
@@ -676,7 +706,6 @@ footer {
   color: #B0B0B0;
   font-size: 1.1713024vw;
   line-height: 2.7086368vw;
-  cursor: pointer;
   list-style-type: none;
 }
 .sec1 li span,
@@ -794,7 +823,6 @@ footer {
     margin-right: -19px;
     margin-left: -24px;
     margin-top: -8px;
-    cursor: pointer;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
@@ -912,7 +940,6 @@ path#bottom {
     color: #113f9c;
     padding-right: 0.8vw;
     margin-top: -4px;
-    cursor: pointer;
     transition: all 0.3s linear;
   }
 

@@ -20,7 +20,11 @@
   <?php wp_head(); ?>
   </head>
 
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
   <body <?php body_class(); ?> id="body" class="body">
+
 
         <!-- navbar -->
         <nav class="navbar navbar-light mx-auto" id="navbar1">

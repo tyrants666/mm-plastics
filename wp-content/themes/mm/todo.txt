@@ -28,6 +28,7 @@ TO BE DONE *****
 ★ On includes/form-submit.php correct official Email
 ★ Landing Page correct anchor links
 ★ Remove other land.svg image from images folder
+★ Ask her to take ownership of himalayan host account
 
 
 
