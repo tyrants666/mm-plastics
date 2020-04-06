@@ -35,13 +35,13 @@
   <div class="col-12 mt-5">
     <div class="row mx-0">
           <div class="col-3 logo-wrap ml-auto text-center">
-            <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/logo.png"alt="">
+            <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
           </div>
           <div class="col-3 logo-wrap text-center">
-            <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_polymers.svg" alt="">
+            <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.svg" alt="">
           </div>
           <div class="col-3 logo-wrap mr-auto text-center">
-            <img class="logos-com" src="http://development.mmgrp.org/wp-content/themes/mm/images/mm_naturals.png" alt="">
+            <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_naturals.png" alt="">
           </div>
         </div>
       </div>
