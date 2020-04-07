@@ -113,20 +113,6 @@
   animation-duration: 0.8s;
 }
 
-/* Image spin */
-@-webkit-keyframes spin {
-  0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-       }
-}
-@keyframes spin {
-100% {
-      -webkit-transform: rotate(360deg);
-       transform:rotate(360deg);
-     }
-}
-
 /* Epic Spinner */
 .flower-spinner,  .flower-spinner * {
       box-sizing: border-box;

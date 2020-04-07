@@ -115,7 +115,7 @@
 <div class="bot-bar row mx-0">
 
 <div class="pr-4">
-  <img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
+  <img class="logo3" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo-rotate.gif"alt="">
 </div>
 <div class="col-lg-4 col-9 p-0">
   <p>© MM Group  Pvt. Ltd. | all rights are reserved.</p>

@@ -12,10 +12,6 @@ Tags:
 */
 /*/
 /////////////////////   Global /////////////////*/
-html {
-  cursor: none;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -32,96 +28,6 @@ body {
   background-position: bottom;
 }
 
-a:-webkit-any-link {
-  cursor: none !important;
-}
-
-a:hover,
-a:focus,
-a:active {
-  cursor: none !important;
-}
-
-.cursor {
-  position: fixed;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 20000;
-  -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-  pointer-events: none;
-  -webkit-animation: cursor 0.6s linear infinite alternate;
-  animation: cursor 0.6s linear infinite alternate;
-  background-color: #121eb2;
-  opacity: 1;
-}
-
-.cursor2 {
-  position: fixed;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 20000;
-  -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-  pointer-events: none;
-  animation: name 0.8s linear infinite alternate-reverse;
-  background-color: #121eb2;
-}
-
-@-webkit-keyframes cursor {
-  0% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.6);
-    transform: translateX(-50%) translateY(-50%) scale(-0.6);
-  }
-  100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    transform: translateX(-50%) translateY(-50%) scale(-0.8);
-  }
-}
-@keyframes cursor {
-  0% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.6);
-    transform: translateX(-50%) translateY(-50%) scale(-0.6);
-  }
-  100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    transform: translateX(-50%) translateY(-50%) scale(-0.8);
-  }
-}
-@-webkit-keyframes name {
-  0% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-1.2);
-    transform: translateX(-50%) translateY(-50%) scale(-1.2);
-    opacity: 0.4;
-  }
-}
-@keyframes name {
-  0% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    transform: translateX(-50%) translateY(-50%) scale(-0.8);
-    opacity: 0.5;
-  }
-  100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) scale(-1.2);
-    transform: translateX(-50%) translateY(-50%) scale(-1.2);
-    opacity: 0.4;
-  }
-}
 #navbar1 {
   background: #113f9c;
   background-image: linear-gradient(45deg, #3D41DA 0%, #0088F7 100%);
@@ -319,6 +225,7 @@ a.underline2:hover {
   color: white;
   padding: 6.2vh 6.7vw 5.2vh;
   height: 21vh;
+  cursor: default;
 }
 .black h5 {
   font-size: 1.3177152vw;
@@ -775,10 +682,7 @@ footer {
 
 .logo3 {
   height: 40px;
-  width: 40px;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
+  width: auto;
 }
 
 #gotop {

@@ -6,15 +6,6 @@ $(document).scroll(function () {
   scrolltop = $(this).scrollTop();
 });
 
-$(document).mousemove(function (e) {
-  $('.cursor, .cursor2')
-    .css({
-      left: e.clientX,
-      top: e.clientY
-    });
-
-})
-
 //Mobile Scripts #######################################################################
 if (document.documentElement.clientWidth <= 768) {
 

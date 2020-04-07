@@ -20,9 +20,6 @@
   <?php wp_head(); ?>
   </head>
 
-<div class="cursor"></div>
-<div class="cursor2"></div>
-
   <body <?php body_class(); ?> id="body" class="body">
 
 
