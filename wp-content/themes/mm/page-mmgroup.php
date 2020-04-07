@@ -1,8 +1,6 @@
 
 <?php get_header(); ?>
 
-
-
 <div class="hero" id="hero-home">
     <!-- Quote -->
     <!-- <div class="quote">

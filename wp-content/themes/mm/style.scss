@@ -552,11 +552,15 @@ p.font-1-4vw{
 }
 // ********** Technology Page *******************************************************
 
-#hero-technology {
-  height: 100vh;
-}
 .tech-row{
-  padding: 5.9vw 6.5vw 4.5vw 6.5vw;
+  padding: 12.9vw 6.5vw 0 6.5vw;
+    p{
+      font-size: 18*$vw;
+      padding-top: 48px;
+    }
+}
+.tech-row2{
+  padding: 0 6.5vw 4.5vw 6.5vw;
     p{
       font-size: 18*$vw;
       padding-top: 48px;
@@ -564,9 +568,6 @@ p.font-1-4vw{
 }
 // ********** About Us Page *******************************************************
 
-#hero-aboutus {
-  height: 100vh;
-}
 .about-para1{
   margin-bottom: 4vw;
 }

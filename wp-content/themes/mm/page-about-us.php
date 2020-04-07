@@ -1,16 +1,11 @@
 
 <?php get_header(); ?>
 
-
-<div class="hero" id="hero-aboutus">
-    <!-- Quote -->
-    <div class="quote">
-      <h1 class=""> About <span>Us.</span></h1>
-      <h4 class=" fadeInDown2"><?php the_field('small_title'); ?></h4>
-    </div>
-
-</div>
-
+  <style>
+    .white {
+      padding: 14vw 6.5vw 3.9vw 6.5vw !important;
+    }
+  </style>
 
 <article class="white" id="check_white">
   <!-- Paragraph 1 -->

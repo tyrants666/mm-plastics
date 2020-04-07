@@ -1,18 +1,13 @@
 
 <?php get_header(); ?>
 
-
-<div class="hero" id="hero-product">
-    <!-- Quote -->
-    <div class="quote">
-      <h1 class=""> Our <span>Products.</span></h1>
-      <h4 class=" fadeInDown2">Our modern life would be very different without plastics.</h4>
-    </div>
-
-</div>
-
 <div class="white" id="white">
-  <!-- //here -->
+
+  <style>
+  .white {
+    padding: 14vw 6.5vw 3.9vw 6.5vw !important;
+  }
+  </style>
 
 
   <!-- product 1 -->

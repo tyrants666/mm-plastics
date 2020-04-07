@@ -1,17 +1,6 @@
 
 <?php get_header(); ?>
 
-
-<div class="hero" id="hero-technology">
-    <!-- Quote -->
-    <!-- <div class="quote">
-      <h1 class=""> Technology </h1>
-      <h4 class=" fadeInDown2"><?php the_field('small_title'); ?></h4>
-    </div> -->
-
-</div>
-
-
 <article class=" row mx-0 mb-5 tech-row">
 <!-- Paragraph -->
   <div class="col-lg-5 p-0 mr-auto" >
@@ -34,7 +23,7 @@
 </article>
 
 
-<article class=" row mx-0 mb-5 tech-row">
+<article class=" row mx-0 mb-5 tech-row2">
 <!-- Paragraph -->
   <div class="col-lg-5 p-0 mr-auto" >
       <p><?php the_field('paragraph_2'); ?></p>
