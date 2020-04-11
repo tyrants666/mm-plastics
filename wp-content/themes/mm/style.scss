@@ -61,7 +61,7 @@ body {
   z-index: 1;
   position: absolute;
   width: 100%;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
   padding: 0 12.5vw;
 }
 
@@ -90,15 +90,38 @@ a.underline22 {
   display: inline;
   position: relative;
   // font-size: 15px;
-  color: black;
+  color: #4e4e4e;
   text-decoration: none;
   overflow: hidden;
-  font-weight: 500;
+  font-weight: 600;
 
   &:hover {
     color: #113f9c;
   }
 }
+.underline22:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  width: 0;
+  top: 76px;
+  background: #113f9c;
+  height: 3px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.underline22:active:after,
+.underline22:focus:after,
+.underline22:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+  cursor: none;
+}
+
 a.underline {
   padding: 34px 0;
   display: inline;
@@ -137,7 +160,7 @@ a.underline {
 }
 
 .selected {
-  color: #87aad0 !important;
+  color: #113f9c !important;
 
   &:after {
     content: "";
@@ -186,6 +209,9 @@ img.logo2 {
 }
 
 .top-menu2 {
+  width: 100%;
+  text-align: center;
+  margin-top: -4.5px;
   ul {
     padding-right: 0;
     // padding-right: 4vw;
@@ -199,9 +225,17 @@ img.logo2 {
     transition: all 0.5s ease-out;
   }
 }
+.my-li{
+    background: #393cc6;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.7vw 2vw 0.8vw 2vw !important;
+    margin-left: 2vw;
+    margin-right: -23vw;
+}
 
 a.underline2 {
-  padding: 52px 0;
+  padding: 24px 0 19px 0;
   display: inline;
   position: relative;
   font-size: 15px;
@@ -221,7 +255,7 @@ a.underline2 {
   z-index: 1;
   right: 0;
   width: 0;
-  top: 86px;
+  top: 61px;
   background: #113f9c;
   height: 3px;
   transition-property: width;
@@ -241,19 +275,19 @@ a.underline2 {
 .selected2 {
   color: #113f9c !important;
 
-  &:after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    width: 100% !important;
-    top: 86px;
-    background: #ffff;
-    height: 3px;
-    transition-property: width;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
-  }
+  // &:after {
+  //   content: "";
+  //   position: absolute;
+  //   z-index: 1;
+  //   right: 0;
+  //   width: 100% !important;
+  //   top: 86px;
+  //   background: #ffff;
+  //   height: 3px;
+  //   transition-property: width;
+  //   transition-duration: 0.5s;
+  //   transition-timing-function: ease-out;
+  // }
 }
 
 .white {

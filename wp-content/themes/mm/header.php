@@ -33,7 +33,7 @@
 
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
-                      <a href="<?php echo home_url(); ?>" class="underline22 <?php if( is_page('mmplastic') ) { echo "selected"; }?>">  <li> Home </li> </a>
+                      <a href="<?php echo home_url(); ?>" class="underline22 <?php if( is_page('mmgroup') ) { echo "selected"; }?>">  <li> Home </li> </a>
                       <a href="<?php echo home_url(); ?>/product" class="underline22 <?php if( is_page('product') ) { echo "selected"; }?>" >  <li> Products </li> </a>
                       <!-- <a href="<?php echo home_url(); ?>/quality" class="underline22 <?php if( is_page('quality') ) { echo "selected"; }?>" >  <li> Quality </li> </a> -->
                       <a href="<?php echo home_url(); ?>/technology" class="underline22 <?php if( is_page('technology') ) { echo "selected"; }?>" >  <li> Technology </li> </a>
@@ -79,7 +79,7 @@
                     <!-- <a href="<?php echo home_url(); ?>/quality" class="underline2 <?php if( is_page('quality') ) { echo "selected2"; }?>" >  <li> Quality </li> </a> -->
                     <a href="<?php echo home_url(); ?>/technology" class="underline2 <?php if( is_page('technology') ) { echo "selected2"; }?>" >  <li> Technology </li> </a>
                     <a href="<?php echo home_url(); ?>/about-us" class="underline2 <?php if( is_page('about-us') ) { echo "selected2"; }?>" >  <li> About Us </li> </a>
-                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2 <?php if( is_page('contact-us') ) { echo "selected2"; }?>" >  <li> Contact Us </li> </a>
+                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2 <?php if( is_page('contact-us') ) { echo "selected2"; }?>" >  <li class="my-li"> Contact Us </li> </a>
                   </ul>
           </div>
 
