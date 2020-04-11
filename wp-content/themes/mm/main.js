@@ -10,7 +10,18 @@ $(document).scroll(function () {
 if (document.documentElement.clientWidth <= 768) {
 
   $(document).ready(function(){   
-      $('.sent_foot').css('font-size','3.83vw')
+      $('.sent_foot').css('font-size','3.83vw');
+
+      $('.owl1').owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 40,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplaySpeed: 8000,
+        autoplayHoverPause: false,
+        center: true,
+      });
   });
 
   // #gotop hide
@@ -28,6 +39,19 @@ if (document.documentElement.clientWidth <= 768) {
 if (document.documentElement.clientWidth > 768) {
 
   $(document).ready(function(){
+
+    $('.owl1').owlCarousel({
+      items: 3,
+      loop: true,
+      margin: 40,
+      autoplay: true,
+      // slideTransition: 'linear',
+      // autoplaySpeed: 8000,
+      autoplayHoverPause: false,
+      autoplayTimeout: 1800,
+      autoplayHoverPause: false,
+      center: true
+    });
     
   });
 
@@ -80,18 +104,6 @@ $(document).scroll(function () {
 //Document Ready ************************************
 
 $(document).ready(function() {
-
-
-        $('.owl1').owlCarousel({
-          items: 3,
-          loop: true,
-          margin: 40,
-          autoplay: true,
-          slideTransition: 'linear',
-          autoplaySpeed: 8000,
-          autoplayHoverPause: false,
-          center: true,
-        });
 
   $('.who-we-are, .bottomRightRounded, .topLeftRounded').hover(function(){
       $('.cursor').css('background','#fff');

@@ -36,7 +36,7 @@
             <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
           </div>
           <div class="col-3 logo-wrap text-center">
-            <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.svg" alt="">
+            <img class="logo-polymer" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.svg" alt="">
           </div>
           <div class="col-3 logo-wrap mr-auto text-center">
             <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_naturals.png" alt="">
@@ -253,7 +253,7 @@
 
 <article class="white">
   <!-- Our Products -->
-  <div class="row mx-0 what-we-do">
+  <div class="row mx-0 testimonials">
 
     <div class="col-md-12 mx-auto text-center">
       <h1 class="">CLIENT <span class="half">TESTIMONIALS</span></h1>
@@ -262,16 +262,78 @@
     <div class="col-md-12 mx-auto text-center">
         <div class="owl1 owl-carousel">
 
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;"> </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+                    <div class="row mx-0">
+                      <div class="col-7 mx-auto">
+                        <div class="test-pic mx-auto">
+                          <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/test-pic.jpg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-12 test-comment mx-auto px-4">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati assumenda officiis inventore ad cum labore tenetur saepe temporibus non veritatis, optio nostrum repudiandae impedit, earum harum! Ab doloribus reiciendis beatae.</p>
+                      </div>
+
+                      <div class="test-blue col-12">
+                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-title">Full stack Developer</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+                    <div class="row mx-0">
+                      <div class="col-7 mx-auto">
+                        <div class="test-pic mx-auto">
+                          <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/test-pic.jpg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-12 test-comment mx-auto px-4">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati assumenda officiis inventore ad cum labore tenetur saepe temporibus non veritatis, optio nostrum repudiandae impedit, earum harum! Ab doloribus reiciendis beatae.</p>
+                      </div>
+
+                      <div class="test-blue col-12">
+                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-title">Full stack Developer</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+                    <div class="row mx-0">
+                      <div class="col-7 mx-auto">
+                        <div class="test-pic mx-auto">
+                          <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/test-pic.jpg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-12 test-comment mx-auto px-4">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati assumenda officiis inventore ad cum labore tenetur saepe temporibus non veritatis, optio nostrum repudiandae impedit, earum harum! Ab doloribus reiciendis beatae.</p>
+                      </div>
+
+                      <div class="test-blue col-12">
+                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-title">Full stack Developer</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+                    <div class="row mx-0">
+                      <div class="col-7 mx-auto">
+                        <div class="test-pic mx-auto">
+                          <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/test-pic.jpg" alt="">
+                        </div>
+                      </div>
+
+                      <div class="col-12 test-comment mx-auto px-4">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati assumenda officiis inventore ad cum labore tenetur saepe temporibus non veritatis, optio nostrum repudiandae impedit, earum harum! Ab doloribus reiciendis beatae.</p>
+                      </div>
+
+                      <div class="test-blue col-12">
+                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-title">Full stack Developer</p>
+                      </div>
+                    </div>
+              </div>
 
         </div>
     </div>
