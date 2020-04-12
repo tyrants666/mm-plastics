@@ -44,7 +44,7 @@ if (document.documentElement.clientWidth > 768) {
       items: 3,
       loop: true,
       margin: 40,
-      autoplay: true,
+      autoplay: false,
       // slideTransition: 'linear',
       // autoplaySpeed: 8000,
       autoplayHoverPause: false,

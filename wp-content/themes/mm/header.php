@@ -33,12 +33,11 @@
 
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
-                      <a href="<?php echo home_url(); ?>" class="underline22 <?php if( is_page('mmgroup') ) { echo "selected"; }?>">  <li> Home </li> </a>
-                      <a href="<?php echo home_url(); ?>/product" class="underline22 <?php if( is_page('product') ) { echo "selected"; }?>" >  <li> Products </li> </a>
-                      <!-- <a href="<?php echo home_url(); ?>/quality" class="underline22 <?php if( is_page('quality') ) { echo "selected"; }?>" >  <li> Quality </li> </a> -->
-                      <a href="<?php echo home_url(); ?>/technology" class="underline22 <?php if( is_page('technology') ) { echo "selected"; }?>" >  <li> Technology </li> </a>
-                      <a href="<?php echo home_url(); ?>/about-us" class="underline22 <?php if( is_page('about-us') ) { echo "selected"; }?>" >  <li> About Us </li> </a>
-                      <a href="<?php echo home_url(); ?>/contact-us" class="underline22 <?php if( is_page('contact-us') ) { echo "selected"; }?>" >  <li> Contact Us </li> </a>
+                      <a href="<?php echo home_url(); ?>" class="underline22"> <li> Home </li> </a>
+                      <a href="<?php echo home_url(); ?>/product" class="underline22">  <li> Products </li> </a>
+                      <a href="<?php echo home_url(); ?>/technology" class="underline22 ">  <li> Technology </li> </a>
+                      <a href="<?php echo home_url(); ?>/about-us" class="underline22">  <li> About Us </li> </a>
+                      <a href="<?php echo home_url(); ?>/contact-us" class="">  <li class="my-li2"> Contact Us </li> </a>
                   </ul>
           </div>
 
@@ -53,12 +52,11 @@
           <!-- Sidebar -->
     			<div id="mySidepanel" class="sidepanel w-0">
             <ul>
-                <a href="<?php echo home_url(); ?>" class="underline <?php if( is_page('mmgroup') ) { echo "selected"; }?>">  <li> Home </li> </a>
-                <a href="<?php echo home_url(); ?>/product" class="underline <?php if( is_page('product') ) { echo "selected"; }?>" >  <li> Products </li> </a>
-                <!-- <a href="<?php echo home_url(); ?>/quality" class="underline <?php if( is_page('quality') ) { echo "selected"; }?>" >  <li> Quality </li> </a> -->
-                <a href="<?php echo home_url(); ?>/technology" class="underline <?php if( is_page('technology') ) { echo "selected"; }?>" >  <li> Technology </li> </a>
-                <a href="<?php echo home_url(); ?>/about-us" class="underline <?php if( is_page('about-us') ) { echo "selected"; }?>" >  <li> About Us </li> </a>
-                <a href="<?php echo home_url(); ?>/contact-us" class="underline <?php if( is_page('contact-us') ) { echo "selected"; }?>" >  <li> Contact Us </li> </a>
+                <a href="<?php echo home_url(); ?>" class="underline ">  <li> Home </li> </a>
+                <a href="<?php echo home_url(); ?>/product" class="underline ">  <li> Products </li> </a>
+                <a href="<?php echo home_url(); ?>/technology" class="underline ">  <li> Technology </li> </a>
+                <a href="<?php echo home_url(); ?>/about-us" class="underline ">  <li> About Us </li> </a>
+                <a href="<?php echo home_url(); ?>/contact-us" class="underline ">  <li> Contact Us </li> </a>
             </ul>
     			</div>
 
@@ -74,12 +72,11 @@
 
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
-                    <a href="<?php echo home_url(); ?>" class="underline2 <?php if( is_page('mmgroup') ) { echo "selected2"; }?>">  <li> Home </li> </a>
-                    <a href="<?php echo home_url(); ?>/product" class="underline2 <?php if( is_page('product') ) { echo "selected2"; }?>" >  <li> Products </li> </a>
-                    <!-- <a href="<?php echo home_url(); ?>/quality" class="underline2 <?php if( is_page('quality') ) { echo "selected2"; }?>" >  <li> Quality </li> </a> -->
-                    <a href="<?php echo home_url(); ?>/technology" class="underline2 <?php if( is_page('technology') ) { echo "selected2"; }?>" >  <li> Technology </li> </a>
-                    <a href="<?php echo home_url(); ?>/about-us" class="underline2 <?php if( is_page('about-us') ) { echo "selected2"; }?>" >  <li> About Us </li> </a>
-                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2 <?php if( is_page('contact-us') ) { echo "selected2"; }?>" >  <li class="my-li"> Contact Us </li> </a>
+                    <a href="<?php echo home_url(); ?>" class="underline2">  <li> Home </li> </a>
+                    <a href="<?php echo home_url(); ?>/product" class="underline2">  <li> Products </li> </a>
+                    <a href="<?php echo home_url(); ?>/technology" class="underline2 ">  <li> Technology </li> </a>
+                    <a href="<?php echo home_url(); ?>/about-us" class="underline2" >  <li> About Us </li> </a>
+                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2" >  <li class="my-li"> Contact Us </li> </a>
                   </ul>
           </div>
 

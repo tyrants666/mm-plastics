@@ -1,18 +1,9 @@
 
 <?php get_header(); ?>
 
-<div class="hero" id="hero-home">
-    <!-- Quote -->
-    <!-- <div class="quote">
-      <h1 class=""> <?php the_field('big_title'); ?> </h1>
-      <h4 class=" fadeInDown2"><?php the_field('small_title'); ?></h4>
-      <a href="<?php echo home_url(); ?>/contact-us#direction ">
-      <button class="btn-quote fadeInDown2 " type="button" name="button">CONTACT US</button>
-      </a>
-    </div> -->
-
+<div class="hero">
+  <div class="square"></div>
 </div>
-
 
 
 <article class="white">
@@ -20,69 +11,50 @@
   <div class="row mx-0 about-sec">
     
     <div class="col-md-4 mx-auto text-center">
-      <h1 class="">ABOUT <span class="half"> US</span></h1>
+      <h1 class="">About us</span></h1>
     </div>
     
     <div class="col-md-9 mx-auto text-center">
       <p><?php the_field('about_us_info'); ?></p>
+      <p>MM Group of Industries consists of</p>
       <a href="/index.php?page_id=23#check_white" class="anch-read">
-      <span class="read-more vw-4">  Read more <i class="material-icons eco">eco</i></span>
     </a>
   </div>
   
-  <div class="col-12 mt-5">
+  <div class="col-12 text-center">
     <div class="row mx-0">
-          <div class="col-3 logo-wrap ml-auto text-center">
+          <div class="col-1 logo-wrap ml-auto text-center">
             <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.png"alt="">
           </div>
-          <div class="col-3 logo-wrap text-center">
+          <div class="col-2 logo-wrap text-center">
             <img class="logo-polymer" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_polymers.svg" alt="">
           </div>
-          <div class="col-3 logo-wrap mr-auto text-center">
+          <div class="col-1 logo-wrap mr-auto text-center pl-0">
             <img class="logos-com" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/mm_naturals.png" alt="">
           </div>
         </div>
-      </div>
-      
+    </div>
+    
     </div>
 </article>
 
   <!-- Who we are -->
-  <svg class="bottomRightRounded" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 20 50 80" preserveAspectRatio="none">
-    <path d="M0,101 C15,100 35,50 50,50 L50,50 C65,50 85,100 100,100 Z"></path>
-  </svg>
   <div class="row mx-0 who-we-are">
 
     <div class="col-12 mx-auto">
-      <h1 class="">Who we are</h1>
-      <p><?php the_field('whoweare'); ?></p>
-    </div>
-
-    <div class="col-12 mx-auto wrap-product">
-        <div class="row mx-0">
-          <div class="col-3_5 dark-product mr-auto">Caps and Closures</div>
-          <div class="col-3_5 dark-product mx-auto">HDPE jars and jerrycanes</div>
-          <div class="col-3_5 dark-product ml-auto">HDPE pipes and PVC Profiles</div>
-        </div>    
-        <div class="row mx-0 mt-5">
-          <div class="col-3_5 dark-product ml-auto mr-4">Pet Bottles & Jars</div>
-          <div class="col-3_5 dark-product mr-auto ml-4">Pet Bottles & Jars</div>
-        </div>    
+    
     </div>
 
   </div>
-  <svg class="topLeftRounded" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="50 20 50 80" preserveAspectRatio="none">
-    <path d="M0,103 C15,100 35,50 50,50 L50,50 C65,50 85,100 100,100 Z"></path>
-  </svg>
 
   
-<article class="white pb-0">
+<article class="pb-0">
   <!-- Our Products -->
   <div class="row mx-0 what-we-do">
     <div class="col-md-12 mx-auto text-center">
-      <h1 class="">WHAT WE <span class="half">DO</span></h1>
+      <h1 class="">What we do </h1>
     </div>
-    <div class="col-md-12 mx-auto text-center">
+    <div class="col-md-12 mx-auto text-center mt-3">
                       <div class="Grid">
                           <div class="Grid-Item">
                               <div class="Grid-Item-Content">
@@ -251,18 +223,18 @@
 
 </article>
 
-<article class="white">
+<article class="">
   <!-- Our Products -->
   <div class="row mx-0 testimonials">
 
     <div class="col-md-12 mx-auto text-center">
-      <h1 class="">CLIENT <span class="half">TESTIMONIALS</span></h1>
+      <h1 class="">Client Testimonials</h1>
     </div>
 
     <div class="col-md-12 mx-auto text-center">
         <div class="owl1 owl-carousel">
 
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+              <div class="item owl1-item">              
                     <div class="row mx-0">
                       <div class="col-7 mx-auto">
                         <div class="test-pic mx-auto">
@@ -280,7 +252,7 @@
                       </div>
                     </div>
               </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+              <div class="item owl1-item">              
                     <div class="row mx-0">
                       <div class="col-7 mx-auto">
                         <div class="test-pic mx-auto">
@@ -298,7 +270,7 @@
                       </div>
                     </div>
               </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+              <div class="item owl1-item">              
                     <div class="row mx-0">
                       <div class="col-7 mx-auto">
                         <div class="test-pic mx-auto">
@@ -316,7 +288,7 @@
                       </div>
                     </div>
               </div>
-              <div class="item owl1-item" style=" background: url('<?php echo esc_url( get_template_directory_uri() ) ?>/images/testimonial.svg') center center no-repeat; background-size:contain;">              
+              <div class="item owl1-item">              
                     <div class="row mx-0">
                       <div class="col-7 mx-auto">
                         <div class="test-pic mx-auto">
