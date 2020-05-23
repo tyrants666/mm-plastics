@@ -34,9 +34,10 @@
           <div class="top-menu" id="navbarNavDropdown">
                   <ul>
                       <a href="<?php echo home_url(); ?>" class="underline22"> <li> Home </li> </a>
-                      <a href="<?php echo home_url(); ?>/product" class="underline22">  <li> Products </li> </a>
-                      <a href="<?php echo home_url(); ?>/technology" class="underline22 ">  <li> Technology </li> </a>
                       <a href="<?php echo home_url(); ?>/about-us" class="underline22">  <li> About Us </li> </a>
+                      <a href="<?php echo home_url(); ?>/product" class="underline22">  <li>Our Products </li> </a>
+                      <a href="<?php echo home_url(); ?>/services" class="underline22">  <li>Services </li> </a>
+                      <a href="<?php echo home_url(); ?>/technology" class="underline22 ">  <li>Quality & Technology </li> </a>
                       <a href="<?php echo home_url(); ?>/contact-us" class="">  <li class="my-li2"> Contact Us </li> </a>
                   </ul>
           </div>
@@ -53,9 +54,10 @@
     			<div id="mySidepanel" class="sidepanel w-0">
             <ul>
                 <a href="<?php echo home_url(); ?>" class="underline ">  <li> Home </li> </a>
-                <a href="<?php echo home_url(); ?>/product" class="underline ">  <li> Products </li> </a>
-                <a href="<?php echo home_url(); ?>/technology" class="underline ">  <li> Technology </li> </a>
                 <a href="<?php echo home_url(); ?>/about-us" class="underline ">  <li> About Us </li> </a>
+                <a href="<?php echo home_url(); ?>/product" class="underline ">  <li>Our Products </li> </a>
+                <a href="<?php echo home_url(); ?>/services" class="underline ">  <li>Services </li> </a>
+                <a href="<?php echo home_url(); ?>/technology" class="underline ">  <li> Technology </li> </a>
                 <a href="<?php echo home_url(); ?>/contact-us" class="underline ">  <li> Contact Us </li> </a>
             </ul>
     			</div>
@@ -72,11 +74,12 @@
 
           <div class="top-menu2" id="navbarNavDropdown">
                   <ul>
-                    <a href="<?php echo home_url(); ?>" class="underline2">  <li> Home </li> </a>
-                    <a href="<?php echo home_url(); ?>/product" class="underline2">  <li> Products </li> </a>
+                    <a href="<?php echo home_url(); ?>" class="underline2 ">  <li> Home </li> </a>
+                    <a href="<?php echo home_url(); ?>/about-us" class="underline2 ">  <li> About Us </li> </a>
+                    <a href="<?php echo home_url(); ?>/product" class="underline2 ">  <li>Our Products </li> </a>
+                    <a href="<?php echo home_url(); ?>/services" class="underline2 ">  <li>Services </li> </a>
                     <a href="<?php echo home_url(); ?>/technology" class="underline2 ">  <li> Technology </li> </a>
-                    <a href="<?php echo home_url(); ?>/about-us" class="underline2" >  <li> About Us </li> </a>
-                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2" >  <li class="my-li"> Contact Us </li> </a>
+                    <a href="<?php echo home_url(); ?>/contact-us" class="underline2 ">  <li> Contact Us </li> </a>
                   </ul>
           </div>
 

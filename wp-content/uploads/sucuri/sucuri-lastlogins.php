@@ -7,3 +7,4 @@
 {"user_id":1,"user_login":"mm-plastics","user_remoteaddr":"127.0.0.1","user_hostname":"backup-jpt.dev","user_lastlogin":"2020-03-13 03:16:57"}
 {"user_id":1,"user_login":"mm-plastics","user_remoteaddr":"127.0.0.1","user_hostname":"backup-jpt.dev","user_lastlogin":"2020-03-21 09:50:16"}
 {"user_id":1,"user_login":"mm-plastics","user_remoteaddr":"127.0.0.1","user_hostname":"backup-jpt.dev","user_lastlogin":"2020-04-12 13:08:04"}
+{"user_id":1,"user_login":"mm-plastics","user_remoteaddr":"127.0.0.1","user_hostname":"backup-jpt.dev","user_lastlogin":"2020-05-23 10:05:01"}

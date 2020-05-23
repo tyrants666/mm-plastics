@@ -1,23 +1,4 @@
-﻿  <div class="row mx-0 who-we-are">
-
-    <div class="col-12 mx-auto">
-      <h1 class="">Who we are</h1>
-      <p><?php the_field('whoweare'); ?></p>
-    </div>
-
-    <div class="col-12 mx-auto wrap-product">
-        <div class="row mx-0">
-          <div class="col-3_5 dark-product mr-auto">Caps and Closures</div>
-          <div class="col-3_5 dark-product mx-auto">HDPE jars and jerrycanes</div>
-          <div class="col-3_5 dark-product ml-auto">HDPE pipes and PVC Profiles</div>
-        </div>    
-        <div class="row mx-0 mt-5">
-          <div class="col-3_5 dark-product ml-auto mr-4">Pet Bottles & Jars</div>
-          <div class="col-3_5 dark-product mr-auto ml-4">Pet Bottles & Jars</div>
-        </div>    
-    </div>
-
-  </div>
+﻿
 
 TO BE DONE *****
 
@@ -52,7 +33,7 @@ TO BE DONE *****
 
 ❤ CPANEL ( http://www.mmgrp.org/cpanel/ )
              id || mmgrp
-             pass || frEuQo75#
+             pass || frEuQo75#    frEuQo75#
 
 ❤ WP LOCAL ( mm.dev/mmlogin )
              id || mm-plastics
@@ -67,3 +48,11 @@ TO BE DONE *****
 	     database || mmgrp_dev
 	     username || mmgrp_dev
 	     Password || monalisa_777
+
+user: mmgroupcom
+pass: mM#gR394&
+cpanel.mmgroup.com.np
+
+DB - mmgroupc_mm
+DB -user - mmgroupc_mm
+DB-pass - gktzO#w8L2qt

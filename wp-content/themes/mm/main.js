@@ -43,13 +43,14 @@ if (document.documentElement.clientWidth > 768) {
     $('.owl1').owlCarousel({
       items: 3,
       loop: true,
+      // margin: 40,
       margin: 40,
-      autoplay: false,
+      autoplay: true,
+      navigation: false,
       // slideTransition: 'linear',
       // autoplaySpeed: 8000,
       autoplayHoverPause: false,
       autoplayTimeout: 1800,
-      autoplayHoverPause: false,
       center: true
     });
     

@@ -31,7 +31,11 @@ body {
   position: absolute;
   width: 100%;
   box-shadow: -2px -3px 10px 0 rgba(0, 0, 0, 0.5);
-  padding: 0 12.5vw;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-left: 9.5vw;
 }
 
 img.logo {
@@ -43,7 +47,7 @@ img.logo {
   padding-right: 4vw;
   padding-top: 3px;
   margin-bottom: 0;
-  margin-left: 14vw;
+  margin-left: 4vw;
 }
 .top-menu li {
   display: inline;
@@ -251,7 +255,7 @@ a.underline2:hover {
 
 .blue {
   background: #1177bd;
-  padding: 14.9vw 6.5vw 4.9vw 6.5vw;
+  padding: 14.9vw 7.5vw 4.9vw 7.5vw;
   color: white;
 }
 
@@ -294,7 +298,7 @@ a.underline3:after {
 }
 
 .hero {
-  height: 100vh;
+  height: 585px;
   position: relative;
   background-image: url("images/bg3.jpg");
   background-size: contain;
@@ -302,27 +306,62 @@ a.underline3:after {
   background-position: bottom;
 }
 
+.home-about {
+  background: #ffff;
+  color: #5d5d5d;
+  padding: 4.9vw 6.5vw 2vw 6.5vw;
+}
+
+.mass-production {
+  height: 41.2vw;
+  background-image: url(images/massproduct.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .square {
-  height: 30vh;
-  position: absolute;
+  height: 17vw;
+  position: relative;
   background-image: url(images/square.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  bottom: -126px;
+  bottom: 3.661vw;
   width: 100%;
 }
 
-.about-sec {
+.hexagon {
+  margin-top: 1vw;
   margin-bottom: 5vw;
 }
+.hexagon h1 {
+  font-size: 3vw;
+  color: #383a3c;
+  margin-bottom: 2vw;
+}
+.hexagon h1:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 87%;
+  bottom: 22px;
+  left: 7%;
+  background: #1177bd;
+}
+
+img.hexagon_mob {
+  width: 66%;
+  margin-top: 3.3vw;
+}
+
 .about-sec p {
   font-size: 1.098096vw;
   margin-bottom: 1vw;
 }
 .about-sec h1 {
   font-size: 3vw;
-  color: #2c2c2c;
+  color: #383a3c;
   margin-bottom: 2vw;
 }
 .about-sec h1:after {
@@ -335,86 +374,12 @@ a.underline3:after {
   background: #1177bd;
 }
 
-.logos-com {
-  width: auto;
-  height: 80px;
-}
-
-.logo-polymer {
-  height: 68px;
-  margin-top: 7px;
-}
-
-.bottomRightRounded {
-  position: absolute;
-  z-index: 9;
-  transform: rotate(180deg);
-  margin-top: -1px;
-}
-
-.bottomRightRounded path {
-  fill: #fff;
-  stroke: #fff;
-}
-
-.topLeftRounded {
-  position: absolute;
-  margin-top: -100px;
-  z-index: 9;
-  left: 0;
-}
-
-.topLeftRounded path {
-  fill: #fff;
-  stroke: #fff;
-}
-
-.who-we-are {
-  background-image: url(images/polygon1.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 31%;
-  padding: 20.6vw 6.5vw;
-  color: #c78282;
-  text-align: center;
-}
-.who-we-are p {
-  font-size: 1.3177152vw;
-  margin-bottom: 2vw;
-  color: #fff;
-  padding: 25px 24vw;
-}
-.who-we-are h1 {
-  font-size: 3.5139072vw;
-  font-weight: 800;
-  color: #fff;
-}
-
 .wrap-product {
   padding: 0 8.5vw;
 }
 
-.col-3_5 {
-  -ms-flex: 0 0 30.5%;
-  flex: 0 0 30.5%;
-  max-width: 30.5%;
-}
-
-.dark-product {
-  /* border: 1px dashed white; */
-  font-size: 1.3vw;
-  font-weight: 500;
-  border-radius: 5px;
-  padding: 1.8vw;
-  transition: all 0.7s;
-  text-align: center;
-  height: 193px;
-  color: #d4d4d4;
-  background: #ffffff3d;
-}
-
 .what-we-do {
-  padding: 6.9vw 6.5vw 2vw 6.5vw;
+  padding: 1vw 6.5vw 2vw 6.5vw;
 }
 .what-we-do p {
   font-size: 1.098096vw;
@@ -436,7 +401,7 @@ a.underline3:after {
 }
 
 .mt-6vw {
-  margin-top: 6vw !important;
+  margin-top: 2vw !important;
 }
 
 .partner-wrap {
@@ -474,7 +439,12 @@ img.partner-logo {
   background: #1177bd;
 }
 
+.owl1 .owl-item {
+  margin-right: 48px !important;
+}
+
 .owl1 {
+  height: 29.8vw;
   margin-top: 3vw;
 }
 
