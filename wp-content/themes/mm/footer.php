@@ -54,12 +54,12 @@
       <div class="d-flex">
         <ul class="">
           <li><a class="underline3" href="<?php echo home_url(); ?>">Home</a></li>
-          <li><a class="underline3" href="<?php echo home_url(); ?>/product">Product</a></li>
-          <li><a class="underline3" href="<?php echo home_url(); ?>/quality">Quality</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/about-us">About Us</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/services">Services</a></li>
         </ul>
         <ul class="mx-auto">
-          <li><a class="underline3" href="<?php echo home_url(); ?>/technology">Technology</a></li>
-          <li><a class="underline3" href="<?php echo home_url(); ?>/about-us">About Us</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/product">Our Products</a></li>
+          <li><a class="underline3" href="<?php echo home_url(); ?>/technology">Quality & Technology</a></li>
           <li><a class="underline3" href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
         </ul>
 

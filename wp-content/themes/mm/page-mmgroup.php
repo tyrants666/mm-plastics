@@ -28,30 +28,27 @@
     <div class="col-12 text-center">
       <div class="row mx-0">
           <div class="col-4 ml-auto text-center">
-                <p>MANUFACTURING</p>
+                <p class="f-600 about-head mx-auto">MANUFACTURING</p>
                 <div class="sub-industry">
-                    <p>MM PLASTICS UDHYOG</p>
-                    <p>MM PLOYMERS PVT.LTD</p>
+                  <button class="btn btn-primary btn-sm mb-2" >MM PLASTICS UDHYOG</button>
+                  <button class="btn btn-primary btn-sm" >MM PLOYMERS PVT.LTD</button>
                 </div>
           </div>
           <div class="col-4 text-center">
-                <p>TRADING</p>
+                <p class="f-600 about-head mx-auto">TRADING</p>
                 <div class="sub-industry">
-                    <p>MM TRADING CENTER</p>
+                    <button class="btn btn-primary btn-sm" >MM TRADING CENTER</button>
                 </div>
           </div>
           <div class="col-4 mr-auto text-center pl-0">
-                <p>SERVICES</p>
-                <div class="sub-industry">
-                    <p>FINANCE
-                       <ul>
-                         <li>SRIJANA FINANCE</li>
-                       </ul>
+                <p class="f-600 about-head mx-auto">SERVICES</p>
+                <div class="sub-industry d-flex mt-3">
+                      <p class="f-600">FINANCE
+                          <button class="mt-2 btn btn-primary btn-sm" >SRIJANA FINANCE</button>
                       </p>
-                      <p>ENTERTAINMENT
-                           <ul>
-                             <li>CITY CINEMA</li>
-                      </p> </ul>
+                      <p class="f-600">ENTERTAINMENT
+                          <button class="mt-2 btn btn-primary btn-sm" >CITY CINEMA</button>
+                      </p>
                 </div>
           </div>
       </div>

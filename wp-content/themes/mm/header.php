@@ -57,7 +57,7 @@
                 <a href="<?php echo home_url(); ?>/about-us" class="underline ">  <li> About Us </li> </a>
                 <a href="<?php echo home_url(); ?>/product" class="underline ">  <li>Our Products </li> </a>
                 <a href="<?php echo home_url(); ?>/services" class="underline ">  <li>Services </li> </a>
-                <a href="<?php echo home_url(); ?>/technology" class="underline ">  <li> Technology </li> </a>
+                <a href="<?php echo home_url(); ?>/technology" class="underline ">  <li> Quality & Technology </li> </a>
                 <a href="<?php echo home_url(); ?>/contact-us" class="underline ">  <li> Contact Us </li> </a>
             </ul>
     			</div>
@@ -78,7 +78,7 @@
                     <a href="<?php echo home_url(); ?>/about-us" class="underline2 ">  <li> About Us </li> </a>
                     <a href="<?php echo home_url(); ?>/product" class="underline2 ">  <li>Our Products </li> </a>
                     <a href="<?php echo home_url(); ?>/services" class="underline2 ">  <li>Services </li> </a>
-                    <a href="<?php echo home_url(); ?>/technology" class="underline2 ">  <li> Technology </li> </a>
+                    <a href="<?php echo home_url(); ?>/technology" class="underline2 ">  <li> Quality & Technology </li> </a>
                     <a href="<?php echo home_url(); ?>/contact-us" class="underline2 ">  <li> Contact Us </li> </a>
                   </ul>
           </div>

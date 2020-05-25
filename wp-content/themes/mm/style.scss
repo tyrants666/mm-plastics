@@ -358,6 +358,29 @@ a.underline3:after {
   color: #5d5d5d;
   padding: 4.9vw 6.5vw 2vw 6.5vw;
 }
+.home-about .btn-primary {
+  background-color: #67b9ea;
+  border-color: #67b9ea;
+  padding: 4px 9px !important;
+}
+.home-about .btn-primary.focus,
+.home-about .btn-primary:focus {
+  box-shadow:none;
+}
+.home-about .btn-primary.active,
+.home-about .btn-primary:active {
+  background-color: #67b9ea !important;
+  border-color: #67b9ea !important;
+  padding: 4px 9px !important;
+}
+.f-600{
+  font-weight: 600;
+}
+.about-head{
+  width: min-content;
+  border-bottom: 3px solid #1177bd;
+  padding: 2px 0.8vw;
+}
 .mass-production {
   height: 41.2vw;
   background-image: url(images/massproduct.jpg);
