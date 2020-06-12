@@ -16,7 +16,9 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins|Montserrat:400,500,600,700,800&display=swap" rel="stylesheet">
     <script src=" <?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
-
+    <script src="https://kit.fontawesome.com/8ee114b4a7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    
   <?php wp_head(); ?>
   </head>
 

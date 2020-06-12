@@ -25,30 +25,40 @@
     </a>
     </div>
   
-    <div class="col-12 text-center">
-      <div class="row mx-0">
-          <div class="col-4 ml-auto text-center">
+    <div class="col-12 mt-4 text-center">
+      <div class="about-grid mx-0">
+
+          <div class="consist_sec  text-center">
+            <i class="fas fa-industry"></i>
                 <p class="f-600 about-head mx-auto">MANUFACTURING</p>
-                <div class="sub-industry">
-                  <button class="btn btn-primary btn-sm mb-2" >MM PLASTICS UDHYOG</button>
-                  <button class="btn btn-primary btn-sm" >MM PLOYMERS PVT.LTD</button>
+                <div class="sub-industry grid-2">
+                  <span class="border" >MM PLASTICS UDHYOG</span>
+                  <span class="border" >MM PLOYMERS PVT.LTD</span>
+                  <!-- <button class="btn btn-primary btn-sm mb-2" >MM PLASTICS UDHYOG</button>
+                  <button class="btn btn-primary btn-sm" >MM PLOYMERS PVT.LTD</button> -->
                 </div>
           </div>
-          <div class="col-4 text-center">
+
+          <div class="consist_sec  text-center">
+            <i class="fas fa-hands-helping"></i>
                 <p class="f-600 about-head mx-auto">TRADING</p>
-                <div class="sub-industry">
-                    <button class="btn btn-primary btn-sm" >MM TRADING CENTER</button>
+                <div class="sub-industry grid-1">
+                    <span class="border" >MM TRADING CENTER</span>
+                    <!-- <button class="btn btn-primary btn-sm" >MM TRADING CENTER</button> -->
                 </div>
           </div>
-          <div class="col-4 mr-auto text-center pl-0">
+
+          <div class="consist_sec text-center">
+            <i class="fas fa-cog"></i>
                 <p class="f-600 about-head mx-auto">SERVICES</p>
-                <div class="sub-industry d-flex mt-3">
-                      <p class="f-600">FINANCE
-                          <button class="mt-2 btn btn-primary btn-sm" >SRIJANA FINANCE</button>
-                      </p>
-                      <p class="f-600">ENTERTAINMENT
-                          <button class="mt-2 btn btn-primary btn-sm" >CITY CINEMA</button>
-                      </p>
+
+                <div class="sub-industry-head grid-2 ">
+                      <p class="f-600"><i class="fas fa-hand-holding-usd"></i>FINANCE</p>
+                      <p class="f-600"><i class="fas fa-video"></i>ENTERTAINMENT</p>
+                </div>
+                <div class="sub-industry grid-2 ">
+                      <span class="border" >SRIJANA FINANCE</span>
+                      <span class="border" >CITY CINEMA</span>
                 </div>
           </div>
       </div>
@@ -70,10 +80,10 @@
 <!-- Hexagon -->
 <article class="hexagon row mx-0 ">
   <div class="col-md-4 mx-auto text-center">
-        <h1 class="">Industries we touch</span></h1>
+        <h1 class="">Industry Verticals</span></h1>
   </div>
   <div class="col-12 text-center">
-    <img class="hexagon_mob" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/hexagon_mob.jpg" alt="">
+    <img class="hexagon_mob" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/products_comp2.jpg" alt="">
   </div>
 </article>
 
@@ -127,7 +137,7 @@
                       </div>
 
                       <div class="test-blue col-12">
-                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-name">Bill Cipher</p>
                           <p class="test-title">Full stack Developer</p>
                       </div>
                     </div>
@@ -145,7 +155,7 @@
                       </div>
 
                       <div class="test-blue col-12">
-                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-name">Bill Cipher</p>
                           <p class="test-title">Full stack Developer</p>
                       </div>
                     </div>
@@ -163,7 +173,7 @@
                       </div>
 
                       <div class="test-blue col-12">
-                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-name">Bill Cipher</p>
                           <p class="test-title">Full stack Developer</p>
                       </div>
                     </div>
@@ -181,7 +191,7 @@
                       </div>
 
                       <div class="test-blue col-12">
-                          <p class="test-name">Akash Yadav</p>
+                          <p class="test-name">Bill Cipher</p>
                           <p class="test-title">Full stack Developer</p>
                       </div>
                     </div>

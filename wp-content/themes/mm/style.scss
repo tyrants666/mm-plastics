@@ -14,11 +14,12 @@ Tags:
 /////////////////////   Global /////////////////*/
 
 @font-face {
-  font-family: Apercu;
-  src: url(fonts/Helvetica.ttf)
+  font-family: Helvetica;
+  src: url(fonts/HelveticaNeueLTCom-LtCn.ttf)
 }
 
 $primary: #1177bd;
+$underline: #1177bd;
 $footer: #191f23;
 $black: #232323;
 $mm: #30679a;
@@ -64,6 +65,7 @@ img.logo {
     display: inline;
     padding: 0 18*$vw;
     transition: all 0.5s ease-out;
+    font-size: 19 *$vw;
   }
   a:hover{
     text-decoration: none;
@@ -205,6 +207,7 @@ img.logo2 {
   li {
     display: inline;
     padding: 0 1.53vw;
+    font-size: 19*$vw;
     transition: all 0.5s ease-out;
   }
 }
@@ -346,9 +349,9 @@ a.underline3:after {
 // ********** Home Page *****************************************************
 
 .hero {
-  height: 585px;
+  height: 585*$vw;
   position: relative;
-  background-image: url("images/bg3.jpg");
+  background-image: url("images/hero_hexagon.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -356,12 +359,98 @@ a.underline3:after {
 .home-about {
   background: #ffff;
   color: #5d5d5d;
-  padding: 4.9vw 6.5vw 2vw 6.5vw;
+  padding: 4.9vw 6.5vw 5vw 6.5vw;
+}
+.about-sec {
+  p {
+    font-size: 18.5 *$vw;
+    margin-bottom: 1vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+    color: #383a3c;
+    // color: #2c2c2c;
+    margin-bottom: 2vw;
+  }
+
+  h1:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 48%;
+    bottom: 22px;
+    left: 26%;
+    background: #1177bd;
+  }
+
+  i {
+    font-size: 3vw;
+    margin-bottom: .6vw;
+    color: $primary;
+  }
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-gap: 4vw;
+}
+div.consist_sec{
+  position: relative;
+  padding: 2vw 0 3.1vw 0;
+  &:not(:last-of-type){
+    height: fit-content;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+  }
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sub-industry {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+    span{
+      color: $primary;
+      color: #5d5d5d;
+      font-weight: bold;
+      padding: 0.5vw 0;
+      box-shadow: 4px 5px 11px 1px #d7d9da;
+    }
+  }
+  .sub-industry-head {
+    p {
+      font-size: 1vw;
+      margin-bottom: 0;
+      // font-size: 1.03vw;
+    }
+    i.fa-video{
+      position: relative;
+      top: 0.30vw;
+      font-size: 1.7vw;
+      padding-top: 8px;
+      margin-right: 1vw;
+    }
+    i.fa-hand-holding-usd {
+      font-size: 2.4vw;
+      margin-right: 1vw;
+    }
+  } 
 }
 .home-about .btn-primary {
-  background-color: #67b9ea;
-  border-color: #67b9ea;
+  background-color: $primary;
+  border-color: $primary;
   padding: 4px 9px !important;
+  box-shadow: 0px 24px 20px rgba(3, 12, 35, 0.25);
+  border-radius: 2 *$vw;
+  font-size: 15 *$vw;
 }
 .home-about .btn-primary.focus,
 .home-about .btn-primary:focus {
@@ -377,6 +466,8 @@ a.underline3:after {
   font-weight: 600;
 }
 .about-head{
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
   border-bottom: 3px solid #1177bd;
   padding: 2px 0.8vw;
@@ -395,12 +486,12 @@ a.underline3:after {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  bottom: 3.661vw;
+  bottom: 5.661vw;
   width: 100%;
 }
 // .hexagon {
 .hexagon{
-  margin-top: 1vw;
+  margin-top: -1vw;
   margin-bottom: 5vw;
 
   h1 {
@@ -424,30 +515,6 @@ img.hexagon_mob {
   margin-top: 3.3vw;
 }
 
-.about-sec{
-  // margin-bottom: 5vw;
-
-  p {
-    font-size: 15*$vw;
-    margin-bottom: 1vw;
-  }
-
-  h1 {
-    font-size: 3vw;
-    color: #383a3c;
-    // color: #2c2c2c;
-    margin-bottom: 2vw;
-  }
-  h1:after{
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 48%;
-    bottom: 22px;
-    left: 26%;
-    background: #1177bd;
-  }
-}
 
 
 
@@ -882,18 +949,10 @@ footer {
       margin-left: -24px;
       margin-top: -8px;
       // cursor: pointer;
-      -webkit-transform: translate3d(0, 0, 0);
-      -moz-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
       }
       .navbar-toggler svg path {
       fill: none;
-      -webkit-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
-      -moz-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
-      -o-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
-      -ms-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
       transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
       stroke-width: 30px;
       stroke-linecap: round;
@@ -1244,7 +1303,8 @@ a img.aligncenter {
 .screen-reader-text {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
+	-webkit-clip-path: inset(50%);
+	        clip-path: inset(50%);
 	height: 1px;
 	margin: -1px;
 	overflow: hidden;
@@ -1257,7 +1317,8 @@ a img.aligncenter {
 .screen-reader-text:focus {
 	background-color: #eee;
 	clip: auto !important;
-	clip-path: none;
+	-webkit-clip-path: none;
+	        clip-path: none;
 	color: #444;
 	display: block;
 	font-size: 1em;
