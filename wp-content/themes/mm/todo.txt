@@ -4,7 +4,7 @@ TO BE DONE *****
 
 ✅ ACF backend changes to be done
 ✅ Homepage > Big Title + Small Title + Contact US button ( Remove or keep ? )   Also remove Custom Fields ???????????
-✅
+✅ Active menu on current page doest gets selected
 ✅
 
 

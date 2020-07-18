@@ -15,7 +15,7 @@
   <div class="row mx-0 about-sec">
     
     <div class="col-md-4 mx-auto text-center">
-      <h1 class="">About us</span></h1>
+      <h1 class="">About us</h1>
     </div>
     
     <div class="col-md-9 mx-auto text-center">
@@ -81,6 +81,7 @@
 <article class="hexagon row mx-0 ">
   <div class="col-md-4 mx-auto text-center">
         <h1 class="">Industry Verticals</span></h1>
+        <h3>Shaping Nepal for over 3 decades</h3>
   </div>
   <div class="col-12 text-center">
     <img class="hexagon_mob" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/products_comp2.jpg" alt="">
@@ -93,14 +94,14 @@
   <div class="row mx-0 what-we-do">
 
     <div class="col-md-12 mx-auto text-center">
-      <h1 class="">What we do </h1>
+      <h1 class="">Our Clients </h1>
     </div>
                       
     <div class="col-md-12 mx-auto text-center mt-6vw">
 
           <div class="row mx-0">
             <?php while( have_rows('partner') ): the_row(); ?>
-              <div class="col-3 py-2 partner-wrap">
+              <div class="col-3 partner-wrap">
                   <img class="partner-logo" src="<?php the_sub_field('partner_logo'); ?>"alt="">
               </div>
             <?php endwhile; ?>

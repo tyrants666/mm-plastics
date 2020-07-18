@@ -1,48 +1,95 @@
 
 <?php get_header(); ?>
 
-<article class=" row mx-0 mb-5 tech-row">
-<!-- Paragraph -->
-  <div class="col-lg-5 p-0 mr-auto" >
-      <p><?php the_field('paragraph_1'); ?></p>
-  </div>
+  <style>
+    .white {
+      padding: 11vw 6.5vw 3.9vw 6.5vw !important;
+    }
+  </style>
 
-  <!-- Owl Carousel -->
-  <div class="col-lg-6 p-0 ml-auto">
-    <i class="material-icons left7">keyboard_arrow_left</i>
-    <i class="material-icons right7">keyboard_arrow_right</i>
-    <div class="owl7 owl-carousel ">
+<div class="tech-wrap">
 
-      <?php while( have_rows('tech_images') ): the_row(); ?>
-          <div class="item product-slides"  style="background-image: url('<?php the_sub_field('image'); ?>');" >
+      <article class="white" id="check_white">
+
+        <!-- Paragraph 1 -->
+      <div class="row mx-0">
+          <div class="col-md-12 mx-auto text-center tech-head">
+              <h1 class="">Technology</h1>
           </div>
-      <?php endwhile; ?>
 
-    </div>
-  </div>
-</article>
-
-
-<article class=" row mx-0 mb-5 tech-row2">
-<!-- Paragraph -->
-  <div class="col-lg-5 p-0 mr-auto" >
-      <p><?php the_field('paragraph_2'); ?></p>
-  </div>
-
-  <!-- Owl Carousel -->
-  <div class="col-lg-6 p-0 ml-auto">
-    <i class="material-icons left8">keyboard_arrow_left</i>
-    <i class="material-icons right8">keyboard_arrow_right</i>
-    <div class="owl8 owl-carousel ">
-
-      <?php while( have_rows('quality_images') ): the_row(); ?>
-          <div class="item product-slides"  style="background-image: url('<?php the_sub_field('images'); ?>');" >
+          <div class="col-md-8 mx-auto text-center about-para1">
+            <p class="font-1-4vw"><?php the_field('tech_paragraph_1'); ?></p>
           </div>
-      <?php endwhile; ?>
+        </div>
 
-    </div>
-  </div>
-</article>
+
+        <!-- Tech images -->
+        <div class="row mx-0 row-tech">
+
+            <?php while( have_rows('tech_images') ): the_row(); ?>
+                <div class="col-tech">
+                    <img src="<?php the_sub_field('image')['url']; ?>">
+                </div>
+            <?php endwhile; ?>
+
+        </div>
+
+      </article>
+
+      <article class="white-qualiity">
+
+        <!-- Paragraph 1 -->
+      <div class="row mx-0">
+          <div class="col-md-12 mx-auto text-center quality-head">
+              <h1 class="">Quality</h1>
+          </div>
+
+          <div class="col-md-8 mx-auto text-center quality-para1">
+            <p><?php the_field('quality_paragraph_1'); ?></p>
+          </div>
+        </div>
+
+      <!-- Images -->
+        <div class="row mx-0 row-tech">
+
+            <?php while( have_rows('quality_image_row_1') ): the_row(); ?>
+                <div class="col-quality1">
+                    <img src="<?php the_sub_field('quality_image_1')['url']; ?>">
+                    <p><?php the_sub_field('image_title'); ?></p>
+                </div>
+            <?php endwhile; ?>
+
+          <!-- Paragrapgh -->
+          <!-- Paragrapgh -->
+          <div class="col-md-8 mx-auto text-center quality-para2">
+            <p><?php the_field('quality_paragraph_2'); ?></p>
+          </div>
+        </div>
+
+      <!-- Images -->
+        <div class="row mx-0 row-tech">
+
+            <?php while( have_rows('quality_image_row_2') ): the_row(); ?>
+                <div class="col-quality">
+                    <img src="<?php the_sub_field('quality_image')['url']; ?>">
+                    <p class="head"><?php the_sub_field('heading'); ?></p>
+                    <p class="sub-head"><?php the_sub_field('sub_heading'); ?></p>
+                </div>
+            <?php endwhile; ?>
+
+          <!-- Paragrapgh -->
+          <!-- Paragrapgh -->
+          <div class="col-md-8 mx-auto text-center quality-para3">
+            <p><?php the_field('quality_paragraph_3'); ?></p>
+          </div>
+
+        </div>
+
+      </article>
+
+</div>    
+
+
 
 
 <?php get_footer(); ?>

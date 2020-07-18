@@ -10,7 +10,7 @@
 		<meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title> MM Group  Pvt Ltd </title>
-    <link rel="shortcut icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logo.png ">
+    <link rel="shortcut icon" type="image/png" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/favicon.png ">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
