@@ -67,7 +67,8 @@
     </div>
     <div class="sec3 col-md-4 mx-auto p-0">
       <h4>Write to Us</h4>
-      <form class="foot_form" action="/action_page.php">
+      <form class="foot_form">
+      <!-- <form class="foot_form" action="/action_page.php"> -->
         <textarea class="input-foot form-control foot_msg" type="text" id="msgg" value="" placeholder="Message" required></textarea>
         <div class="d-flex">
           <input class="input-foot form-control" type="email" id="emaill" value="" placeholder="Your Email Address" autocomplete="off" required>
@@ -77,7 +78,7 @@
       </form>
 
                   <!-- Ajax form submit -->
-                  <script type="text/javascript">
+                  <!-- <script type="text/javascript">
 
                     $('.foot_form').submit(function(e) {
                       e.preventDefault();
@@ -105,7 +106,7 @@
 
                     });
 
-                  </script>
+                  </script> -->
 
     </div>
 

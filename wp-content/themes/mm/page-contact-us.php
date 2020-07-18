@@ -24,7 +24,8 @@
   <div class="row mx-0">
     <div class="col-md-6">
         <!-- Form -->
-        <form action="/action_page.php" method="post" id="form2">
+        <form id="form2">
+        <!-- <form action="/action_page.php" method="post" id="form2"> -->
 
                 <div class="">
 

@@ -27,10 +27,10 @@
 
 
 					//Ajax Form submit
-					add_action( 'wp_ajax_send_email', 'callback_send_email' );
-					add_action( 'wp_ajax_nopriv_send_email', 'callback_send_email' );
-					add_action( 'wp_ajax_contact_email', 'callback_contact_email' );
-					add_action( 'wp_ajax_nopriv_contact_email', 'callback_contact_email' );
+					// add_action( 'wp_ajax_send_email', 'callback_send_email' );
+					// add_action( 'wp_ajax_nopriv_send_email', 'callback_send_email' );
+					// add_action( 'wp_ajax_contact_email', 'callback_contact_email' );
+					// add_action( 'wp_ajax_nopriv_contact_email', 'callback_contact_email' );
 
 					//Security Headers
 					// function tgm_io_strict_transport_security() {
