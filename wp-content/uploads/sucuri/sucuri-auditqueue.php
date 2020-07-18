@@ -360,3 +360,4 @@ exit(0);
 1595086472_8723:"Notice: mm-plastics, 127.0.0.1; Page was updated; ID: 19; name: Technology"
 1595086473_7394:"Notice: mm-plastics, 127.0.0.1; Page was updated; ID: 19; name: Technology"
 1595086473_9104:"Notice: mm-plastics, 127.0.0.1; Revision status has been changed; details: ID: 314,Old status: new,New status: inherit,Title: Technology"
+1595088843_7889:"Critical: mm-plastics, 127.0.0.1; WordPress updated to version: 5.4.2"

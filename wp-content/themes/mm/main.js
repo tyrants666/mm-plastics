@@ -70,12 +70,12 @@ if (document.documentElement.clientWidth > 768) {
 
 
 //Selected Menu
-$('.top-menu ul a').click(function(){
-  $(this).addClass('selected').siblings().removeClass('selected');
-});
-$('.top-menu2 ul a').click(function(){
-  $(this).addClass('selected2').siblings().removeClass('selected2');
-});
+// $('.top-menu ul a').click(function(){
+//   $(this).addClass('selected').siblings().removeClass('selected');
+// });
+// $('.top-menu2 ul a').click(function(){
+//   $(this).addClass('selected2').siblings().removeClass('selected2');
+// });
 
 //Scroll to id smoothly
 $(document).on('click', 'a[href^="#"]', function (event) {
